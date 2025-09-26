@@ -452,6 +452,8 @@ I created yet another Game of Life in C++, then created a direct port of it to R
 
 [**View Source**](rust_game_of_life)
 
+![Showcase - Screenshot of my program Game of Life ported to Rust](rust_game_of_life/Screenshot.png)
+
 **What I learnt?** Rust is good 👍👍.
 
 ### 20. RLMS - Finished - September 21, 2025
