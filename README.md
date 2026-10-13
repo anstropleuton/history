@@ -2,7 +2,7 @@
 
 This repository contains **all of my past projects**, whether they are finished or not, all to finally be showcased in public.
 
-Back in the days, I was an *ambitious little programmer* (just as ambitious as I am today, nothing changed 💀), and I have started a lot of projects. Most of them are either **completed, abandoned or served as experiments**. That doesn't mean they were total failure.
+Back in the days, I was an _ambitious little programmer_ (just as ambitious as I am today, nothing changed 💀), and I have started a lot of projects. Most of them are either **completed, abandoned or served as experiments**. That doesn't mean they were total failure.
 
 I cannot recall every single projects I worked in, nor can I know the exact time of the start/finish of all of them. I will be doing my best to list them all here, along with their specialities they had or what I got to learn from each of them.
 
@@ -18,6 +18,7 @@ This repository serves as a **journey** of my programming arc, from the very beg
   - [2.4. BPLE++ Test - January 19, 2024](#24-bple-test---january-19-2024)
   - [2.5. Plons Library - October 29, 2024](#25-plons-library---october-29-2024)
   - [2.6. BPP - October 13, 2024](#26-bpp---october-13-2024)
+  - [2.7. BPLE - May 28, 2026](#27-bple---may-28-2026)
 - [3. JetCalculator - Finished - February 5, 2022.](#3-jetcalculator---finished---february-5-2022)
 - [4. Minesweeper - Finished - April 21, 2022.](#4-minesweeper---finished---april-21-2022)
 - [5. Snake - Finished - May 11, 2022.](#5-snake---finished---may-11-2022)
@@ -44,9 +45,18 @@ This repository serves as a **journey** of my programming arc, from the very beg
 - [18. Optrone - Finished - June 18, 2025](#18-optrone---finished---june-18-2025)
 - [19. Rust Game of Life - Finished - September 9, 2025](#19-rust-game-of-life---finished---september-9-2025)
 - [20. RLMS - Finished - September 21, 2025](#20-rlms---finished---september-21-2025)
-- [21. Notable Mentions](#21-notable-mentions)
-- [22. Things I Touched](#22-things-i-touched)
-- [23. The Future](#23-the-future)
+- [21. Language Practice Arc - Work in Progress - October 12, 2025](#21-language-practice-arc---work-in-progress---october-12-2025)
+  - [21.1. Adobans - October 12, 2025](#211-adobans---october-12-2025)
+  - [21.2. mini-lang - January 4, 2026](#212-mini-lang---january-4-2026)
+  - [21.3. Sitroxia - February 13, 2026](#213-sitroxia---february-13-2026)
+  - [21.4. plusplus\_translator - April 13, 2026](#214-plusplus_translator---april-13-2026)
+- [22. EdTech IDE - Finished - December 20, 2025](#22-edtech-ide---finished---december-20-2025)
+- [23. Glarens - \[Status\] - January 29, 2026](#23-glarens---status---january-29-2026)
+- [24. CarX and EspLink - \[Status\] - August 10, 2026](#24-carx-and-esplink---status---august-10-2026)
+- [25. Engenide - Work in Progress - \[Start Date\] to Now](#25-engenide---work-in-progress---start-date-to-now)
+- [26. Notable Mentions](#26-notable-mentions)
+- [27. Things I Touched](#27-things-i-touched)
+- [28. The Future](#28-the-future)
 
 ## Projects List <!-- omit from toc -->
 
@@ -79,15 +89,15 @@ It didn't have the best code for it, but it was mine. And I was proud.
 
 But there was a problem: **C# Shell was too slow** on my tab. It is to be expected, but it was slow than any other apps. It would take a whole 10 seconds just to compile and run the program. And even in execution, it would display output slowly.
 
-I googled some phrase like "*fastest programming language*", and found a Microsoft website (or at least I think it as Microsoft, I could be totally wrong too) that compared runtime performance of a bunch of different programming language. C and C++ were ranked highest. C++ particularly grabbed my attention, as it was the second fastest listed, but far more features mentioned than C. That is when I **switched my language to C++**. That was the only factor for language consideration, what else can be done on an old tab?
+I googled some phrase like "_fastest programming language_", and found a Microsoft website (or at least I think it as Microsoft, I could be totally wrong too) that compared runtime performance of a bunch of different programming language. C and C++ were ranked highest. C++ particularly grabbed my attention, as it was the second fastest listed, but far more features mentioned than C. That is when I **switched my language to C++**. That was the only factor for language consideration, what else can be done on an old tab?
 
 I found a different Android app **CPP-N-IDE**, which had a version that supported Android 4.4. I believe it used GCC 4 or some other dated toolchain like that (or was it 8 probably?), and it did not had a debugger (I believe...) or other tools that a modern IDE would have. It did have a formatter though.
 
-*Shh: I also modded CPP-N-IDE. It had the option to theme the editor, and the default was Light Theme. I wanted dark, but theming option is only available for premium users. So I dug up its APK, tinkered with its default settings, and boom: Dark Theme by default 😎.*
+_Shh: I also modded CPP-N-IDE. It had the option to theme the editor, and the default was Light Theme. I wanted dark, but theming option is only available for premium users. So I dug up its APK, tinkered with its default settings, and boom: Dark Theme by default 😎._
 
 I started writing C++ code. Googling my ways through, read some random tutorials, etc. And eventually recreated the rectange program in C++. I was shocked on just how much faster it ran. Almost no delay on the grumpy old tab. I wrote many C++ programs in it, and almost all of them helped me learn C++ more and more.
 
-I wrote almost all my programs based on my own needs. No "To-Do List", no "Guess The Number", no "Quiz Game". I wrote only what I was interested in. From a mini calculator using a specific formula, exponent calculator, and *8 different variants* of password generator 😅.
+I wrote almost all my programs based on my own needs. No "To-Do List", no "Guess The Number", no "Quiz Game". I wrote only what I was interested in. From a mini calculator using a specific formula, exponent calculator, and _8 different variants_ of password generator 😅.
 
 Some of the programs were small and one-off logic that I could have absolutely used a regular calculator. Some of them were giant `main` function that nobody can decipher. But exponent calculator is where I remember having to wait 40 or 50 minutes to calculate `2^65536` or some stupidly large number like that. I don't know how I possibly had the patience to wait that long. But hey, most of them worked!
 
@@ -135,7 +145,7 @@ I used the PhysX Physics Engine for this, and before giving up, I had basic phys
 
 #### 2.4. BPLE++ Test - January 19, 2024
 
-This time, I went in *knowing* I won't finish. Instead, I developed 3 revisions of BPLE++ as R&D. All involving PhysX and raylib.
+This time, I went in _knowing_ I won't finish. Instead, I developed 3 revisions of BPLE++ as R&D. All involving PhysX and raylib.
 
 [**View Source**](wrenchers/test_bplepp)
 
@@ -155,9 +165,15 @@ This was also a minimal port and actually went far this time, implementing prope
 
 **What I learnt?** More PhysX before the focus shifted.
 
+#### 2.7. BPLE - May 28, 2026
+
+BPLE and BPLE-2022.1.9 are decompilations of the Unity projects. I used AssetRipper to decompile the source code, and use ChatGPT to fix the shaders. I have then created a lot of bug fixes and small improvement on it, mostly on build system and ported it to Android ARM64.
+
+**What I learnt?** A lot of Unity related things.
+
 ### 3. JetCalculator - Finished - February 5, 2022.
 
-***FIRST EVER PROJECT WRITTEN***. Marks the beginning of my programming journey.
+**_FIRST EVER PROJECT WRITTEN_**. Marks the beginning of my programming journey.
 
 This project is a TUI calculator for a mod of Bad Piggies - [Bad Piggies Mod Leading Edge](https://discord.gg/JYrbsXX) (note: not my game).
 
@@ -173,7 +189,7 @@ This program, given the number of Jet Engines, Fuel Tanks and Electric Engines, 
 
 ### 4. Minesweeper - Finished - April 21, 2022.
 
-My first ever "game" in raylib. ***HORRIBLE*** codebase, because I was starting new to programming.
+My first ever "game" in raylib. **_HORRIBLE_** codebase, because I was starting new to programming.
 
 Back then I was using Windows 7 in 2022, because I just did not have a good enough computer, so I used my Dad's laptop. I was new to C++.
 
@@ -197,7 +213,7 @@ It uses Roboto font, and random generator to generate apple (I hope it does chec
 
 **What I learnt?** Why explain your code when your code explains itself?
 
-*P.S: 3 months later, this guy will go on to become a Linux Fanboy. He will also nuke windows installation 2 months after that.*
+_P.S: 3 months later, this guy will go on to become a Linux Fanboy. He will also nuke windows installation 2 months after that._
 
 ### 6. Crystal GUI - Work In Progress - September 25, 2022 to Now
 
@@ -227,13 +243,7 @@ This revision had: Windows, with minimize, maximize and close button, along with
 
 This time I decided to use C instead of C++. This is also where the C arc of my programming journey begin. For half a year I used C instead of comfortably using C++.
 
-That revision had a few cool features:
-3. Button
-4. Drop down
-5. Checkbox
-6. Toggle
-7. Backdrop blur for all elements
-8. Animations for all elements
+That revision had a few cool features: 3. Button 4. Drop down 5. Checkbox 6. Toggle 7. Backdrop blur for all elements 8. Animations for all elements
 
 ![Showcase - Video of Crystal GUI, Revision 2.0](crystalgui/revision_2/Screencast_revision_2.mp4)
 
@@ -296,7 +306,7 @@ Alcelin has a HUGE list of renames. It's arc is kind of like Crystal GUI's. All 
 
 #### 8.1. aplib.hpp - May 30, 2024
 
-It started off as **aplib.hpp** as a list of random collection of utilities for my programs back in 2024. It had operators for concatentaing two vectors, operator for repeating elements of vector, string functions to split strings and word-wrap, ANSI Escape Code constants (like `const red = "\033[31m"`), argument parser mini library, and raylib utilities. 
+It started off as **aplib.hpp** as a list of random collection of utilities for my programs back in 2024. It had operators for concatentaing two vectors, operator for repeating elements of vector, string functions to split strings and word-wrap, ANSI Escape Code constants (like `const red = "\033[31m"`), argument parser mini library, and raylib utilities.
 
 **It was the beginning of library arc.**
 
@@ -459,6 +469,7 @@ I created yet another Game of Life in C++, then created a direct port of it to R
 ### 20. RLMS - Finished - September 21, 2025
 
 Minesweeper, again. This version has a few cool features compared to first time I made minesweeper.
+
 1. Logically Solvable\*: Board requires no guesses to solve.
 2. Speed reveal: Trying to reveal a revealed cell with the number of neighboring mines equal the number of hidden, unmarked adjacent cell, will reveal all those adjacent cells.
 3. Speed flag: Trying to flag a revealed cell with the number of neighboring mines equal the number of hidden, unmarked adjacent cell, will flag all those adjacent cells.
@@ -466,7 +477,7 @@ Minesweeper, again. This version has a few cool features compared to first time 
 
 \*: This is possible if and only if the board configuration allows logically solvable puzzles. It uses 100 attempts to generate a logically solvable board before giving up. The more mines there is, the less likely it is to be logically solvable.
 
-I already had a [robust implementation](#11-minesweeper---abaondoned---february-20-2025) of Minesweeper from February 4, 2025. But I really wanted to make a GUI framework before minesweeper. On September 19, 2025, I decided to use the implementation and make minesweeper, even I did not have a GUI framework. Ended up doing in 2 days. Can you imagine how much longer it would  take if I really insisted in making a GUI framework first?
+I already had a [robust implementation](#11-minesweeper---abaondoned---february-20-2025) of Minesweeper from February 4, 2025. But I really wanted to make a GUI framework before minesweeper. On September 19, 2025, I decided to use the implementation and make minesweeper, even I did not have a GUI framework. Ended up doing in 2 days. Can you imagine how much longer it would take if I really insisted in making a GUI framework first?
 
 It does not have a framework. Ok I lied, it has a small library baked in it to manage things. But most of the GUI calculation is just done manually by using whole bunch of Rectangle variables instaed of a layout system.
 
@@ -476,52 +487,116 @@ It does not have a framework. Ok I lied, it has a small library baked in it to m
 
 **What I learnt?** Sometimes, you gotta take shortcuts to make sure you ship your product, and control your urge to build a framework for one tiny thing.
 
-### 21. Notable Mentions
+### 21. Language Practice Arc - Work in Progress - October 12, 2025
+
+A string of small languages I made to learn my ways of writing compilers and interpreters, after I started the real thing too early and too confidently ([Engenide](#25-engenide---work-in-progress---start-date-to-now), then called Ignite). [Adjust to your own words.]
+
+#### 21.1. Adobans - October 12, 2025
+
+An experimental language for compiler and interpreter writing practice, with a simple syntax inspired by C++ and Rust. I wrote a C++ version first (October to November 2025) and a later version from December 2025 to January 2026 [check: was that the Rust one?]. [Status: finished / abandoned?]
+
+**What I learnt?** [your take]
+
+#### 21.2. mini-lang - January 4, 2026
+
+A mini statically typed interpreted language, which I split into modules as a refactor exercise.
+
+**What I learnt?** [your take]
+
+#### 21.3. Sitroxia - February 13, 2026
+
+A statically typed language, both compiled and interpreted, written in Rust. It is extremely small, with only a few features, because it was designed to be easy to implement.
+
+**What I learnt?** [your take]
+
+#### 21.4. plusplus_translator - April 13, 2026
+
+[What it translates, and to what?]
+
+**What I learnt?** [your take]
+
+### 22. EdTech IDE - Finished - December 20, 2025
+
+[What it is: the name suggests an IDE for education], built in TypeScript with a team for [hackathon name, e.g. Nukathon?]. The project lives under the `nukathon-edtech` organization on GitHub. I wrote [your part]. It was a hackathon project, so it was never meant to live on after the event.
+
+[**View Source**](https://github.com/nukathon-edtech/edtech-ide)
+
+**What I learnt?** [your take, maybe about working in a team on a deadline]
+
+### 23. Glarens - [Status] - January 29, 2026
+
+A GUI framework in C++ (MIT licensed), and what I earlier wrote as the possible [Revision 4 of Crystal GUI](#64-revision-4). It got 13 commits over about two weeks (January 29 to February 10, 2026). [Why did it stop, or is it still going? How is it different from Crystal GUI?]
+
+[**View Source**](https://github.com/anstropleuton/glarens)
+
+**What I learnt?** [your take]
+
+### 24. CarX and EspLink - [Status] - August 10, 2026
+
+A college project built around an ESP32. It has firmware in C++, a protocol library I called `esplink_proto`, an Android app in Kotlin (Kotlin Multiplatform for the shared code), and a Windows desktop app in C#. The firmware also seems to serve a small web page [confirm]. [What does the car/device actually do? Solo or team? Is it finished?]
+
+**What I learnt?** [your take]
+
+### 25. Engenide - Work in Progress - [Start Date] to Now
+
+My programming language. The README describes it as a systems language that is like "C++ and Rust with my own taste": a middle ground between them, focused on extensibility and ergonomics. The design is [coherent and documented in a design document I keep refining], and I am writing an implementation in parallel. It is still in the design phase.
+
+It has been rewritten many times, and my folders are named accordingly (and not very helpfully). [It started as Ignite, around February 2024 (check). The rewrites in between were attempts at learning my ways before starting the real thing, which I did too early and too confidently. Which one is the current one?] The current repository started on September 29, 2026. There is also a website for it, `engenide-org` [stack: an older version used the T3 stack].
+
+[**View Source**](https://github.com/anstropleuton/engenide)
+
+**What I learnt?** [your take]
+
+### 26. Notable Mentions
 
 1. **Web Development** (March 5, 2024)
-    I started creating a desktop simulator for my Xiorite OS. I used MDN to learn Web Development using plain old HTML, CSS and JS.
-    I quickly learnt that Web Dev is not for me as I grew to hate CSS (anyone relates? no? just me?). I later abandoned Web Dev entirely.
-    On August 19, I came to use React (Vite + React + TypeScript) to get back in Web Dev, to see the other side. I was shocked how much better it is compared to HTML, CSS and JS. It's still trash, but the gap is insane. Earlier I avoided frameworks because I thought they were too opinionated. I see why they are and why it is better to be so.
-    I am using React + Vite + TS (SWC) + Tailwindd CSS + Lucide Icons + etc. etc. as my stack for my portfolio website.
-    **What I learnt?** Most people learn frameworks instead of raw HTML/CSS/JS, because is it objectively much saner than using raw.
+   I started creating a desktop simulator for my Xiorite OS. I used MDN to learn Web Development using plain old HTML, CSS and JS.
+   I quickly learnt that Web Dev is not for me as I grew to hate CSS (anyone relates? no? just me?). I later abandoned Web Dev entirely.
+   On August 19, I came to use React (Vite + React + TypeScript) to get back in Web Dev, to see the other side. I was shocked how much better it is compared to HTML, CSS and JS. It's still trash, but the gap is insane. Earlier I avoided frameworks because I thought they were too opinionated. I see why they are and why it is better to be so.
+   I am using React + Vite + TS (SWC) + Tailwindd CSS + Lucide Icons + etc. etc. as my stack for my portfolio website.
+   **What I learnt?** Most people learn frameworks instead of raw HTML/CSS/JS, because is it objectively much saner than using raw.
 2. **Tinya** (July 5 2024)
-    A discord bot using Discord++ (DPP) I made for helping me in Discord stuff. It was mostly for meme, and it got its own name on December 2, 2024. I lost the source code.
-    **What I learnt?** Discord bot development to a minor extent.
+   A discord bot using Discord++ (DPP) I made for helping me in Discord stuff. It was mostly for meme, and it got its own name on December 2, 2024. I lost the source code.
+   **What I learnt?** Discord bot development to a minor extent.
 3. **LastSmall** (July 13, 2024)
-    A drunk-style interpreted programming language made purely as a joke. Even the name suggests: Project does not last long.
-    I went full nuts on the codebase, to see what I can do if I never organized the codebase. It was horrible...
-    [**View Sources**](lastsmall)
-    **What I learnt?** You can't get away with not organizing the codebase.
+   A drunk-style interpreted programming language made purely as a joke. Even the name suggests: Project does not last long.
+   I went full nuts on the codebase, to see what I can do if I never organized the codebase. It was horrible...
+   [**View Sources**](lastsmall)
+   **What I learnt?** You can't get away with not organizing the codebase.
 4. **Turinel** (January 28, 2025)
-    A mathematical library to wrap GLM and allow interoperability with Vector types from both raylib and PhysX.
-    It was pointless, and I did not do further development to it.
-    [**View Source**](turinel)
-    **What I learnt?** Pointless projects don't last.
+   A mathematical library to wrap GLM and allow interoperability with Vector types from both raylib and PhysX.
+   It was pointless, and I did not do further development to it.
+   [**View Source**](turinel)
+   **What I learnt?** Pointless projects don't last.
 5. **Android Apps** (Unknown Era)
-    I tried doing some Android App Development using Kotlin and Jetpack Compose. I completed 3 units from Basics of Jetpack Compose by Google's official courses.
-    I even made one or two of my own apps, (notably 30 minecraft facts instead of 30 days aspirations).
-    I had to delete all the Android apps I created as everything eventually ate all my storage space. I abandoned Android app development because Jetpack Compose is a real trash. Worse than Web Development, unstable and 90% of useful features locked behind experimental API (even the Docs in that API misleads users and tells them to use API that is now deleted).
-    Jetpack Compose, will not work, as soon as you try to step away from Material Theme, even as little as 0.1% deviation from their inferioir vision.
-    **What I learnt?** Android App Development is just too opinionated for me.
+   I tried doing some Android App Development using Kotlin and Jetpack Compose. I completed 3 units from Basics of Jetpack Compose by Google's official courses.
+   I even made one or two of my own apps, (notably 30 minecraft facts instead of 30 days aspirations).
+   I had to delete all the Android apps I created as everything eventually ate all my storage space. I abandoned Android app development because Jetpack Compose is a real trash. Worse than Web Development, unstable and 90% of useful features locked behind experimental API (even the Docs in that API misleads users and tells them to use API that is now deleted).
+   Jetpack Compose, will not work, as soon as you try to step away from Material Theme, even as little as 0.1% deviation from their inferioir vision.
+   **What I learnt?** Android App Development is just too opinionated for me.
+6. **Web tutorials** (October to November 2025)
+    I followed a MERN tutorial (October 2025), an Expo and React Native tutorial (StickerSmash) and a T3 Stack gallery tutorial that I deployed to Vercel (November 2025). I did not finish any of them.
+    **What I learnt?** [your take]
+7. **BPLE and community Bad Piggies work** (2023 to 2026): see [section 2](#2-wrenchers---work-in-progress---january-6-2022).
 
-### 22. Things I Touched
+### 27. Things I Touched
 
 These expand on fields I touched. By "touched" I mean barely used to see what it's like.
 
 1. **GTK Apps** (Unknown Era)
-    I touchede GTK Apps Development and Vala. Vala was THE language that got me into designing [Engenide](#21-the-future).
+   I touchede GTK Apps Development and Vala. Vala was THE language that got me into designing [Engenide](#21-the-future).
 2. **WinUI Apps** (Unknown Era)
-    I touched GTK, so why not touch what's Windows has to offer: WinUI 3. So I did. Just like GTK, it too seemed like glorified HTML lol.
+   I touched GTK, so why not touch what's Windows has to offer: WinUI 3. So I did. Just like GTK, it too seemed like glorified HTML lol.
 3. **Java** (February 7, 2025)
-    I touchede Java because my college course had it. Hindsight: I really did not need to. I was already better in Java than everyone without ever using it 😎.
+   I touchede Java because my college course had it. Hindsight: I really did not need to. I was already better in Java than everyone without ever using it 😎.
 
 I am probaly missing a whole bunch of other things I touched, but these are what I can immediately recall.
 
-### 23. The Future
+### 28. The Future
 
 Just so you know: none of these is possible, except maybe (just maybe) for Engenide.
 
-1. **Engenide** - A whole programming language with tons of features. I have envisioned a large portion of this language and created a design document that I am constantly updating with more design ideas. This language's driving philosphy is Freedom of Expression, which says *"if it makes sense semantically, it is allowed."* I can absolutely start working on it anytime now, but I will hold on to it until it is the right time.
+1. **Engenide** - A whole programming language with tons of features. I have envisioned a large portion of this language and created a design document that I am constantly updating with more design ideas. This language's driving philosphy is Freedom of Expression, which says _"if it makes sense semantically, it is allowed."_ I can absolutely start working on it anytime now, but I will hold on to it until it is the right time.
 2. **Xiorite** - A whole operating system. I did make cool Windows-11-styled wallpapers for in Blender, and a Web-based desktop simulator.
 3. **Excrasen** - A whole ecosystem of device: Phone, Laptop, Tablet, Desktop, Television and Watch.
 4. **Nirovan** - A whole corporation + organization (a dual entity) of my own. Do I become a startup founder and go [Founder Mode](https://www.youtube.com/watch?v=kMLEXpHCCkk)?
