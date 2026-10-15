@@ -46,17 +46,16 @@ This repository serves as a **journey** of my programming arc, from the very beg
 - [19. Rust Game of Life - Finished - September 9, 2025](#19-rust-game-of-life---finished---september-9-2025)
 - [20. RLMS - Finished - September 21, 2025](#20-rlms---finished---september-21-2025)
 - [21. Language Practice Arc - Work in Progress - October 12, 2025](#21-language-practice-arc---work-in-progress---october-12-2025)
-  - [21.1. Adobans - October 12, 2025](#211-adobans---october-12-2025)
+  - [21.1. Adobans - Abandoned - October 12, 2025](#211-adobans---abandoned---october-12-2025)
   - [21.2. mini-lang - January 4, 2026](#212-mini-lang---january-4-2026)
   - [21.3. Sitroxia - February 13, 2026](#213-sitroxia---february-13-2026)
-  - [21.4. plusplus\_translator - April 13, 2026](#214-plusplus_translator---april-13-2026)
+  - [21.4. plusplus - April 13, 2026](#214-plusplus---april-13-2026)
 - [22. EdTech IDE - Finished - December 20, 2025](#22-edtech-ide---finished---december-20-2025)
-- [23. Glarens - \[Status\] - January 29, 2026](#23-glarens---status---january-29-2026)
-- [24. CarX and EspLink - \[Status\] - August 10, 2026](#24-carx-and-esplink---status---august-10-2026)
-- [25. Engenide - Work in Progress - \[Start Date\] to Now](#25-engenide---work-in-progress---start-date-to-now)
-- [26. Notable Mentions](#26-notable-mentions)
-- [27. Things I Touched](#27-things-i-touched)
-- [28. The Future](#28-the-future)
+- [23. Glarens - Abandoned - January 29, 2026](#23-glarens---abandoned---january-29-2026)
+- [24. CarX - Work in Progress - August 10, 2026](#24-carx---work-in-progress---august-10-2026)
+- [25. Notable Mentions](#25-notable-mentions)
+- [26. Things I Touched](#26-things-i-touched)
+- [27. The Future](#27-the-future)
 
 ## Projects List <!-- omit from toc -->
 
@@ -418,9 +417,9 @@ It got [merged](https://github.com/raysan5/raylib/pull/4719) with raylib!
 
 ### 16. Minesweeper - Abaondoned - February 20, 2025
 
-The birth place for [RLMS](#10-rlms---finished---september-21-2025)'s minesweeper implementation, and [Fluxins](#12-fluxins---finished---june-17-2025)'s expression parser core. This project was meant to be my second implementation for Minesweeper. It had a robust (probably) of minesweeper's core logic compared to my [first Minesweeper](#3-minesweeper---finished---april-21-2022).
+The birth place for RLMS's minesweeper implementation, and Fluxins's expression parser core. This project was meant to be my second implementation for Minesweeper. It had a robust (probably) of minesweeper's core logic compared to my first Minesweeper.
 
-It also had **Minui**, which was a way for me to experiment with Hierarchal GUI node system for designing GUI framework (inspiration for [Crystal GUI's Revision 3](#3-revision-3---july-11-2025)). I named node "Layout" for unexplainable reason... It supported stack box, column, row, grid and interactable "layouts".
+It also had **Minui**, which was a way for me to experiment with Hierarchal GUI node system for designing GUI framework (inspiration for Crystal GUI's Revision 3). I named node "Layout" for unexplainable reason... It supported stack box, column, row, grid and interactable "layouts".
 
 [**View Sources**](minesweeper_2)
 
@@ -432,7 +431,7 @@ I abandoned it because I realized the potential of Minui, and I really wanted to
 
 An expression parser written in C++23 and no dependencies. It supports many operators, prefix, suffix and infix, and also declaring variables and custom functions. It used Pratt-Parser technique to parse the expression.
 
-It started off as a module for [Minui](#11-minesweeper---abaondoned---february-20-2025) to parse expression, which was used for nodes calculation and allowing users to define custom rules for shaping the nodes. It was inspired by CSS's `calc` but think of it as native and first-class support for GUI node system rather than an afterthought.
+It started off as a module for Minui to parse expression, which was used for nodes calculation and allowing users to define custom rules for shaping the nodes. It was inspired by CSS's `calc` but think of it as native and first-class support for GUI node system rather than an afterthought.
 
 Now it is completely independent, and has no relation with GUI other than that use cases, as it can be used anywhere where numbers can be used, such as text field where user can enter `1 + 1` and expect it to resolve automatically.
 
@@ -446,11 +445,11 @@ It has a roadmap of small refactor ideas, though I never gotten around to execut
 
 ### 18. Optrone - Finished - June 18, 2025
 
-Optrone started as an unnamed C project during my C arc to parse command line arguments. It later got merged in [aplib.hpp](#151-aplibhpp---may-30-2024), then carried through [Auspicious Library](#152-auspicious-library---july-3-2024), and finally split up into a standalone library.
+Optrone started as an unnamed C project during my C arc to parse command line arguments. It later got merged in aplib.hpp, then carried through Auspicious Library, and finally split up into a standalone library.
 
 It has a nice set of features for parsing command line arguments, supporting both POSIX-style arguments (`-o`, `--option`) and Microsoft-style arguments (`/S`, `/SWITCH`). It also supports parameters (with variadicity and default) and subcommands (positional arguments), all packed in a usable API.
 
-It has a roadmap of small refactors, just like [Fluxins](#14-fluxins---finished---june-17-2025).
+It has a roadmap of small refactors, just like Fluxins.
 
 [**View Source**](https://github.com/anstropleuton/optrone)
 
@@ -477,7 +476,7 @@ Minesweeper, again. This version has a few cool features compared to first time 
 
 \*: This is possible if and only if the board configuration allows logically solvable puzzles. It uses 100 attempts to generate a logically solvable board before giving up. The more mines there is, the less likely it is to be logically solvable.
 
-I already had a [robust implementation](#11-minesweeper---abaondoned---february-20-2025) of Minesweeper from February 4, 2025. But I really wanted to make a GUI framework before minesweeper. On September 19, 2025, I decided to use the implementation and make minesweeper, even I did not have a GUI framework. Ended up doing in 2 days. Can you imagine how much longer it would take if I really insisted in making a GUI framework first?
+I already had a robust implementation of Minesweeper from February 4, 2025. But I really wanted to make a GUI framework before minesweeper. On September 19, 2025, I decided to use the implementation and make minesweeper, even I did not have a GUI framework. Ended up doing in 2 days. Can you imagine how much longer it would take if I really insisted in making a GUI framework first?
 
 It does not have a framework. Ok I lied, it has a small library baked in it to manage things. But most of the GUI calculation is just done manually by using whole bunch of Rectangle variables instaed of a layout system.
 
@@ -489,65 +488,51 @@ It does not have a framework. Ok I lied, it has a small library baked in it to m
 
 ### 21. Language Practice Arc - Work in Progress - October 12, 2025
 
-A string of small languages I made to learn my ways of writing compilers and interpreters, after I started the real thing too early and too confidently ([Engenide](#25-engenide---work-in-progress---start-date-to-now), then called Ignite). [Adjust to your own words.]
+A string of small languages I experimented to learn my ways of writing compilers and interpreters, after I started the real thing too early and too confidently.
 
-#### 21.1. Adobans - October 12, 2025
+#### 21.1. Adobans - Abandoned - October 12, 2025
 
-An experimental language for compiler and interpreter writing practice, with a simple syntax inspired by C++ and Rust. I wrote a C++ version first (October to November 2025) and a later version from December 2025 to January 2026 [check: was that the Rust one?]. [Status: finished / abandoned?]
+An experimental language for compiler and interpreter writing practice, with a simple syntax inspired by C++ and Rust. I wrote a C++ version first and a later tried using Rust.
 
-**What I learnt?** [your take]
+**What I learnt?** I learnt how Rust deals with data. Sum types are elegant, product of unrelated data not. Yet, I feel like slow writing Rust since every small items force me to make decisions. When I do jump to C++, Sum types become undesirable.
 
 #### 21.2. mini-lang - January 4, 2026
 
-A mini statically typed interpreted language, which I split into modules as a refactor exercise.
-
-**What I learnt?** [your take]
+A mini statically typed interpreted language, but I don't remember more about it.
 
 #### 21.3. Sitroxia - February 13, 2026
 
-A statically typed language, both compiled and interpreted, written in Rust. It is extremely small, with only a few features, because it was designed to be easy to implement.
+A statically typed language, both compiled and interpreted, written in Rust. It is extremely small, with only a few features, yet I never finished it either.
 
-**What I learnt?** [your take]
+#### 21.4. plusplus - April 13, 2026
 
-#### 21.4. plusplus_translator - April 13, 2026
+++ (yes, that's the name) is a hypothetical successor to C++. It literally stands for "C++ without C", hence the name "++". It was half-joke, more like fixing C++ syntax and using sane defaults everywhere (C++'s `list.at()` emitted for ++'s `list[]` rather than using C++ `operator[]`, ++'s `int[]` becomes `std::vector<int>`, etc.). I used AI to write the translator.
 
-[What it translates, and to what?]
-
-**What I learnt?** [your take]
+**What I learnt?** Writing language implementation, a small one that is, is stupidly easy with AI nowadays. Like how is this reality?
 
 ### 22. EdTech IDE - Finished - December 20, 2025
 
-[What it is: the name suggests an IDE for education], built in TypeScript with a team for [hackathon name, e.g. Nukathon?]. The project lives under the `nukathon-edtech` organization on GitHub. I wrote [your part]. It was a hackathon project, so it was never meant to live on after the event.
+A hackathon project for educational theme. It featured learning resources for JavaScript and an IDE for experimenting and further learning. I used like 4 Zed accounts to complete it. Yet it wasn't published.
 
 [**View Source**](https://github.com/nukathon-edtech/edtech-ide)
 
-**What I learnt?** [your take, maybe about working in a team on a deadline]
+**What I learnt?** Picking Next.js is mistake by default unless you need Auth.
 
-### 23. Glarens - [Status] - January 29, 2026
+### 23. Glarens - Abandoned - January 29, 2026
 
-A GUI framework in C++ (MIT licensed), and what I earlier wrote as the possible [Revision 4 of Crystal GUI](#64-revision-4). It got 13 commits over about two weeks (January 29 to February 10, 2026). [Why did it stop, or is it still going? How is it different from Crystal GUI?]
+An experimental successor to Crystal GUI written in C++. But it was instead used as a way for me to experiment with SDL.
 
 [**View Source**](https://github.com/anstropleuton/glarens)
 
-**What I learnt?** [your take]
+**What I learnt?** Writing a project with new tool is certainly a bad idea. You gotta start with experiments and not pretend to write the damn thing first try.
 
-### 24. CarX and EspLink - [Status] - August 10, 2026
+### 24. CarX - Work in Progress - August 10, 2026
 
-A college project built around an ESP32. It has firmware in C++, a protocol library I called `esplink_proto`, an Android app in Kotlin (Kotlin Multiplatform for the shared code), and a Windows desktop app in C#. The firmware also seems to serve a small web page [confirm]. [What does the car/device actually do? Solo or team? Is it finished?]
+A college project built around an ESP32. It has firmware in C++, an Android app in Kotlin (Kotlin Multiplatform for the shared code), and a Windows desktop app in C#. Well, not exactly since as of writing it I have yet to build the client side.
 
-**What I learnt?** [your take]
+It's a physical rover that roams around rooms and gathers Wi-Fi signal strengths. The client is the processor of the data and instructs how CarX roams and creates a virtual map. Currently the work is ongoing. Hope I don't forget to update it.
 
-### 25. Engenide - Work in Progress - [Start Date] to Now
-
-My programming language. The README describes it as a systems language that is like "C++ and Rust with my own taste": a middle ground between them, focused on extensibility and ergonomics. The design is [coherent and documented in a design document I keep refining], and I am writing an implementation in parallel. It is still in the design phase.
-
-It has been rewritten many times, and my folders are named accordingly (and not very helpfully). [It started as Ignite, around February 2024 (check). The rewrites in between were attempts at learning my ways before starting the real thing, which I did too early and too confidently. Which one is the current one?] The current repository started on September 29, 2026. There is also a website for it, `engenide-org` [stack: an older version used the T3 stack].
-
-[**View Source**](https://github.com/anstropleuton/engenide)
-
-**What I learnt?** [your take]
-
-### 26. Notable Mentions
+### 25. Notable Mentions
 
 1. **Web Development** (March 5, 2024)
    I started creating a desktop simulator for my Xiorite OS. I used MDN to learn Web Development using plain old HTML, CSS and JS.
@@ -575,16 +560,16 @@ It has been rewritten many times, and my folders are named accordingly (and not 
    Jetpack Compose, will not work, as soon as you try to step away from Material Theme, even as little as 0.1% deviation from their inferioir vision.
    **What I learnt?** Android App Development is just too opinionated for me.
 6. **Web tutorials** (October to November 2025)
-    I followed a MERN tutorial (October 2025), an Expo and React Native tutorial (StickerSmash) and a T3 Stack gallery tutorial that I deployed to Vercel (November 2025). I did not finish any of them.
-    **What I learnt?** [your take]
-7. **BPLE and community Bad Piggies work** (2023 to 2026): see [section 2](#2-wrenchers---work-in-progress---january-6-2022).
+   I followed a MERN tutorial (October 2025), an Expo and React Native tutorial (StickerSmash) and a T3 Stack gallery tutorial that I deployed to Vercel (November 2025). I did not finish any of them.
+   **What I learnt?** Simplicity beats complexity for newcomers. No wonder why Go is too simple.
+7. **BPLE and community Bad Piggies work** (2023 to 2026): see section 2.
 
-### 27. Things I Touched
+### 26. Things I Touched
 
 These expand on fields I touched. By "touched" I mean barely used to see what it's like.
 
 1. **GTK Apps** (Unknown Era)
-   I touchede GTK Apps Development and Vala. Vala was THE language that got me into designing [Engenide](#21-the-future).
+   I touchede GTK Apps Development and Vala. Vala was THE language that got me into designing Engenide.
 2. **WinUI Apps** (Unknown Era)
    I touched GTK, so why not touch what's Windows has to offer: WinUI 3. So I did. Just like GTK, it too seemed like glorified HTML lol.
 3. **Java** (February 7, 2025)
@@ -592,7 +577,7 @@ These expand on fields I touched. By "touched" I mean barely used to see what it
 
 I am probaly missing a whole bunch of other things I touched, but these are what I can immediately recall.
 
-### 28. The Future
+### 27. The Future
 
 Just so you know: none of these is possible, except maybe (just maybe) for Engenide.
 
