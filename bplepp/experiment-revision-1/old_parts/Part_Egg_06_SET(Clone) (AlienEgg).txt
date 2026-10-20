@@ -1,0 +1,11 @@
+Part_Egg_06_SET(Clone) (UnityEngine.GameObject)
+	transform -830.1663 -1.736973 -0.08028 0 0 0 1 1 1
+	EggCollider (UnityEngine.GameObject)
+		transform -830.1663 -1.736973 -0.08028 0 0 0.5522414 1 1 1
+		capsuleCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0.02 0 0.3 0.85
+		material 0 0.7 0.5 Average Average
+	Visualization (UnityEngine.GameObject)
+		transform -830.1793 -1.684973 -0.48028 0 0 0 1 1 1
+		sprite a2dc0d87-047c-4863-9d17-4e04edb37d77 0.4 0.4 0 4 False
+	Particles_AlienPart(Clone) (UnityEngine.GameObject)
+		transform -830.1663 -1.736973 -0.18028 0 0 0 1 1 1

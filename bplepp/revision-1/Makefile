@@ -1,0 +1,2 @@
+all:
+	g++ -DNDEBUG -std=c++23 -g engine.cpp engine_test.cpp -o main -I deps/PhysX/include -L deps/PhysX/lib -Wl,-rpath=deps/PhysX/lib -lraylib -lm -lPhysX_static_64 -lPhysXCharacterKinematic_static_64 -lPhysXCommon_static_64 -lPhysXCooking_static_64 -lPhysXExtensions_static_64 -lPhysXFoundation_static_64 -lPhysXPvdSDK_static_64 -lPhysXVehicle2_static_64 -lPhysXVehicle_static_64 -lSnippetRender_static_64 -lSnippetUtils_static_64 -lPVDRuntime_64

@@ -1,0 +1,7 @@
+Part_GoldenPig_02_SET(Clone) (UnityEngine.GameObject)
+	transform -752.1663 -9.736973 -0.0909 0 0 0 1 1 1
+	sphereCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0.4 0 1
+	material 0 0.7 0.5 Average Average
+	Graphics (UnityEngine.GameObject)
+		transform -752.1663 -9.138973 -0.0909 0 0 0 1 1 1
+		sprite b72b5d79-a4dd-4537-b39a-1a1482adb265 0.3984375 0.3958333 0 0 True

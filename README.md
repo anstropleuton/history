@@ -224,13 +224,13 @@ I started the GUI framework as a way to create a GUI window inside a raylib wind
 
 This became the first revision.
 
-![Showcase - Video of Crystal GUI, Revision 1.0](crystalgui/revision_1/Screencast_Revision_1.webm)
+![Showcase - Video of Crystal GUI, Revision 1.0](crystalgui/revision-1/Screencast_Revision_1.webm)
 
-![Showcase - Video of Crystal GUI, Revision 1.1](crystalgui/revision_1/Screencast_Revision_1.1.mp4)
+![Showcase - Video of Crystal GUI, Revision 1.1](crystalgui/revision-1/Screencast_Revision_1.1.mp4)
 
-![Showcase - Video of Crystal GUI, Revision 1.2](crystalgui/revision_1/Screencast_Revision_1.2.mp4)
+![Showcase - Video of Crystal GUI, Revision 1.2](crystalgui/revision-1/Screencast_Revision_1.2.mp4)
 
-![Showcase - Final screenshot of Crystal GUI, Revision 1](crystalgui/revision_1/Screenshot_Revision_1.png)
+![Showcase - Final screenshot of Crystal GUI, Revision 1](crystalgui/revision-1/Screenshot_Revision_1.png)
 
 But, I was not experienced enough with framework design. Well, I didn't even know how to work with multiple source files back then. This lead to first abandonment.
 
@@ -244,9 +244,9 @@ This time I decided to use C instead of C++. This is also where the C arc of my 
 
 That revision had a few cool features: 3. Button 4. Drop down 5. Checkbox 6. Toggle 7. Backdrop blur for all elements 8. Animations for all elements
 
-![Showcase - Video of Crystal GUI, Revision 2.0](crystalgui/revision_2/Screencast_revision_2.mp4)
+![Showcase - Video of Crystal GUI, Revision 2.0](crystalgui/revision-2/Screencast_revision_2.mp4)
 
-![Showcase - Video of Crystal GUI, Revision 2.0](crystalgui/revision_2/Screencast_revision_2.1.mp4)
+![Showcase - Video of Crystal GUI, Revision 2.0](crystalgui/revision-2/Screencast_revision_2.1.mp4)
 
 This revision was abandoned not because the code was messy (it was), but because this was when I decided to switch editors. I really didn't like how VS Code (the editor I use to this day) was slow and bloated (skill issue on my part), so I decided to switch to Eclipse... Then I switched to Code::Blocks. Then I tried ricing that... Then I eventually gave up and came back to VS Code. By that time I had forgotten my own codebase and didn't know what I was doing.
 
@@ -271,13 +271,13 @@ I... stopped... It was too much for C to handle all that. Especially when I expl
 
 [**View Source**](https://github.com/anstropleuton/crystalgui)
 
-![Showcase - Text renderer preview of my library Crystal GUI](crystalgui/revision_3/Screenshot_text_renderer.png)
+![Showcase - Text renderer preview of my library Crystal GUI](crystalgui/revision-3/Screenshot_text_renderer.png)
 
-![Showcase - Linear layout system of my library Crystal GUI](crystalgui/revision_3/Screencast_linear_layout_system.mp4)
+![Showcase - Linear layout system of my library Crystal GUI](crystalgui/revision-3/Screencast_linear_layout_system.mp4)
 
-![Showcase - Grid layout system of my library Crystal GUI](crystalgui/revision_3/Screencast_grid_system.mp4)
+![Showcase - Grid layout system of my library Crystal GUI](crystalgui/revision-3/Screencast_grid_system.mp4)
 
-![Showcase - Full demo of components of my library Crystal GUI](crystalgui/revision_3/Screencast_full_demo.mp4)
+![Showcase - Full demo of components of my library Crystal GUI](crystalgui/revision-3/Screencast_full_demo.mp4)
 
 **What I learnt?** Sometimes, C is really really NOT the right tool for the job. It is a universal language, and you can absolutely build anything off of just C alone, but it is a very limiting one, and it being universal doesn't imply whether you should do everything in C.
 

@@ -1,0 +1,10 @@
+Part_VoltMeter_01_SET(Clone) (UnityEngine.GameObject)
+	transform -744.1663 24.26303 -0.09166 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	serializedSprite Voltmeter_BaseSprite
+	Symbol (UnityEngine.GameObject)
+		transform -744.1663 24.26303 -0.19166 0 0 0 1 1 1
+		serializedSprite Voltmeter_SymbolSprite
+	Text (UnityEngine.GameObject)
+		transform -744.1663 24.26303 -0.29166 0 0 0 1 1 1

@@ -1,0 +1,83 @@
+name: "Part_Bellows_06_SET" (prefab to string: "Part_Bellows_06_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Bellows" (name: "Part_Bellows_06_SET");
+
+  transform: {
+    position: V3 (10.0f, -10.0f, 0.0f)
+    local position: V3 (10.0f, -10.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_Bellows_06_SET"): {
+    center: V3 (0.0f, 0.0f, 0.0f);
+    size: V3 (0.8f, 0.7f, 1.0f);
+  };
+
+  sprite (name: "Part_Bellows_06_SET"): {
+    id: "0a8f3cb3-4d9c-4299-aa8a-d98d2b4b5880";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (-5.0f, 0.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.5f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Pink;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: Bellows (6);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Normal (1);
+    joint connction type: Target (2);
+    joint connction direction: Right (1);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (9.558796f, -10.05811f, 0.0f)
+          local position: V3 (-0.4412041f, -0.0581069f, 0.0f)
+          rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+          local rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+
+

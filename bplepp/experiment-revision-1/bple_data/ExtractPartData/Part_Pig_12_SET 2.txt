@@ -1,0 +1,449 @@
+name: "Part_Pig_12_SET 2" (prefab to string: "Part_Pig_12_SET 2 (UnityEngine.GameObject)"):
+  tag: "Player";
+  script: "Pig" (name: "Part_Pig_12_SET 2");
+
+  transform: {
+    position: V3 (2.0f, 4.0f, 0.0f)
+    local position: V3 (2.0f, 4.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  sphere collider (name: "Part_Pig_12_SET 2"): {
+    center: V3 (0.0f, -0.04f, 0.0f);
+    radius: 0.42f;
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 20.0f;
+    z offset: 0.01f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Black;
+    joint type: FixedJoint (0);
+    part tier: Common (1);
+    part type: Pig (10);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Normal (1);
+    joint connction type: None (0);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "FixedRotationParticleSystems" (prefab to string: "FixedRotationParticleSystems (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "FixedRotation" (name: "FixedRotationParticleSystems");
+
+        transform: {
+          position: V3 (2.0f, 4.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.50015f, 1.50015f, 1.50015f)
+          lossy scale: V3 (1.50015f, 1.50015f, 1.50015f)
+        };
+
+        children:
+            name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (2.0f, 5.050105f, 0.0f)
+                local position: V3 (0.0f, 0.7f, 0.0f)
+                rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.50015f, 1.50015f, 1.50015f)
+              };
+
+
+            name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (1.844969f, 4.459051f, 0.0f)
+                local position: V3 (-0.103344f, 0.3060036f, 0.0f)
+                rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.50015f, 1.50015f, 1.50015f)
+              };
+
+
+
+      name: "PigVisualization" (prefab to string: "PigVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (2.0f, 4.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "Body" (prefab to string: "Body (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "Body");
+
+              transform: {
+                position: V3 (2.0f, 4.0f, 0.0f)
+                local position: V3 (0.0f, 0.0f, 0.0f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "Body"): {
+                id: "8ad54a5f-b34d-49f1-bb71-258e4f2726ea";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: true;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+            name: "Face" (prefab to string: "Face (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "FaceRotation" (name: "Face");
+
+              transform: {
+                position: V3 (2.0f, 4.0f, 0.0f)
+                local position: V3 (0.0f, 0.0f, 0.0f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              children:
+                  name: "Ears" (prefab to string: "Ears (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+                    script: "Sprite" (name: "Ears");
+
+                    transform: {
+                      position: V3 (1.99f, 4.33f, -0.01f)
+                      local position: V3 (-0.01f, 0.33f, -0.01f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    sprite (name: "Ears"): {
+                      id: "a57b7642-9d0c-4590-a869-d90d6619704c";
+                      scale: VI2 (0.4f, 0.4f);
+                      pivot: VI2 (0.0f, 0.0f);
+                      update collider: true;
+                      size: V2 (0.0f, 0.0f);
+                      pixel size: V2 (0.0f, 0.0f);
+                      UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                    };
+
+                    children:
+                        name: "Earring" (prefab to string: "Earring (UnityEngine.GameObject)"):
+                          tag: "Untagged";
+                          script: "Sprite" (name: "Earring");
+
+                          transform: {
+                            position: V3 (2.235f, 4.359f, -0.02f)
+                            local position: V3 (0.245f, 0.02899995f, -0.01f)
+                            rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local scale: V3 (1.0f, 1.0f, 1.0f)
+                            lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                          };
+
+                          sprite (name: "Earring"): {
+                            id: "d380ae10-ae8d-465f-b00f-0740d2008572";
+                            scale: VI2 (0.4f, 0.4f);
+                            pivot: VI2 (0.0f, 0.0f);
+                            update collider: true;
+                            size: V2 (0.0f, 0.0f);
+                            pixel size: V2 (0.0f, 0.0f);
+                            UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                          };
+
+
+
+                  name: "Hat" (prefab to string: "Hat (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+
+                    transform: {
+                      position: V3 (2.0f, 4.0f, 0.0f)
+                      local position: V3 (0.0f, 0.0f, 0.0f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    children:
+                        name: "hat" (prefab to string: "hat (UnityEngine.GameObject)"):
+                          tag: "Untagged";
+                          script: "Sprite" (name: "hat");
+
+                          transform: {
+                            position: V3 (1.691f, 4.233f, -0.02f)
+                            local position: V3 (-0.309f, 0.233f, -0.02f)
+                            rotation: Q (0.0f, 0.0f, 0.1974891f, 0.9803051f)
+                            local rotation: Q (0.0f, 0.0f, 0.1974891f, 0.9803051f)
+                            local scale: V3 (1.0f, 1.0f, 1.0f)
+                            lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                          };
+
+                          sprite (name: "hat"): {
+                            id: "9d8cff40-4195-4b48-9dd1-6464a916e7b7";
+                            scale: VI2 (0.4f, 0.4f);
+                            pivot: VI2 (0.0f, 0.0f);
+                            update collider: true;
+                            size: V2 (0.0f, 0.0f);
+                            pixel size: V2 (0.0f, 0.0f);
+                            UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                          };
+
+
+
+                  name: "mouth" (prefab to string: "mouth (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+
+                    transform: {
+                      position: V3 (2.0f, 4.0f, 0.0f)
+                      local position: V3 (0.0f, 0.0f, 0.0f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    children:
+                        name: "mouth" (prefab to string: "mouth (UnityEngine.GameObject)"):
+                          tag: "Untagged";
+                          script: "Sprite" (name: "mouth");
+
+                          transform: {
+                            position: V3 (2.029f, 3.685f, -0.02f)
+                            local position: V3 (0.029f, -0.315f, -0.02f)
+                            rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local scale: V3 (1.0f, 1.0f, 1.0f)
+                            lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                          };
+
+                          sprite (name: "mouth"): {
+                            id: "132c67d8-96fc-4113-aab7-cb3e95c86fe5";
+                            scale: VI2 (0.4f, 0.4f);
+                            pivot: VI2 (0.0f, 0.0f);
+                            update collider: true;
+                            size: V2 (0.0f, 0.0f);
+                            pixel size: V2 (0.0f, 0.0f);
+                            UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                          };
+
+
+
+                  name: "Face" (prefab to string: "Face (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+                    script: "Sprite" (name: "Face");
+
+                    transform: {
+                      position: V3 (2.0f, 3.915f, -0.03f)
+                      local position: V3 (0.0f, -0.085f, -0.03f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    sprite (name: "Face"): {
+                      id: "e03b5ff3-481a-4b85-b28f-0e8a9220e097";
+                      scale: VI2 (0.4f, 0.4f);
+                      pivot: VI2 (0.0f, 0.0f);
+                      update collider: true;
+                      size: V2 (0.0f, 0.0f);
+                      pixel size: V2 (0.0f, 0.0f);
+                      UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                    };
+
+                    children:
+                        name: "Eyebrow" (prefab to string: "Eyebrow (UnityEngine.GameObject)"):
+                          tag: "Untagged";
+                          script: "Sprite" (name: "Eyebrow");
+
+                          transform: {
+                            position: V3 (2.3f, 4.14f, -0.04f)
+                            local position: V3 (0.3f, 0.225f, -0.01f)
+                            rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local scale: V3 (1.0f, 1.0f, 1.0f)
+                            lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                          };
+
+                          sprite (name: "Eyebrow"): {
+                            id: "d34340da-4d81-4539-877e-79c5cc59ff54";
+                            scale: VI2 (0.4f, 0.4f);
+                            pivot: VI2 (0.0f, 0.0f);
+                            update collider: true;
+                            size: V2 (0.0f, 0.0f);
+                            pixel size: V2 (0.0f, 0.0f);
+                            UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                          };
+
+
+
+                  name: "MaskHolder" (prefab to string: "MaskHolder (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+
+                    transform: {
+                      position: V3 (2.0f, 4.0f, -0.2f)
+                      local position: V3 (0.0f, 0.0f, -0.2f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    children:
+                        name: "Mask" (prefab to string: "Mask (UnityEngine.GameObject)"):
+                          tag: "Untagged";
+                          script: "PigMask" (name: "Mask");
+
+                          transform: {
+                            position: V3 (2.0f, 4.0f, -0.2f)
+                            local position: V3 (0.0f, 0.0f, 0.0f)
+                            rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local scale: V3 (1.0f, 1.0f, 1.0f)
+                            lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                          };
+
+
+
+                  name: "PupilMover" (prefab to string: "PupilMover (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+
+                    transform: {
+                      position: V3 (2.0f, 4.0f, 0.0f)
+                      local position: V3 (0.0f, 0.0f, 0.0f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    children:
+                        name: "Eyes" (prefab to string: "Eyes (UnityEngine.GameObject)"):
+                          tag: "Untagged";
+                          script: "Sprite" (name: "Eyes");
+
+                          transform: {
+                            position: V3 (1.951f, 3.928f, -0.04f)
+                            local position: V3 (-0.049f, -0.072f, -0.04f)
+                            rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local scale: V3 (1.0f, 1.0f, 1.0f)
+                            lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                          };
+
+                          sprite (name: "Eyes"): {
+                            id: "a6b5ff28-5822-4141-9c38-1e317305e47a";
+                            scale: VI2 (0.4f, 0.4f);
+                            pivot: VI2 (0.0f, 0.0f);
+                            update collider: true;
+                            size: V2 (0.0f, 0.0f);
+                            pixel size: V2 (0.0f, 0.0f);
+                            UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                          };
+
+
+
+                  name: "HatHolder" (prefab to string: "HatHolder (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+
+                    transform: {
+                      position: V3 (1.86f, 4.38f, -0.2f)
+                      local position: V3 (-0.14f, 0.38f, -0.2f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    children:
+                        name: "HatHolder" (prefab to string: "HatHolder (UnityEngine.GameObject)"):
+                          tag: "Untagged";
+                          script: "PigHat" (name: "HatHolder");
+
+                          transform: {
+                            position: V3 (1.86f, 4.38f, -0.2f)
+                            local position: V3 (0.0f, 0.0f, 0.0f)
+                            rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local scale: V3 (1.0f, 1.0f, 1.0f)
+                            lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                          };
+
+
+
+
+
+      name: "PigParticleSystems" (prefab to string: "PigParticleSystems (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (2.0f, 4.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.50015f, 1.50015f, 1.50015f)
+          lossy scale: V3 (1.50015f, 1.50015f, 1.50015f)
+        };
+
+        children:
+            name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (2.0f, 4.019021f, 1.50015f)
+                local position: V3 (0.0f, 0.01267942f, 1.0f)
+                rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.50015f, 1.50015f, 1.50015f)
+              };
+
+
+
+

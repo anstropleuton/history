@@ -1,0 +1,29 @@
+Part_RedRocket_04_SET(Clone) (UnityEngine.GameObject)
+	transform -802.1663 -5.736973 -0.10048 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.03 0 0.7 0.3 1
+	material 0 0.7 0.5 Average Average
+	sprite 79253dab-c3ac-4845-866e-33812a401e14 0.4 0.4 0 0 False
+	BottomAttachment (UnityEngine.GameObject)
+		transform -802.1663 -5.736973 -0.05048 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 -0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite 471c26b1-b2b9-4327-a673-23db9ed394a8 0.4 0.4 -4 20 False
+	Particles_Ignition_01_SET (UnityEngine.GameObject)
+		transform -802.6663 -5.736973 -0.10048 0 0 0 1 1 1
+	Particles_RocketFire_01_SET (UnityEngine.GameObject)
+		transform -802.6663 -5.736973 -0.10048 0 0 0 1 1 1
+	TopAttachment (UnityEngine.GameObject)
+		transform -802.1663 -5.736973 -0.05048 0 0 180 1 1 1
+		boxCollider True Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 -0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite 471c26b1-b2b9-4327-a673-23db9ed394a8 0.4 0.4 -4 20 False
+	RightAttachment (UnityEngine.GameObject)
+		transform -802.1663 -5.736973 -0.05048 0 0 90 1 1 1
+		boxCollider True Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 -0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite 471c26b1-b2b9-4327-a673-23db9ed394a8 0.4 0.4 -4 20 False
+	LeftAttachment (UnityEngine.GameObject)
+		transform -802.1663 -5.736973 -0.05048 0 0 270 1 1 1
+		boxCollider True Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 -0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite 471c26b1-b2b9-4327-a673-23db9ed394a8 0.4 0.4 -4 20 False

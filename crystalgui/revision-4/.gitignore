@@ -1,0 +1,175 @@
+########################################
+# Build directories
+########################################
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+lib/
+
+########################################
+# CMake files
+########################################
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+Makefile
+*.cmake
+
+########################################
+# Generated build systems
+########################################
+*.ninja
+.ninja_deps
+.ninja_log
+
+########################################
+# Compiled binaries / objects
+########################################
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+########################################
+# Debug / profiling
+########################################
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.mod
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+*.profdata
+coverage/
+coverage-report/
+
+########################################
+# Logs
+########################################
+*.log
+
+########################################
+# Package managers / dependencies
+########################################
+conanbuildinfo.*
+conaninfo.txt
+conan.lock
+conanbuild/
+conan/
+vcpkg_installed/
+
+########################################
+# CLion / JetBrains
+########################################
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+*.iml
+
+########################################
+# Visual Studio
+########################################
+.vs/
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.*
+*.sln.docstates
+Debug/
+Release/
+x64/
+x86/
+
+########################################
+# VSCode
+########################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+########################################
+# QtCreator
+########################################
+*.autosave
+*.creator
+*.creator.user
+*.creator.user.*
+*.files
+*.includes
+
+########################################
+# Eclipse CDT
+########################################
+.project
+.cproject
+.settings/
+
+########################################
+# Xcode
+########################################
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+
+########################################
+# OS files
+########################################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+########################################
+# Archives
+########################################
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+########################################
+# Temporary files
+########################################
+*.tmp
+*.temp
+*.swp
+*.swo

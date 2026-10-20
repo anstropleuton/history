@@ -1,0 +1,6 @@
+[submodule "deps/raylib"]
+	path = deps/raylib
+	url = https://github.com/raysan5/raylib.git
+[submodule "deps/PhysX"]
+	path = deps/PhysX
+	url = https://github.com/NVIDIA-Omniverse/PhysX.git

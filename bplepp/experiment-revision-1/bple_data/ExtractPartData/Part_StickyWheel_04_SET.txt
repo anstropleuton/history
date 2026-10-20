@@ -1,0 +1,150 @@
+name: "Part_StickyWheel_04_SET" (prefab to string: "Part_StickyWheel_04_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "StickyWheel" (name: "Part_StickyWheel_04_SET");
+
+  transform: {
+    position: V3 (6.0f, -71.0f, 0.0f)
+    local position: V3 (6.0f, -71.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  sphere collider (name: "Part_StickyWheel_04_SET"): {
+    center: V3 (0.0f, -0.075f, 0.0f);
+    radius: 0.45f;
+  };
+
+  sprite (name: "Part_StickyWheel_04_SET"): {
+    id: "199d023e-1a9d-4abd-a2cd-93054a2b19de";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (0.0f, -18.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 4.0f;
+    power consumption: 80.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Gold;
+    joint type: HingeJoint (1);
+    part tier: Epic (3);
+    part type: StickyWheel (40);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Extreme (3);
+    joint connction type: Target (2);
+    joint connction direction: Up (2);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: None (0);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "WheelPivot" (prefab to string: "WheelPivot (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (6.0f, -71.075f, 0.0f)
+          local position: V3 (0.0f, -0.075f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "SpokeSprite" (prefab to string: "SpokeSprite (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "SpokeSprite");
+
+              transform: {
+                position: V3 (5.995f, -71.008f, -0.1f)
+                local position: V3 (-0.005f, 0.067f, -0.1f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "SpokeSprite"): {
+                id: "b507eccd-6b00-4ed9-a8a1-1ed511df7fb8";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+            name: "SpokeSprite (1)" (prefab to string: "SpokeSprite (1) (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "SpokeSprite (1)");
+
+              transform: {
+                position: V3 (6.033f, -71.072f, -0.2f)
+                local position: V3 (0.03299999f, 0.003001407f, -0.2f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "SpokeSprite (1)"): {
+                id: "1c5a4fa3-c482-4ce1-a30e-fea885b89d55";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+      name: "SupportCollider" (prefab to string: "SupportCollider (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (6.043262f, -71.06546f, 0.0f)
+          local position: V3 (0.04326272f, -0.06546092f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "SupportCollider"): {
+          center: V3 (-0.05f, 0.4f, 0.0f);
+          size: V3 (0.6f, 0.2f, 1.0f);
+        };
+
+
+

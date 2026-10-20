@@ -1,0 +1,12 @@
+Part_Fan_02_SET(Clone) (UnityEngine.GameObject)
+	transform -814.1663 -9.736973 -0.10028 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) -0.16 0 0 0.45 1 1
+	material 0 0.7 0.5 Average Average
+	FanVisualization (UnityEngine.GameObject)
+		transform -814.4283 -9.736973 -0.10028 0 0 0 1 1 1
+		sprite 43d8e858-a998-4630-a34f-0801eab34f0c 0.4 0.4 0 0 False
+	FanMesh (UnityEngine.GameObject)
+		transform -814.3183 -9.722973 -0.30028 0 0 0 1 1 1
+		sprite be6588c7-d283-4f10-90bb-0547b2519a3c 0.4 0.4 0 0 False
+	Particle System (UnityEngine.GameObject)
+		transform -814.1488 -9.736973 -0.10028 270 0 0 1 1 1

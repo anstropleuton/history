@@ -1,0 +1,84 @@
+name: "Part_PlanePropeller_05_SET" (prefab to string: "Part_PlanePropeller_05_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "FanPropeller" (name: "Part_PlanePropeller_05_SET");
+
+  transform: {
+    position: V3 (3.57f, -20.033f, 0.0f)
+    local position: V3 (3.57f, -20.033f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_PlanePropeller_05_SET"): {
+    center: V3 (-0.3124264f, 0.0f, 0.0f);
+    size: V3 (0.2800004f, 1.0f, 1.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.5f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 100.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Common (1);
+    part type: Propeller (13);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: Target (2);
+    joint connction direction: Left (3);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "FanVisualization" (prefab to string: "FanVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "FanVisualization");
+
+        transform: {
+          position: V3 (3.2f, -20.0f, 0.0f)
+          local position: V3 (-0.37f, 0.033f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "FanVisualization"): {
+          id: "972e1497-9242-47db-bcd9-ea25603ce297";
+          scale: VI2 (0.5f, 0.5f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

@@ -1,0 +1,21 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define CGAPI __declspec(dllexport)
+#define CGAPI __declspec(dllimport)
+#define CGAPI __attribute__((visibility("default")))
+#define CGAPI
+#define CGSAPI __declspec(dllexport) extern inline
+#define CGSAPI __attribute__((visibility("default")))
+#define CGSAPI __declspec(dllimport)
+#define CGSAPI
+#define CGUI_PROTO(TYPE, NAME) TYPE NAME##Proto; TYPE NAME##Local; bool NAME##Override
+#define CGUI_PROTO
+#define CGUI_PROTO_NO_PROTO(TYPE, NAME) bool NAME##Override
+#define CGUI_PROTO_NO_PROTO
+#define CGUI_ARRAY(TYPE, NAME) TYPE *NAME; int NAME##Count; int NAME##Capacity
+#define CGUI_ARRAY
+#define CGUI_ARRAY_NO_ARRAY(TYPE, NAME) int NAME##Count; int NAME##Capacity
+#define CGUI_ARRAY_NO_ARRAY
+#define CGUI_TRANSITION(TYPE, NAME) TYPE NAME##From; TYPE NAME##To; CguiTransition NAME##Transition
+#define CGUI_TRANSITION

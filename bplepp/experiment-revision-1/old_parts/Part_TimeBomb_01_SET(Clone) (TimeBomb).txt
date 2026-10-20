@@ -1,0 +1,7 @@
+Part_TimeBomb_01_SET(Clone) (UnityEngine.GameObject)
+	transform -834.1663 -11.73697 -0.10004 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.15 0 0.8 0.5 0
+	material 0 0.7 0.5 Average Average
+	Visualization (UnityEngine.GameObject)
+		transform -834.1663 -11.73697 -0.10004 0 0 0 1 1 1
+		sprite 6faec551-ead8-49d4-a20b-6ccb1ffd2785 0.5 0.5 0 0 False

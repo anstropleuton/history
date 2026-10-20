@@ -1,0 +1,13 @@
+Part_WoodenWings_04_SET(Clone) (UnityEngine.GameObject)
+	transform -772.1663 -5.736973 -0.10078 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) -0.5 -0.15 0 1.9 0.6 1.5
+	material 0 0.7 0.5 Average Average
+	BottomFrameSprite (UnityEngine.GameObject)
+		transform -772.1903 -6.025973 -0.10078 0 0 0 1 1 1
+		sprite 0ee2da0f-bbb7-4d96-bfd4-632b437d3345 0.3984375 0.390625 0 0 False
+	TopFrameSprite (UnityEngine.GameObject)
+		transform -772.1703 -5.483973 -0.10078 0 0 0 1 -1 1
+		sprite 0ee2da0f-bbb7-4d96-bfd4-632b437d3345 0.3984375 0.390625 0 0 False
+	WingSprite (UnityEngine.GameObject)
+		transform -772.4883 -5.736973 -0.20078 0 0 0 1 1 1
+		sprite 9c874825-5d4a-40f9-b917-f49a84ec8510 0.4 0.4 0 0 False

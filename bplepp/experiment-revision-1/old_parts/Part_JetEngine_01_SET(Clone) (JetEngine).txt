@@ -1,0 +1,16 @@
+Part_JetEngine_01_SET(Clone) (UnityEngine.GameObject)
+	transform -746.1663 -11.73697 -0.10092 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) -0.45 0 0 1.8 0.7 1.5
+	material 0 0.7 0.5 Average Average
+	BottomFrameSprite (UnityEngine.GameObject)
+		transform -746.1213 -12.13697 -0.10092 0 0 0 1 1 1
+		sprite e07c1535-a9be-42a8-892f-5f1f6d239170 0.3984375 0.390625 0 0 False
+	TopFrameSprite (UnityEngine.GameObject)
+		transform -746.1213 -11.33697 -0.10092 0 0 0 1 -1 1
+		sprite e07c1535-a9be-42a8-892f-5f1f6d239170 0.3984375 0.390625 0 0 False
+	WingSprite (UnityEngine.GameObject)
+		transform -746.6663 -11.72197 -0.20092 0 0 0 1 1 1
+		serializedSprite JetEngine_Sprite
+	FlameSprite (UnityEngine.GameObject)
+		transform -756.1663 -11.73697 -0.10092 0 0 0 1 1 1
+		serializedSprite JetEngine_Flame_Sprite

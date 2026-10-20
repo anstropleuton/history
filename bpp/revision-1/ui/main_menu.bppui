@@ -1,0 +1,48 @@
+node(set model = {extent = {0.0, -40.0}}) {
+    focus_group {
+        stack {
+            node(set model = {scale = {0.3333333, 1.0}}) {
+                panel(set model = {extent = {-10.0, -10.0}, anchor = {0.5, 0.5}, pivot = {0.5, 0.5}}) {
+                    stack(vertical = true, padding = 10.0, gap = 10.0) {
+                        label(text = "Buttons", variant = `font_variant::bold`, align = {0.0, 0.5}, set model = {extent = {-20.0, 20.0}, scale = {1.0, 0.0}});
+                        node(set model = {extent = {-20.0, 50.0}, scale = {1.0, 0.0}}) {
+                            stack(gap = 10.0) {
+                                button(label = "Primary", set model = {extent = {-5.0, 30.0}, scale = {0.5, 0.0}});
+                                button(label = "Secondary", is_secondary = true, set model = {extent = {-5.0, 30.0}, scale = {0.5, 0.0}});
+                            };
+                        };
+                        node(set model = {extent = {0.0, 10.0}, scale = {0.0, 0.0}});
+                        label(text = "Checkboxes", variant = `font_variant::bold`, align = {0.0, 0.5}, set model = {extent = {-20.0, 20.0}, scale = {1.0, 0.0}});
+                        node(set model = {extent = {-20.0, 50.0}, scale = {1.0, 0.0}}) {
+                            stack(gap = 10.0) {
+                                checkbox(label = "Active", toggled = true, set model = {extent = {-5.0, 30.0}, scale = {0.5, 0.0}});
+                                checkbox(label = "Inactive", set model = {extent = {-5.0, 30.0}, scale = {0.5, 0.0}});
+                            };
+                        };
+                        node(set model = {extent = {0.0, 10.0}, scale = {0.0, 0.0}});
+                    };
+                };
+            };
+            node(set model = {scale = {0.3333333, 1.0}}) {
+                panel(set model = {extent = {-10.0, -10.0}, anchor = {0.5, 0.5}, pivot = {0.5, 0.5}}) {
+                    stack(vertical = true, padding = 10.0, gap = 10.0) {
+                        label(text = "Toggles", variant = `font_variant::bold`, align = {0.0, 0.5}, set model = {extent = {-20.0, 20.0}, scale = {1.0, 0.0}});
+                        node(set model = {extent = {-20.0, 50.0}, scale = {1.0, 0.0}}) {
+                            stack(gap = 10.0) {
+                                button(label = "Active", is_toggle = true, toggled = true, set model = {extent = {-5.0, 30.0}, scale = {0.5, 0.0}});
+                                button(label = "Inactive", is_toggle = true, set model = {extent = {-5.0, 30.0}, scale = {0.5, 0.0}});
+                            };
+                        };
+                        node(set model = {extent = {0.0, 10.0}, scale = {0.0, 0.0}});
+                    };
+                };
+            };
+            node(set model = {scale = {0.3333333, 1.0}}) {
+                panel(set model = {extent = {-10.0, -10.0}, anchor = {0.5, 0.5}, pivot = {0.5, 0.5}}) {
+                    stack(vertical = true, padding = 10.0, gap = 10.0) {
+                    };
+                };
+            };
+        };
+    };
+};

@@ -1,0 +1,127 @@
+name: "Part_PoweredUmbrella_01_SET" (prefab to string: "Part_PoweredUmbrella_01_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "PoweredUmbrella" (name: "Part_PoweredUmbrella_01_SET");
+
+  transform: {
+    position: V3 (0.0f, -65.0f, 0.0f)
+    local position: V3 (0.0f, -65.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_PoweredUmbrella_01_SET"): {
+    center: V3 (0.0f, -0.15f, 0.0f);
+    size: V3 (0.2f, 0.7f, 1.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.2f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 100.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Regular (0);
+    part type: PoweredUmbrella (35);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Normal (1);
+    joint connction type: Target (2);
+    joint connction direction: Down (4);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: None (0);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "ShaftVisualization" (prefab to string: "ShaftVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "ShaftVisualization");
+
+        transform: {
+          position: V3 (0.0f, -65.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "ShaftVisualization"): {
+          id: "d1b995e4-5d3c-4a5a-a93a-02054f2d0ba7";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "UmbrellaVisualization" (prefab to string: "UmbrellaVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (0.0f, -65.0f, -0.2f)
+          local position: V3 (0.0f, 0.0f, -0.2f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "OpenSprite" (prefab to string: "OpenSprite (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "OpenSprite");
+
+              transform: {
+                position: V3 (0.0f, -65.0f, -0.2f)
+                local position: V3 (0.0f, 0.0f, 0.0f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              box collider (name: "OpenSprite"): {
+                center: V3 (0.0f, 0.25f, 0.2f);
+                size: V3 (1.0f, 0.4f, 1.0f);
+              };
+
+              sprite (name: "OpenSprite"): {
+                id: "ae3c44a6-7f06-4957-b8f7-a9d05b99fc51";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+

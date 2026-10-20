@@ -1,0 +1,41 @@
+Part_Pig_14_SET 4(Clone) (UnityEngine.GameObject)
+	transform -836.1663 24.26303 -0.09074 0 0 0 1 1 1
+	sphereCollider False Pig_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.04 0 0.42
+	material 0.5 0.3 0.1 Average Maximum
+	FixedRotationParticleSystems (UnityEngine.GameObject)
+		transform -836.1663 24.26303 -0.09074 0 0 0 1.50015 1.50015 1.50015
+		Particle System (UnityEngine.GameObject)
+			transform -836.1663 25.31313 -0.09074 270 0 0 1 1 1
+		Particle System (UnityEngine.GameObject)
+			transform -836.3214 24.72208 -0.09074 270 0 0 1 1 1
+	PigVisualization (UnityEngine.GameObject)
+		transform -836.1663 24.26303 -0.09074 0 0 0 1 1 1
+		Body (UnityEngine.GameObject)
+			transform -836.1663 24.26303 -0.09074 0 0 0 1 1 1
+			sprite b4e13823-f21d-4e1a-987d-313754a29788 0.4 0.4 0 0 True
+		Face (UnityEngine.GameObject)
+			transform -836.1663 24.26303 -0.09074 0 0 0 1 1 1
+			Ears (UnityEngine.GameObject)
+				transform -836.2793 24.67636 -0.10074 0 0 90.00001 0.9999946 0.9999617 1
+				sprite b2b80b95-5d14-4d2a-8101-93a7d2b9af4f 0.4 0.4 0 0 True
+			Hair (UnityEngine.GameObject)
+				transform -836.1779 24.23888 -0.11074 0 0 0 0.9998869 0.9999847 1
+				sprite e467b37d-a63d-49ff-89bb-2733a55b01eb 0.4 0.4 0 0 True
+			Face (UnityEngine.GameObject)
+				transform -836.1689 24.26388 -0.12074 0 0 0 0.9998845 0.999987 1
+				sprite fc78f480-a5a7-44ae-9d8f-f5a4245bc3de 0.4 0.4 0 0 True
+			MaskHolder (UnityEngine.GameObject)
+				transform -836.1694 24.26405 -0.29074 0 0 0 0.9998845 0.999987 1
+				Mask (UnityEngine.GameObject)
+					transform -836.1694 24.26405 -0.29074 0 0 0 1 1 1
+			PupilMover (UnityEngine.GameObject)
+				transform -836.1663 24.26303 -0.09074 0 0 0 1 1 1
+				Eyes (UnityEngine.GameObject)
+					transform -836.2199 24.30189 -0.13074 0 0 0 0.9998888 0.999983 1
+					sprite a6b5ff28-5822-4141-9c38-1e317305e47a 0.4 0.4 0 0 True
+			HatHolder (UnityEngine.GameObject)
+				transform -836.3073 24.64336 -0.29074 0 0 0 0.9999909 0.9999546 1
+	PigParticleSystems (UnityEngine.GameObject)
+		transform -836.1663 24.26303 -0.09074 0 0 0 1.50015 1.50015 1.50015
+		Particle System (UnityEngine.GameObject)
+			transform -836.1663 24.28205 1.40941 270 0 0 1 1 1

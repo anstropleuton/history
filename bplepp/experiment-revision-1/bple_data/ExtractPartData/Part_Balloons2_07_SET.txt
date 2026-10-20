@@ -1,0 +1,141 @@
+name: "Part_Balloons2_07_SET" (prefab to string: "Part_Balloons2_07_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Balloon" (name: "Part_Balloons2_07_SET");
+
+  transform: {
+    position: V3 (12.0f, -2.0f, 0.0f)
+    local position: V3 (12.0f, -2.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.0f;
+    interactive radius: 1.0f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: Balloons2 (2);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Normal (1);
+    joint connction type: None (0);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: None (0);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "BalloonVisualization" (prefab to string: "BalloonVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BalloonVisualization");
+
+        transform: {
+          position: V3 (12.0f, -2.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "BalloonVisualization"): {
+          id: "d231854b-15a5-414f-99da-7311eb9d5219";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (6.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Balloon2Visualization" (prefab to string: "Balloon2Visualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (12.0f, -2.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "BalloonVisualization (1)" (prefab to string: "BalloonVisualization (1) (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "BalloonVisualization (1)");
+
+              transform: {
+                position: V3 (12.0f, -2.0f, 0.0f)
+                local position: V3 (0.0f, 0.0f, 0.0f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "BalloonVisualization (1)"): {
+                id: "d231854b-15a5-414f-99da-7311eb9d5219";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+            name: "BalloonVisualization (2)" (prefab to string: "BalloonVisualization (2) (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "BalloonVisualization (2)");
+
+              transform: {
+                position: V3 (12.25f, -2.02f, -0.1f)
+                local position: V3 (0.25f, -0.02f, -0.1f)
+                rotation: Q (0.0f, 0.0f, -0.1305262f, 0.9914449f)
+                local rotation: Q (0.0f, 0.0f, -0.1305262f, 0.9914449f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "BalloonVisualization (2)"): {
+                id: "d231854b-15a5-414f-99da-7311eb9d5219";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+

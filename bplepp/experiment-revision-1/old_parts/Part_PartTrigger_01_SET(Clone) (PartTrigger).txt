@@ -1,0 +1,5 @@
+Part_PartTrigger_01_SET(Clone) (UnityEngine.GameObject)
+	transform -744.1663 78.26303 -0.09274 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	serializedSprite PartTrigger_Sprite

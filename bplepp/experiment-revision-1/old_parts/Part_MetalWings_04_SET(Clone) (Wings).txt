@@ -1,0 +1,13 @@
+Part_MetalWings_04_SET(Clone) (UnityEngine.GameObject)
+	transform -768.1663 -5.736973 -0.10082 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) -0.26 -0.15 0 1.8 0.6 1.5
+	material 0 0.7 0.5 Average Average
+	BottomFrameSprite (UnityEngine.GameObject)
+		transform -768.2233 -5.912973 -0.10082 0 0 0 1 1 1
+		sprite eaf624e9-1734-407d-90ae-65a47e33af6f 0.3984375 0.390625 0 0 False
+	TopFrameSprite (UnityEngine.GameObject)
+		transform -768.2183 -5.475973 -0.10082 0 0 0 1 -1 1
+		sprite eaf624e9-1734-407d-90ae-65a47e33af6f 0.3984375 0.390625 0 0 False
+	WingSprite (UnityEngine.GameObject)
+		transform -768.4783 -5.720252 -0.20082 0 0 0 1 1 1
+		sprite 2c9b11e1-7cbd-457e-9b3b-5cee294bce4d 0.4 0.4 0 0 False

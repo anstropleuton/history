@@ -1,0 +1,12 @@
+Part_PointLight_04_SET(Clone) (UnityEngine.GameObject)
+	transform -750.1663 -5.736973 -0.111 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.67 0.84 1
+	material 0 0.7 0.5 Average Average
+	InactivePointLightSprite (UnityEngine.GameObject)
+		transform -750.1663 -5.736973 -0.111 0 0 0 1.3038 1.3038 1.3038
+		sprite 2332f215-373e-4771-bb98-36fe9c2e63f7 0.3 0.3 0 0 True
+	ActivePointLightSprite (UnityEngine.GameObject)
+		transform -750.1663 -5.736973 -0.111 0 0 0 1.3038 1.3038 1.3038
+		sprite 6b0989e6-7b5d-4226-893c-8cd18614159c 0.3 0.3 0 0 True
+	INLight (UnityEngine.GameObject)
+		transform -750.1663 -5.236973 -0.611 0 0 90 1 1 1

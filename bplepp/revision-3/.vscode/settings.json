@@ -1,0 +1,8 @@
+{
+    "uncrustify.configPath.linux": "uncrustify.cfg",
+    "uncrustify.configPath.windows": "uncrustify.cfg",
+    "uncrustify.configPath.osx": "uncrustify.cfg",
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    }
+}

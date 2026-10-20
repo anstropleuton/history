@@ -1,0 +1,108 @@
+name: "Part_SpringBoxingGlove_05_SET" (prefab to string: "Part_SpringBoxingGlove_05_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "SpringBoxingGlove" (name: "Part_SpringBoxingGlove_05_SET");
+
+  transform: {
+    position: V3 (12.0f, -69.0f, 0.0f)
+    local position: V3 (12.0f, -69.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_SpringBoxingGlove_05_SET"): {
+    center: V3 (0.0f, 0.0f, 0.0f);
+    size: V3 (1.0f, 1.0f, 1.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Alien_part;
+    joint type: FixedJoint (0);
+    part tier: Legendary (4);
+    part type: SpringBoxingGlove (39);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: HighlyExtreme (4);
+    joint connction type: Target (2);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "Visualization" (prefab to string: "Visualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Visualization");
+
+        transform: {
+          position: V3 (12.0f, -69.0f, 0.1f)
+          local position: V3 (0.0f, 0.0f, 0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Visualization"): {
+          id: "c7e84ab9-8f46-4c62-82a5-6fa1898241ad";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "SpringVisualization" (prefab to string: "SpringVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "SpringVisualization");
+
+        transform: {
+          position: V3 (12.0f, -69.0f, 0.2f)
+          local position: V3 (0.0f, 0.0f, 0.2f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "SpringVisualization"): {
+          id: "854626cc-c19f-4363-8376-16c85c311ed3";
+          scale: VI2 (0.4f, 0.6f);
+          pivot: VI2 (0.0f, 16.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

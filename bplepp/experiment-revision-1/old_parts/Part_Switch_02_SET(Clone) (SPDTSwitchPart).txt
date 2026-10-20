@@ -1,0 +1,7 @@
+Part_Switch_02_SET(Clone) (UnityEngine.GameObject)
+	transform -744.1663 -1.736973 -0.09114 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	Sprite (UnityEngine.GameObject)
+		transform -744.1663 -1.736973 -0.09114 0 0 0 1 1 1
+		serializedSprite Switch2_Sprite

@@ -1,0 +1,15 @@
+Part_MotorWheel_08_SET(Clone) (UnityEngine.GameObject)
+	transform -850.1663 -13.73697 -0.09984 0 0 0 1 1 1
+	sphereCollider False Contraption_WheelFriction_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.5 0 0.9
+	material 0 0.025 0 Multiply Multiply
+	WheelPivot (UnityEngine.GameObject)
+		transform -850.1663 -14.23697 -0.09984 0 0 0 1 1 1
+		WheelSprite (UnityEngine.GameObject)
+			transform -850.1663 -14.23697 -0.10984 0 0 0 1.5 1.5 1
+			serializedSprite OffRoadWheel_WheelSprite
+		SpokeSprite (UnityEngine.GameObject)
+			transform -850.1663 -14.23697 -0.11984 0 0 0 1.5 1.5 1
+			serializedSprite OffRoadWheel_SpokeSprite
+	Support (UnityEngine.GameObject)
+		transform -850.1663 -13.58697 -0.09984 0 0 0 1 1 1
+		serializedSprite OffRoadWheel_SupportSprite

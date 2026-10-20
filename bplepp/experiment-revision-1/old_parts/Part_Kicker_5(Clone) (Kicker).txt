@@ -1,0 +1,21 @@
+Part_Kicker_5(Clone) (UnityEngine.GameObject)
+	transform -756.1663 -3.736973 -0.10098 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.008453846 0 1.061103 0.4918759 0
+	material 0 0.7 0.5 Average Average
+	sprite 86b24d74-6207-499a-b02a-3d76c4f7216f 0.4 0.4 0 0 False
+	Deg0 (UnityEngine.GameObject)
+		transform -756.1663 -3.736973 -0.20098 0 0 0 1 1 1
+		sprite d5032f39-befd-465d-9b2c-df685ae47505 0.4 0.4 0 0 True
+	Deg90 (UnityEngine.GameObject)
+		transform -756.1663 -3.736973 -0.20098 0 0 0 1 1 1
+		sprite fc4559d6-426d-4b53-8daa-9a635bfb189f 0.4 0.4 0 0 True
+	Deg180 (UnityEngine.GameObject)
+		transform -756.1663 -3.736973 -0.20098 0 0 0 1 1 1
+		sprite 47da2113-08b1-4e18-bd5e-916547b54fa8 0.4 0.4 0 0 True
+	Deg270 (UnityEngine.GameObject)
+		transform -756.1663 -3.736973 -0.20098 0 0 0 1 1 1
+		sprite 7f35d86d-fcb7-4732-b31f-f1667babdae3 0.4 0.4 0 0 True
+	VerticalCollider (UnityEngine.GameObject)
+		transform -756.1663 -3.736973 -0.10098 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) -0.002809003 0 0 0.4984221 1.059353 1
+		material 0 0.7 0.5 Average Average

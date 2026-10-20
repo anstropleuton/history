@@ -1,0 +1,9 @@
+Part_Pumpkin_02_SET(Clone) (UnityEngine.GameObject)
+	transform -758.1663 -9.736973 -0.08084 0 0 0 1 1 1
+	PumpkinCollider (UnityEngine.GameObject)
+		transform -758.1533 -9.853972 -0.08084 0 0 0 1.000084 0.8334032 0.8334032
+		capsuleCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.32 0.85
+		material 0 0.7 0.5 Average Average
+	Visualization (UnityEngine.GameObject)
+		transform -758.1624 -9.834972 -0.08084 0 0 0 1 1 1
+		sprite 788a7db5-5897-4a00-ad8f-68bfc3982d45 0.25 0.25 0 8 True

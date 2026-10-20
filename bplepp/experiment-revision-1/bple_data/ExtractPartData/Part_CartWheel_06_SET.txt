@@ -1,0 +1,126 @@
+name: "Part_CartWheel_06_SET" (prefab to string: "Part_CartWheel_06_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "CartWheel" (name: "Part_CartWheel_06_SET");
+
+  transform: {
+    position: V3 (14.0f, -12.01f, 0.0f)
+    local position: V3 (14.0f, -12.01f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  sprite (name: "Part_CartWheel_06_SET"): {
+    id: "a225bfa1-769a-4d9e-bef0-d5315f1cf31a";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (0.0f, -18.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.75f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Black;
+    joint type: HingeJoint (1);
+    part tier: Epic (3);
+    part type: CartWheel (7);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: Target (2);
+    joint connction direction: Up (2);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "SupportCollider" (prefab to string: "SupportCollider (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (14.0f, -11.66976f, 0.0f)
+          local position: V3 (0.0f, 0.3402374f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "SupportCollider"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          size: V3 (0.85f, 0.25f, 1.0f);
+        };
+
+
+      name: "WheelPivot" (prefab to string: "WheelPivot (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (13.98878f, -12.14086f, 0.0f)
+          local position: V3 (-0.01121712f, -0.1308608f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sphere collider (name: "WheelPivot"): {
+          center: V3 (0.0f, 0.005f, 0.0f);
+          radius: 0.36f;
+        };
+
+        children:
+            name: "WheelSprite" (prefab to string: "WheelSprite (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "WheelSprite");
+
+              transform: {
+                position: V3 (13.98878f, -12.16486f, -0.09999847f)
+                local position: V3 (0.0f, -0.024f, -0.09999847f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "WheelSprite"): {
+                id: "edf4f065-4a2c-4508-a9a1-51f1a4ebec4c";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, -6.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+

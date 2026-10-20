@@ -1,0 +1,118 @@
+name: "Part_MetalFrame_10_SET" (prefab to string: "Part_MetalFrame_10_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Frame" (name: "Part_MetalFrame_10_SET");
+
+  transform: {
+    position: V3 (18.0f, -30.0f, 0.0f)
+    local position: V3 (18.0f, -30.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_MetalFrame_10_SET"): {
+    center: V3 (0.0f, 0.0f, 0.0f);
+    size: V3 (1.0f, 1.0f, 1.0f);
+  };
+
+  sprite (name: "Part_MetalFrame_10_SET"): {
+    id: "153e1944-158e-44fd-a2d6-f6845c9fdb8f";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (0.0f, 0.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: -0.45f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: MetalFrame (18);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: Source (1);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: true;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "Curtain" (prefab to string: "Curtain (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Curtain");
+
+        transform: {
+          position: V3 (17.636f, -29.997f, -0.1f)
+          local position: V3 (-0.364f, 0.003f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Curtain"): {
+          id: "9d6ee8e4-e48d-4532-aa92-1c92b2c29d74";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Curtain (1)" (prefab to string: "Curtain (1) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Curtain (1)");
+
+        transform: {
+          position: V3 (18.37f, -29.99f, -0.1f)
+          local position: V3 (0.37f, 0.01f, -0.1f)
+          rotation: Q (0.0f, 1.0f, 0.0f, -0.0000001629207f)
+          local rotation: Q (0.0f, 1.0f, 0.0f, -0.0000001629207f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Curtain (1)"): {
+          id: "9d6ee8e4-e48d-4532-aa92-1c92b2c29d74";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

@@ -1,0 +1,35 @@
+Part_GrapplingHook_09_SET(Clone) (UnityEngine.GameObject)
+	transform -760.1663 4.263027 -0.1011 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.7 0.48 1
+	material 0 0.7 0.5 Average Average
+	serializedSprite MultiPartGenerator1_Sprite
+	BottomAttachment (UnityEngine.GameObject)
+		transform -760.1663 4.263027 -0.2011 0 0 0 1 0.9 1
+		sprite bb31e774-41ec-468e-a8c6-559c8c0b2d76 0.4 0.4 0 0 True
+	TopRightAttachment (UnityEngine.GameObject)
+		transform -760.1663 4.263027 -0.2011 0 0 45 1 0.9 1
+		sprite bb31e774-41ec-468e-a8c6-559c8c0b2d76 0.4 0.4 0 0 True
+	BottomRightAttachment (UnityEngine.GameObject)
+		transform -760.1663 4.263027 -0.2011 0 0 315 1 0.9 1
+		sprite bb31e774-41ec-468e-a8c6-559c8c0b2d76 0.4 0.4 0 0 True
+	TopLeftAttachment (UnityEngine.GameObject)
+		transform -760.1663 4.263027 -0.2011 0 0 135 1 0.9 1
+		sprite bb31e774-41ec-468e-a8c6-559c8c0b2d76 0.4 0.4 0 0 True
+	TopAttachment (UnityEngine.GameObject)
+		transform -760.1663 4.263027 -0.2011 0 0 180 1 0.9 1
+		sprite bb31e774-41ec-468e-a8c6-559c8c0b2d76 0.4 0.4 0 0 True
+	LeftAttachment (UnityEngine.GameObject)
+		transform -760.1663 4.263027 -0.2011 0 0 270 1 0.9 1
+		sprite bb31e774-41ec-468e-a8c6-559c8c0b2d76 0.4 0.4 0 0 True
+	RightAttachment (UnityEngine.GameObject)
+		transform -760.1663 4.263027 -0.2011 0 0 90 1 0.9 1
+		sprite bb31e774-41ec-468e-a8c6-559c8c0b2d76 0.4 0.4 0 0 True
+	SpringVisualization (UnityEngine.GameObject)
+		transform -760.1663 4.263027 0.09890001 0 0 0 1 1 1
+		sprite 6366b1f0-56e2-4da9-8d2d-e65ebb0ca595 0.4 0.4 0 0 True
+	BottomLeftAttachment (UnityEngine.GameObject)
+		transform -760.1663 4.263027 -0.2011 0 0 225 1 0.9 1
+		sprite bb31e774-41ec-468e-a8c6-559c8c0b2d76 0.4 0.4 0 0 True
+	Visualization (UnityEngine.GameObject)
+		transform -760.1163 4.293028 -0.001099996 0 0 0 1 1 1
+		sprite 2714fa5c-0783-427f-87de-d2718538e105 0.4 0.4 -12 0 True

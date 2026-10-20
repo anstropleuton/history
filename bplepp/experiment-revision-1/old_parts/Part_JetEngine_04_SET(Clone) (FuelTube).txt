@@ -1,0 +1,5 @@
+Part_JetEngine_04_SET(Clone) (UnityEngine.GameObject)
+	transform -746.1663 -5.736973 -0.10104 0 0 0 1 1 1
+	boxCollider False  (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.6 0.6 Average Average
+	serializedSprite FuelTube_Sprite_4

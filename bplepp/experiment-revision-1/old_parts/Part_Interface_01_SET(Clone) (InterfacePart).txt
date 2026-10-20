@@ -1,0 +1,9 @@
+Part_Interface_01_SET(Clone) (UnityEngine.GameObject)
+	transform -744.1663 64.26303 -0.09246 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat_Alien (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.9 0.9 1
+	material 0 0 0 Minimum Average
+	serializedSprite Interface1_Sprite
+	InterfaceTrigger (UnityEngine.GameObject)
+		transform -744.1663 64.26303 -0.09246 0 0 0 1 1 1
+		boxCollider True  (UnityEngine.PhysicMaterial) 0 0 0 1.5 1.5 1
+		material 0 0.6 0.6 Average Average

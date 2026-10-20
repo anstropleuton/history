@@ -1,0 +1,44 @@
+Part_KingPig_05_SET(Clone) (UnityEngine.GameObject)
+	transform -832.1663 -3.736973 -0.09022 0 0 0 1 1 1
+	capsuleCollider False  (UnityEngine.PhysicMaterial) 0 0.4 0 0.9 2.1
+	material 0 0.6 0.6 Average Average
+	KingPig (UnityEngine.GameObject)
+		transform -832.1663 -3.386972 -0.09022 0 0 0 1 1 1
+		Body (UnityEngine.GameObject)
+			transform -832.1663 -3.386972 -0.09022 0 0 0 1 1 1
+			sprite 95d18bf0-7c98-4e53-9fd8-6b7c9432ec19 0.3984375 0.3958333 0 0 True
+		Face (UnityEngine.GameObject)
+			transform -832.1663 -3.386972 -0.09022 0 0 0 1 1 1
+			Crown (UnityEngine.GameObject)
+				transform -832.1971 -2.433595 -0.09072001 0 0 0 0.9999015 0.9635535 1
+				sprite dec624ad-c251-4dd1-adff-98b5dd31eda0 0.4 0.4 0 0 True
+			Glasses (UnityEngine.GameObject)
+				transform -832.1488 -3.600849 -0.09222 0 0 0 0.9993308 0.9634947 1
+				sprite 6d2518e3-ca6e-4f97-bc6e-ff9dec0f2755 0.4 0.4 0 0 True
+			Face (UnityEngine.GameObject)
+				transform -832.1837 -3.559465 -0.09122001 0 0 0 0.9993921 0.9634144 1
+				sprite 77394c19-b9df-4742-b41d-42ff48e251ee 0.4 0.4 0 0 True
+				MouthPos (UnityEngine.GameObject)
+					transform -832.1837 -4.002636 -0.19122 0 0 0 1 1 1
+					capsuleCollider True  (UnityEngine.PhysicMaterial) 0 0 0 0.3 1.2
+					material 0 0.6 0.6 Average Average
+				Moustache (UnityEngine.GameObject)
+					transform -832.1437 -4.098978 -0.29122 0 0 90.00001 1 1 1
+					sprite bc15622f-23d1-4d05-9ab3-8f2be9c51ee2 0.4 0.4 0 0 True
+			PupilMover (UnityEngine.GameObject)
+				transform -832.1663 -3.426972 -0.09022 0 0 0 1 1 1
+				Eyes (UnityEngine.GameObject)
+					transform -832.1907 -3.551583 -0.09132001 0 0 0 0.9996734 0.9634596 1
+					sprite faee4361-1873-4314-b0d1-d1b9211a4248 0.4 0.4 0 0 True
+	PigParticleSystems (UnityEngine.GameObject)
+		transform -832.1663 -2.527158 -0.09022 0 0 0 1 1 1
+		Particle System (UnityEngine.GameObject)
+			transform -832.4808 -2.345292 -0.09022 270 0 0 1 1 1
+		Particle System (UnityEngine.GameObject)
+			transform -830.7404 -2.527158 -0.09022 270 0 0 1 1 1
+		Particle System (UnityEngine.GameObject)
+			transform -832.1663 -2.349321 -3.94022 270 0 0 1 1 1
+		Sweatparticles (UnityEngine.GameObject)
+			transform -832.1663 -2.527158 -0.09022 325.2699 270 90 1 1 1
+			SweatParticles (UnityEngine.GameObject)
+				transform -832.1663 -2.527158 -0.09022 331.8199 90 270 1 1 1

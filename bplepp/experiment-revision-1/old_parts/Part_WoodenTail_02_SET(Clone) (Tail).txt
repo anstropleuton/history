@@ -1,0 +1,5 @@
+Part_WoodenTail_02_SET(Clone) (UnityEngine.GameObject)
+	transform -770.1663 -9.736973 -0.10072 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0.06 0.03 0 0.85 0.75 1
+	material 0 0.7 0.5 Average Average
+	sprite a50a09ef-187a-4007-a59a-553477ce913b 0.4 0.4 0 0 False

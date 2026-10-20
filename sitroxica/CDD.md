@@ -1,0 +1,92 @@
+# Checkpoints
+
+- [ ] Set up project
+  - [x] Set up repository
+  - [x] Set up README.md and LICENSE.md
+  - [ ] Set up dependencies
+  - [x] Set up source files
+- [ ] Implement basic infrastructure
+  - [x] Define span in source code
+  - [x] Define error severity
+  - [x] Define report type
+  - [x] Define type representaion
+  - [ ] Define symbol representation
+  - [ ] Define value representation
+  - [ ] Define conversion system
+  - [x] Define promotion graph system
+  - [x] Define keywords enum
+  - [x] Define operators enum
+  - [ ] Define punctuation enum
+  - [ ] Define modifiers system
+  - [x] Define source code type
+  - [ ] Define error enum types
+  - [x] Define main function
+  - [ ] Write several tiny test programs
+- [ ] Implement lexer
+  - [ ] Define token types
+  - [ ] Define tokenizer
+  - [ ] Tokenize comment
+  - [ ] Tokenize identifier
+  - [ ] Tokenize keyword
+  - [ ] Tokenize operator
+  - [ ] Tokenize punctuation
+  - [ ] Tokenize string
+  - [ ] Tokenize integer
+- [ ] Implement parser
+  - [ ] Define grammar rules
+  - [ ] Define AST node types
+  - [ ] Define token stream type
+  - [ ] Parse integer
+  - [ ] Parse operator
+  - [ ] Parse parentheses
+  - [ ] Parse expression
+  - [ ] Parse statement
+    - [ ] Parse assignment
+    - [ ] Parse declaration
+    - [ ] Parse if
+    - [ ] Parse while
+    - [ ] Parse for
+    - [ ] Parse break
+    - [ ] Parse continue
+    - [ ] Parse block
+    - [ ] Parse function
+    - [ ] Parse class
+    - [ ] Parse import/export
+  - [ ] Parse program
+- [ ] Implement analyzer
+  - [ ] Define scope types
+  - [ ] Define symbol table
+  - [ ] Define symbol types
+  - [ ] Implement core types
+  - [ ] Type check literals
+  - [ ] Type check expressions
+  - [ ] Type check conversions
+  - [ ] Type check inference
+- [ ] Implement interpreter
+  - [ ] Define tree walker
+  - [ ] Define visitor pattern
+  - [ ] Evaluate expressions
+  - [ ] Evaluate statements
+    - [ ] Evaluate assignment
+    - [ ] Evaluate declaration
+    - [ ] Evaluate if
+    - [ ] Evaluate while
+    - [ ] Evaluate for
+    - [ ] Evaluate break
+    - [ ] Evaluate continue
+    - [ ] Evaluate block
+    - [ ] Evaluate function
+    - [ ] Evaluate class
+    - [ ] Evaluate import/export
+  - [ ] Evaluate program
+- [ ] Implement compiler
+  - [ ] Define tree walker
+  - [ ] Define visitor pattern
+  - [ ] Generate C++ code
+- [ ] Implement standard library
+  - [ ] Implement io module
+  - [ ] Implement str module
+  - [ ] Implement math module
+  - [ ] Implement dt module
+- [ ] Advanced features
+  - [ ] Implement generics

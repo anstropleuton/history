@@ -1,0 +1,35 @@
+Part_MetalFrame_11_SET(Clone) (UnityEngine.GameObject)
+	transform -826.1663 8.263027 -0.10052 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	sprite b9506cf9-fbbd-4f3e-b638-922da6c7ebdf 0.42 0.42 0 -5 False
+	Light (UnityEngine.GameObject)
+		transform -826.3843 8.821028 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True
+	Light (1) (UnityEngine.GameObject)
+		transform -826.4733 8.597027 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True
+	Light (2) (UnityEngine.GameObject)
+		transform -826.7313 8.389027 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True
+	Light (3) (UnityEngine.GameObject)
+		transform -826.7263 7.803028 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True
+	Light (4) (UnityEngine.GameObject)
+		transform -826.4103 7.858027 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True
+	Light (5) (UnityEngine.GameObject)
+		transform -825.8263 7.805027 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True
+	Light (6) (UnityEngine.GameObject)
+		transform -825.6423 8.015028 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True
+	Light (7) (UnityEngine.GameObject)
+		transform -825.5973 8.320026 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True
+	Light (8) (UnityEngine.GameObject)
+		transform -825.8214 8.525026 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True
+	Light (9) (UnityEngine.GameObject)
+		transform -825.7793 8.851027 -0.10052 0 0 0 1 1 1
+		sprite 03eb7565-7b54-44f1-8334-30218b9034d8 0.4 0.4 0 0 True

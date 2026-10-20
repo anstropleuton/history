@@ -1,0 +1,13 @@
+Part_Sandbags2_03_SET(Clone) (UnityEngine.GameObject)
+	transform -776.1663 -7.736973 -0.1007 0 0 0 1 1 1
+	SandbagVisualization (UnityEngine.GameObject)
+		transform -776.1663 -7.736973 -0.0006999969 0 0 0 1 1 1
+		sprite 179db3ad-131a-4857-8338-fb08bdf09c78 0.4 0.4 0 -16 False
+	Sandbag2Visualization (UnityEngine.GameObject)
+		transform -776.1663 -7.736973 -0.0007015318 0 0 0 1 1 1
+		SandbagVisualization (1) (UnityEngine.GameObject)
+			transform -776.3033 -7.791973 -0.0007015318 0 0 350.8507 1 1 1
+			sprite 179db3ad-131a-4857-8338-fb08bdf09c78 0.4 0.4 0 0 False
+		SandbagVisualization (2) (UnityEngine.GameObject)
+			transform -775.9843 -7.873973 -0.1007015 0 0 14.46579 1 1 1
+			sprite 179db3ad-131a-4857-8338-fb08bdf09c78 0.4 0.4 0 0 False

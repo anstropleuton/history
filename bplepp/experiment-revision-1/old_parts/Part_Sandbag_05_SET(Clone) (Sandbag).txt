@@ -1,0 +1,3 @@
+Part_Sandbag_05_SET(Clone) (UnityEngine.GameObject)
+	transform -778.1663 -3.736973 -0.10076 0 0 0 1 1 1
+	sprite a7e54b9d-4215-4c8e-9215-fcec8a886256 0.4 0.4 0 -16 False

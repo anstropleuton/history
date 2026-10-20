@@ -1,0 +1,11 @@
+Part_Rotor_02_SET(Clone) (UnityEngine.GameObject)
+	transform -810.1663 -9.736973 -0.10032 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0.3 0 2.55 0.2 1
+	material 0 0.7 0.5 Average Average
+	FanVisualization (UnityEngine.GameObject)
+		transform -810.1663 -9.686973 -0.20032 0 0 0 1 1 1
+		sprite c4e66b62-8d3d-45e2-8d43-556f5b4b3467 0.4 0.4 0 0 False
+	RotorCollider (UnityEngine.GameObject)
+		transform -810.1663 -9.736973 -0.10032 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.6 0.88 1
+		material 0 0.7 0.5 Average Average

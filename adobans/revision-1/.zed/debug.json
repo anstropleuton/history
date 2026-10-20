@@ -1,0 +1,11 @@
+[
+  {
+    "label": "Build & Debug Adobans",
+    "build": {
+      "command": "cmake --build build"
+    },
+    "program": "${ZED_WORKTREE_ROOT}/build/adobans",
+    "request": "launch",
+    "adapter": "CodeLLDB"
+  }
+]

@@ -1,0 +1,7 @@
+Part_Spring_01_SET(Clone) (UnityEngine.GameObject)
+	transform -790.1663 -11.73697 -0.10048 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0.4 0 0.7 0.2 1
+	material 0 0.7 0.5 Average Average
+	SpringVisualization (UnityEngine.GameObject)
+		transform -790.1663 -11.73697 -0.10048 0 0 0 1 1 1
+		sprite 58525a66-6f11-47b1-adfa-60a323aeaadd 0.4 0.4 0 0 False

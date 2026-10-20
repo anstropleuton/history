@@ -1,0 +1,18 @@
+Part_StickyWheel_01_SET(Clone) (UnityEngine.GameObject)
+	transform -762.1663 -11.73697 -0.10076 0 0 0 1 1 1
+	sphereCollider False Contraption_WheelFriction_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.075 0 0.45
+	material 0 0.025 0 Multiply Multiply
+	sprite 17d953e4-eef4-42d7-9c35-b246712e1726 0.4 0.4 0 0 False
+	WheelPivot (UnityEngine.GameObject)
+		transform -762.1663 -11.81197 -0.10076 0 0 0 1 1 1
+		SpokeSprite (UnityEngine.GameObject)
+			transform -762.1624 -11.80647 0.09924001 0 0 0 1 1 1
+			sprite 9081ee47-6c8b-47a3-9356-a9ba6527092b 0.4 0.4 0 0 False
+	SupportCollider (UnityEngine.GameObject)
+		transform -762.123 -11.80243 -0.10076 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) -0.05 0.4 0 0.6 0.2 1
+		material 0 0.7 0.5 Average Average
+	FakeWheelPivot (UnityEngine.GameObject)
+		transform -762.1663 -11.81197 -0.10076 0 0 0 1 1 1
+		WheelSprite (UnityEngine.GameObject)
+			transform -762.1663 -11.73697 -0.0007599965 0 0 0 1 1 1

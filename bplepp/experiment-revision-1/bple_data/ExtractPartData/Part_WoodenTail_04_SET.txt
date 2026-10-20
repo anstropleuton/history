@@ -1,0 +1,69 @@
+name: "Part_WoodenTail_04_SET" (prefab to string: "Part_WoodenTail_04_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Tail" (name: "Part_WoodenTail_04_SET");
+
+  transform: {
+    position: V3 (6.0f, -24.0f, 0.0f)
+    local position: V3 (6.0f, -24.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_WoodenTail_04_SET"): {
+    center: V3 (0.06f, 0.03f, 0.0f);
+    size: V3 (0.85f, 0.75f, 1.0f);
+  };
+
+  sprite (name: "Part_WoodenTail_04_SET"): {
+    id: "25fba564-cee6-4def-b239-ea1d78944943";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (5.0f, 0.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.25f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: Tailplane (15);
+    auto align type: FlipVertically (2);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Normal (1);
+    joint connction type: Target (2);
+    joint connction direction: Right (1);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+

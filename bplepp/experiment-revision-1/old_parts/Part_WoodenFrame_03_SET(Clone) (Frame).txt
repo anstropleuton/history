@@ -1,0 +1,5 @@
+Part_WoodenFrame_03_SET(Clone) (UnityEngine.GameObject)
+	transform -828.1663 -7.736973 -0.10018 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	sprite ae916bb7-bc46-49a3-9040-f80d1cd60b92 0.4 0.4 0 0 False

@@ -1,0 +1,22 @@
+Part_Rotor_09_SET(Clone) (UnityEngine.GameObject)
+	transform -810.1663 4.263027 -0.1006 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0.3 0 2.55 0.2 1
+	material 0 0.7 0.5 Average Average
+	FanVisualization (UnityEngine.GameObject)
+		transform -810.1663 4.263027 -0.2006 0 0 0 1 1 1
+		sprite 34cc7ac2-bb1b-4a79-a39b-b04d4bc240ff 0.4 0.4 0 0 False
+	RotorCollider (UnityEngine.GameObject)
+		transform -810.1663 4.263027 -0.1006 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.6 0.88 1
+		material 0 0.7 0.5 Average Average
+	ZaplineVisualization (UnityEngine.GameObject)
+		transform -810.1663 4.263027 -0.1506 0 0 0 1 1 1
+		sprite 34cc7ac2-bb1b-4a79-a39b-b04d4bc240ff 0.4 0.4 0 0 False
+		ZaplineVisualization (1) (UnityEngine.GameObject)
+			transform -809.5263 4.563026 -0.1506 0 0 0 -1 1 1
+			sprite cd343dc1-4b26-4ebf-b74e-9fd36ef0ea1d 0.4 0.4 0 0 False
+		ZaplineVisualization (2) (UnityEngine.GameObject)
+			transform -810.8063 4.563026 -0.1506 0 0 0 1 1 1
+			sprite cd343dc1-4b26-4ebf-b74e-9fd36ef0ea1d 0.4 0.4 0 0 False
+	Particles_AlienPart(Clone) (UnityEngine.GameObject)
+		transform -810.1663 4.263027 -0.2006 0 0 0 1 1 1

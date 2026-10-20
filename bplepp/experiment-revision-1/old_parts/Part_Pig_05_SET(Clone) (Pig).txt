@@ -1,0 +1,38 @@
+Part_Pig_05_SET(Clone) (UnityEngine.GameObject)
+	transform -836.1663 -3.736973 -0.09018 0 0 0 1 1 1
+	sphereCollider False Pig_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.04 0 0.42
+	material 0.5 0.3 0.1 Average Maximum
+	FixedRotationParticleSystems (UnityEngine.GameObject)
+		transform -836.1663 -3.736973 -0.09018 0 0 0 1.50015 1.50015 1.50015
+		Particle System (UnityEngine.GameObject)
+			transform -836.1663 -2.686868 -0.09018 270 0 0 1 1 1
+		Particle System (UnityEngine.GameObject)
+			transform -836.3214 -3.277922 -0.09018 270 0 0 1 1 1
+	PigVisualization (UnityEngine.GameObject)
+		transform -836.1663 -3.736973 -0.09018 0 0 0 1 1 1
+		Body (UnityEngine.GameObject)
+			transform -836.1663 -3.736973 -0.09018 0 0 0 1 1 1
+			sprite 8ad54a5f-b34d-49f1-bb71-258e4f2726ea 0.4 0.4 0 0 True
+		Face (UnityEngine.GameObject)
+			transform -836.1663 -3.736973 -0.09018 0 0 0 1 1 1
+			Ears (UnityEngine.GameObject)
+				transform -836.1663 -3.459635 -0.19118 0 0 0 0.9999937 0.9999812 1
+				sprite c9bfb902-d92a-4430-a4f2-f93cf6a4d0d8 0.4 0.4 0 0 True
+			Face (UnityEngine.GameObject)
+				transform -836.1689 -3.836119 -0.19118 0 0 0 0.9999148 0.9999648 1
+				sprite e03b5ff3-481a-4b85-b28f-0e8a9220e097 0.4 0.4 0 0 True
+			MaskHolder (UnityEngine.GameObject)
+				transform -836.1694 -3.735952 -0.29018 0 0 0 0.9998845 0.999987 1
+				Mask (UnityEngine.GameObject)
+					transform -836.1694 -3.735952 -0.29018 0 0 0 1 1 1
+			PupilMover (UnityEngine.GameObject)
+				transform -836.1663 -3.736973 -0.09018 0 0 0 1 1 1
+				Eyes (UnityEngine.GameObject)
+					transform -836.2189 -3.786107 -0.19218 0 0 0 0.9998931 0.9999807 1
+					sprite a6b5ff28-5822-4141-9c38-1e317305e47a 0.4 0.4 0 0 True
+			HatHolder (UnityEngine.GameObject)
+				transform -836.3073 -3.356642 -0.29018 0 0 0 0.9999909 0.9999546 1
+	PigParticleSystems (UnityEngine.GameObject)
+		transform -836.1663 -3.736973 -0.09018 0 0 0 1.50015 1.50015 1.50015
+		Particle System (UnityEngine.GameObject)
+			transform -836.1663 -3.717952 1.40997 270 0 0 1 1 1

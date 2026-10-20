@@ -1,0 +1,13 @@
+Part_JetEngine_05_SET(Clone) (UnityEngine.GameObject)
+	transform -746.1663 -3.736973 -0.11108 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.9 0.9 1
+	material 0 0.7 0.5 Average Average
+	Visualization (UnityEngine.GameObject)
+		transform -746.1663 -3.736973 -0.11108 0 0 0 1 1 1
+		serializedSprite FuelBox_Sprite
+	Fuel (UnityEngine.GameObject)
+		transform -746.1663 -3.736973 -0.01108 0 0 0 1 1 1
+		serializedSprite FuelBox_FuelSprite
+	Background (UnityEngine.GameObject)
+		transform -746.1663 -3.736973 0.08892 0 0 0 1 1 1
+		serializedSprite FuelBox_BackgroundSprite

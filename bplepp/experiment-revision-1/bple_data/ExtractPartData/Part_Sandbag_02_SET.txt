@@ -1,0 +1,64 @@
+name: "Part_Sandbag_02_SET" (prefab to string: "Part_Sandbag_02_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Sandbag" (name: "Part_Sandbag_02_SET");
+
+  transform: {
+    position: V3 (-7.0f, 0.954f, 0.0f)
+    local position: V3 (-7.0f, 0.954f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  sprite (name: "Part_Sandbag_02_SET"): {
+    id: "0bfeceab-7277-49d7-bdbf-db9eac6af5e6";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (0.0f, -16.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.1f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Common (1);
+    part type: Sandbag (9);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Weak (0);
+    joint connction type: None (0);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+

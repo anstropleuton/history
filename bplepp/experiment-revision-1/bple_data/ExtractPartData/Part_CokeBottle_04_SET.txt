@@ -1,0 +1,299 @@
+name: "Part_CokeBottle_04_SET" (prefab to string: "Part_CokeBottle_04_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Rocket" (name: "Part_CokeBottle_04_SET");
+
+  transform: {
+    position: V3 (6.0f, -56.0f, 0.0f)
+    local position: V3 (6.0f, -56.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_CokeBottle_04_SET"): {
+    center: V3 (0.03f, -0.015f, 0.0f);
+    size: V3 (0.75f, 0.4f, 1.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.5f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Gold;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: CokeBottle (31);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Normal (1);
+    joint connction type: Target (2);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "BottomAttachment" (prefab to string: "BottomAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottomAttachment");
+
+        transform: {
+          position: V3 (6.0f, -56.0f, -0.05f)
+          local position: V3 (0.0f, 0.0f, -0.05f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "BottomAttachment"): {
+          center: V3 (0.0f, -0.37f, 0.05f);
+          size: V3 (0.5f, 0.28f, 1.0f);
+        };
+
+        sprite (name: "BottomAttachment"): {
+          id: "4308c495-6b8a-4600-b611-96b867e95fd0";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 20.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Particles_SodaBurst_01_SET" (prefab to string: "Particles_SodaBurst_01_SET (UnityEngine.GameObject)"):
+        tag: "ParticleEmitter";
+
+        transform: {
+          position: V3 (5.5f, -56.0f, 0.0f)
+          local position: V3 (-0.5f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+
+      name: "Particles_SodaLeak_01_SET" (prefab to string: "Particles_SodaLeak_01_SET (UnityEngine.GameObject)"):
+        tag: "ParticleEmitter";
+
+        transform: {
+          position: V3 (5.5f, -56.0f, 0.0f)
+          local position: V3 (-0.5f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.7071068f, 0.0f, -0.7071068f)
+          local rotation: Q (0.0f, 0.7071068f, 0.0f, -0.7071068f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+
+      name: "TopAttachment" (prefab to string: "TopAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "TopAttachment");
+
+        transform: {
+          position: V3 (6.0f, -56.0f, -0.05f)
+          local position: V3 (0.0f, 0.0f, -0.05f)
+          rotation: Q (0.0f, 0.0f, 1.0f, -0.00000004371139f)
+          local rotation: Q (0.0f, 0.0f, 1.0f, -0.00000004371139f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "TopAttachment"): {
+          center: V3 (0.0f, -0.37f, 0.05f);
+          size: V3 (0.5f, 0.28f, 1.0f);
+        };
+
+        sprite (name: "TopAttachment"): {
+          id: "4308c495-6b8a-4600-b611-96b867e95fd0";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 20.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "RightAttachment" (prefab to string: "RightAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "RightAttachment");
+
+        transform: {
+          position: V3 (6.0f, -56.0f, -0.05f)
+          local position: V3 (0.0f, 0.0f, -0.05f)
+          rotation: Q (0.0f, 0.0f, 0.7071068f, 0.7071068f)
+          local rotation: Q (0.0f, 0.0f, 0.7071068f, 0.7071068f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "RightAttachment"): {
+          center: V3 (0.0f, -0.37f, 0.05f);
+          size: V3 (0.5f, 0.28f, 1.0f);
+        };
+
+        sprite (name: "RightAttachment"): {
+          id: "4308c495-6b8a-4600-b611-96b867e95fd0";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 20.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "LeftAttachment" (prefab to string: "LeftAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "LeftAttachment");
+
+        transform: {
+          position: V3 (6.0f, -56.0f, -0.05f)
+          local position: V3 (0.0f, 0.0f, -0.05f)
+          rotation: Q (0.0f, 0.0f, 0.7071068f, -0.7071068f)
+          local rotation: Q (0.0f, 0.0f, 0.7071068f, -0.7071068f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "LeftAttachment"): {
+          center: V3 (0.0f, -0.37f, 0.05f);
+          size: V3 (0.5f, 0.28f, 1.0f);
+        };
+
+        sprite (name: "LeftAttachment"): {
+          id: "4308c495-6b8a-4600-b611-96b867e95fd0";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 20.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "BottleVisualization" (prefab to string: "BottleVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottleVisualization");
+
+        transform: {
+          position: V3 (5.949f, -55.968f, 0.0f)
+          local position: V3 (-0.051f, 0.032f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "BottleVisualization"): {
+          id: "c308a8b1-a2a7-4b07-a746-66e484fb3972";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+        children:
+            name: "BottleContent" (prefab to string: "BottleContent (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "BottleContent");
+
+              transform: {
+                position: V3 (5.949f, -55.968f, 0.1000004f)
+                local position: V3 (0.0f, 0.0f, 0.1000004f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "BottleContent"): {
+                id: "954e2551-5cf8-48d2-b6e8-dbe7962e96fe";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+            name: "Cork" (prefab to string: "Cork (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Cork" (name: "Cork");
+
+              transform: {
+                position: V3 (5.522f, -55.99f, -0.05f)
+                local position: V3 (-0.427f, -0.022f, -0.05f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "Cork"): {
+                id: "4ebd72ec-0bd4-432b-b5b0-373b582e2ce3";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+            name: "BottleContent" (prefab to string: "BottleContent (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "BottleContent");
+
+              transform: {
+                position: V3 (5.949f, -55.968f, 0.22f)
+                local position: V3 (0.0f, 0.0f, 0.22f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "BottleContent"): {
+                id: "96bea685-d0f8-4ef8-a502-8a8369987f5f";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+

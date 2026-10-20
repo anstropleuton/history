@@ -1,0 +1,19 @@
+Part_MotorWheel_01_SET(Clone) (UnityEngine.GameObject)
+	transform -852.1663 -15.73697 -0.09978 0 0 0 1 1 1
+	sphereCollider False Contraption_WheelFriction_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.075 0 0.45
+	material 0 0.025 0 Multiply Multiply
+	sprite 17d953e4-eef4-42d7-9c35-b246712e1726 0.4 0.4 0 0 False
+	WheelPivot (UnityEngine.GameObject)
+		transform -852.1663 -15.81197 -0.09978 0 0 0 1 1 1
+		SpokeSprite (UnityEngine.GameObject)
+			transform -852.1663 -15.73697 0.10022 0 0 0 1 1 1
+			sprite 636e76e4-a3f3-4e5d-b82a-86e436214a6e 0.4 0.4 0 0 False
+	SupportCollider (UnityEngine.GameObject)
+		transform -852.123 -15.80243 -0.09978 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) -0.05 0.4 0 0.6 0.2 1
+		material 0 0.7 0.5 Average Average
+	FakeWheelPivot (UnityEngine.GameObject)
+		transform -852.1663 -15.81197 -0.09978 0 0 0 1 1 1
+		WheelSprite (UnityEngine.GameObject)
+			transform -852.1663 -15.73697 0.0002200007 0 0 0 1 1 1
+			sprite 6ce9356a-1be7-4de7-9d52-cce5e190d741 0.4 0.4 0 0 False

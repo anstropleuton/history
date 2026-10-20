@@ -1,0 +1,10 @@
+Part_Gearbox_01_SET(Clone) (UnityEngine.GameObject)
+	transform -754.1663 -11.73697 -0.60084 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.9 0.9 1
+	material 0 0.7 0.5 Average Average
+	InactiveGearboxSprite (UnityEngine.GameObject)
+		transform -754.1663 -11.73697 -0.60084 0 0 0 1 1 1
+		sprite 2c307d7f-9315-4a75-bfe0-2d680b6c1cc5 0.4 0.4 0 0 True
+	ActiveGearboxSprite (UnityEngine.GameObject)
+		transform -754.1663 -11.73697 -0.60084 0 0 0 1 1 1
+		sprite bf20f8f0-0f31-4120-82ab-1360ba496958 0.4 0.4 0 0 True

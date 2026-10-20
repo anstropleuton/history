@@ -1,0 +1,12 @@
+Part_Rope_08_SET(Clone) (UnityEngine.GameObject)
+	transform -786.1663 2.263027 -0.1008 0 0 0 1 1 1
+	Plate1 (UnityEngine.GameObject)
+		transform -786.4163 2.263027 -0.2008 0 0 0 1 1 1
+		boxCollider False DynamicMaterial (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.6 0.6 1
+		material 0 0.7 0.7 Average Average
+		serializedSprite TrackPlateSilver_IconSprite
+	Plate2 (UnityEngine.GameObject)
+		transform -785.9163 2.263027 -0.2008 0 0 0 1 1 1
+		boxCollider False DynamicMaterial (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.6 0.6 1
+		material 0 0.7 0.7 Average Average
+		serializedSprite TrackPlateSilver_IconSprite

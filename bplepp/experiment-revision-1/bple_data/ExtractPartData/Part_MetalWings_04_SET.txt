@@ -1,0 +1,132 @@
+name: "Part_MetalWings_04_SET" (prefab to string: "Part_MetalWings_04_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Wings" (name: "Part_MetalWings_04_SET");
+
+  transform: {
+    position: V3 (9.0f, -34.0f, 0.0f)
+    local position: V3 (9.0f, -34.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_MetalWings_04_SET"): {
+    center: V3 (-0.26f, -0.15f, 0.0f);
+    size: V3 (1.8f, 0.6122213f, 1.5f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.75f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Gold;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: MetalWing (20);
+    auto align type: FlipVertically (2);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: Target (2);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "BottomFrameSprite" (prefab to string: "BottomFrameSprite (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottomFrameSprite");
+
+        transform: {
+          position: V3 (8.943f, -34.176f, 0.0f)
+          local position: V3 (-0.057f, -0.176f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "BottomFrameSprite"): {
+          id: "eaf624e9-1734-407d-90ae-65a47e33af6f";
+          scale: VI2 (0.3984375f, 0.390625f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "TopFrameSprite" (prefab to string: "TopFrameSprite (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "TopFrameSprite");
+
+        transform: {
+          position: V3 (8.948f, -33.739f, 0.0f)
+          local position: V3 (-0.052f, 0.261f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, -1.0f, 1.0f)
+          lossy scale: V3 (1.0f, -1.0f, 1.0f)
+        };
+
+        sprite (name: "TopFrameSprite"): {
+          id: "eaf624e9-1734-407d-90ae-65a47e33af6f";
+          scale: VI2 (0.3984375f, 0.390625f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "WingSprite" (prefab to string: "WingSprite (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "WingSprite");
+
+        transform: {
+          position: V3 (8.688f, -33.98328f, -0.1f)
+          local position: V3 (-0.312f, 0.01672125f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "WingSprite"): {
+          id: "2c9b11e1-7cbd-457e-9b3b-5cee294bce4d";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

@@ -1,0 +1,84 @@
+name: "Part_GoldenPig_03_SET" (prefab to string: "Part_GoldenPig_03_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "GoldenPig" (name: "Part_GoldenPig_03_SET");
+
+  transform: {
+    position: V3 (6.0f, -80.0f, 0.0f)
+    local position: V3 (6.0f, -80.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  sphere collider (name: "Part_GoldenPig_03_SET"): {
+    center: V3 (0.0f, 0.4f, 0.0f);
+    radius: 1.0f;
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 10.0f;
+    interactive radius: 1.0f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.01f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Rare (2);
+    part type: GoldenPig (45);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (-1, 0);
+    grid max: (1, 1);
+    static: false;
+    joint connction strength: Weak (0);
+    joint connction type: None (0);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: None (0);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "Graphics" (prefab to string: "Graphics (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Graphics");
+
+        transform: {
+          position: V3 (6.0f, -79.402f, 0.0f)
+          local position: V3 (0.0f, 0.598f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Graphics"): {
+          id: "d08a43b4-7648-4665-bc43-8baa02290516";
+          scale: VI2 (0.3984375f, 0.3958333f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

@@ -1,0 +1,97 @@
+name: "Part_Rope_05_SET" (prefab to string: "Part_Rope_05_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "HingePlate" (name: "Part_Rope_05_SET");
+
+  transform: {
+    position: V3 (0.0f, 0.0f, 0.0f)
+    local position: V3 (0.0f, 0.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.0f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: HingeJoint (1);
+    part tier: Regular (0);
+    part type: Rope (30);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: HighlyExtreme (4);
+    joint connction type: Target (2);
+    joint connction direction: None (7);
+    custom joint connction direction: LeftAndRight (5);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "Plate1" (prefab to string: "Plate1 (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "INSerializedSprite" (name: "Plate1");
+
+        transform: {
+          position: V3 (-0.25f, 0.0f, -0.1f)
+          local position: V3 (-0.25f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "Plate1"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          size: V3 (0.6f, 0.35f, 1.0f);
+        };
+
+        serialized sprite (name: "Plate1"): sprite name: "HingePlate_Sprite";
+
+
+      name: "Plate2" (prefab to string: "Plate2 (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "INSerializedSprite" (name: "Plate2");
+
+        transform: {
+          position: V3 (0.25f, 0.0f, -0.1f)
+          local position: V3 (0.25f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "Plate2"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          size: V3 (0.6f, 0.35f, 1.0f);
+        };
+
+        serialized sprite (name: "Plate2"): sprite name: "HingePlate_Sprite";
+
+
+

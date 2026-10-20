@@ -1,0 +1,14 @@
+Part_SmallWheel_06_SET(Clone) (UnityEngine.GameObject)
+	transform -820.1663 -1.736973 -0.10038 0 0 0 1 1 1
+	sprite 69db3f44-8a5f-4e7b-bbae-95eafa5c8617 0.4 0.4 0 -30 False
+	SupportCollider (UnityEngine.GameObject)
+		transform -820.1663 -1.736973 -0.10038 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0.31 0 0.2 0.36 1
+		material 0 0.7 0.5 Average Average
+	FakeWheelPivot (UnityEngine.GameObject)
+		transform -820.1612 -1.594602 -0.10038 0 0 0 1 1 1
+		sphereCollider False Contraption_WheelFriction_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.18
+		material 0 0.025 0 Multiply Multiply
+		WheelSprite (UnityEngine.GameObject)
+			transform -820.1657 -1.602602 -0.000380002 0 0 0 1 1 1
+			sprite 158bd5ed-cf37-4ff3-8be4-b017838abe0b 0.4 0.4 0 0 False

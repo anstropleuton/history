@@ -1,0 +1,13 @@
+Part_Balloons2_01_SET(Clone) (UnityEngine.GameObject)
+	transform -782.1663 -11.73697 -0.10056 0 0 0 1 1 1
+	BalloonVisualization (UnityEngine.GameObject)
+		transform -782.1663 -11.73697 -0.10056 0 0 0 1 1 1
+		sprite cf97eb0f-0de7-46fe-ac2c-5bb436581d51 0.4 0.4 0 0 False
+	Balloon2Visualization (UnityEngine.GameObject)
+		transform -782.1663 -11.73697 -0.10056 0 0 0 1 1 1
+		BalloonVisualization (UnityEngine.GameObject)
+			transform -782.3713 -11.65397 -0.10056 0 0 7.241412 1 1 1
+			sprite cf97eb0f-0de7-46fe-ac2c-5bb436581d51 0.4 0.4 0 0 False
+		BalloonVisualization (UnityEngine.GameObject)
+			transform -782.0063 -11.80897 -0.20056 0 0 350.1929 1 1 1
+			sprite cf97eb0f-0de7-46fe-ac2c-5bb436581d51 0.4 0.4 0 0 False

@@ -1,0 +1,121 @@
+name: "Part_Fan_06_SET" (prefab to string: "Part_Fan_06_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "FanPropeller" (name: "Part_Fan_06_SET");
+
+  transform: {
+    position: V3 (10.0f, -6.0f, 0.0f)
+    local position: V3 (10.0f, -6.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_Fan_06_SET"): {
+    center: V3 (-0.16f, 0.0f, 0.0f);
+    size: V3 (0.45f, 1.0f, 1.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.5f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 10.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Alien_part;
+    joint type: FixedJoint (0);
+    part tier: Legendary (4);
+    part type: Fan (4);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Normal (1);
+    joint connction type: Target (2);
+    joint connction direction: Left (3);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "FanVisualization" (prefab to string: "FanVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "FanVisualization");
+
+        transform: {
+          position: V3 (9.746f, -6.0f, 0.0f)
+          local position: V3 (-0.254f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "FanVisualization"): {
+          id: "e329a559-3b57-476b-864d-cfc6753673ac";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "FanMesh" (prefab to string: "FanMesh (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "FanMesh");
+
+        transform: {
+          position: V3 (9.876f, -5.991f, -0.2f)
+          local position: V3 (-0.124f, 0.009f, -0.2f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "FanMesh"): {
+          id: "d0e2e49d-03f1-4b53-9d63-5f4a507c4982";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (10.01752f, -6.0f, 0.0f)
+          local position: V3 (0.01752472f, 0.0f, 0.0f)
+          rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+          local rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+
+

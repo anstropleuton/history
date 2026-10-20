@@ -1,0 +1,10 @@
+Part_MetalFrame_12_SET(Clone) (UnityEngine.GameObject)
+	transform -826.1663 10.26303 -0.55056 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat_Alien (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0 0 Minimum Average
+	sprite 40cb4a71-a1a8-4dd4-898e-00c88e86f680 0.4 0.4 0 0 False
+	Background (UnityEngine.GameObject)
+		transform -826.1663 10.26303 0.04944003 0 0 0 1 1 1
+		sprite b749895b-0bd5-4619-8bca-edce452c4b93 0.4 0.4 0 0 False
+	Particles_AlienPart(Clone) (UnityEngine.GameObject)
+		transform -826.1663 10.26303 -0.65056 0 0 0 1 1 1

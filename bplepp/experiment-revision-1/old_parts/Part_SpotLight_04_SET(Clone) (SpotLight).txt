@@ -1,0 +1,68 @@
+Part_SpotLight_04_SET(Clone) (UnityEngine.GameObject)
+	transform -748.1663 -5.736973 -0.11102 0 0 0 1 1 1
+	LightSprite (UnityEngine.GameObject)
+		transform -748.2103 -5.736973 -0.11102 0 0 89.99987 1 1 1
+		sprite 0f5a6417-0a2b-43c0-ac1b-14b4192ccd9b 0.4 0.4 -5 0 True
+		Container (UnityEngine.GameObject)
+			transform -748.1443 -5.341973 -0.11102 0 0 89.99987 0 0 0
+			LightCone (UnityEngine.GameObject)
+				transform -748.1443 -5.341973 -0.11102 0 0 -0.0001946604 0.675 0.9609355 1
+				sprite a74c85bc-a717-452c-b3f5-16f7ceb47fe7 0.6 0.6 0 0 True
+	BottomLeftAttachment (UnityEngine.GameObject)
+		transform -748.1663 -5.736973 -0.21102 0 0 224.9999 1 0.9 1
+		sphereCollider False  (UnityEngine.PhysicMaterial) 0 0 0 0.25
+		material 0 0.6 0.6 Average Average
+		boxCollider False  (UnityEngine.PhysicMaterial) 0 -0.15625 0 0.5729167 0.6770833 0
+		material 0 0.6 0.6 Average Average
+		sprite b237d7ac-1bd4-4703-bcb3-f2889cb11dab 0.4 0.4 0 18 True
+	RightAttachment (UnityEngine.GameObject)
+		transform -748.1663 -5.736973 -0.21102 0 0 90 1 0.9 1
+		sphereCollider False  (UnityEngine.PhysicMaterial) 0 0 0 0.25
+		material 0 0.6 0.6 Average Average
+		boxCollider False  (UnityEngine.PhysicMaterial) 0 -0.15625 0 0.5729167 0.6770833 0
+		material 0 0.6 0.6 Average Average
+		sprite b237d7ac-1bd4-4703-bcb3-f2889cb11dab 0.4 0.4 0 18 True
+	LeftAttachment (UnityEngine.GameObject)
+		transform -748.1663 -5.736973 -0.21102 0 0 270 1 0.9 1
+		sphereCollider False  (UnityEngine.PhysicMaterial) 0 0 0 0.25
+		material 0 0.6 0.6 Average Average
+		boxCollider False  (UnityEngine.PhysicMaterial) 0 -0.15625 0 0.5729167 0.6770833 0
+		material 0 0.6 0.6 Average Average
+		sprite b237d7ac-1bd4-4703-bcb3-f2889cb11dab 0.4 0.4 0 18 True
+	TopAttachment (UnityEngine.GameObject)
+		transform -748.1663 -5.736973 -0.21102 0 0 180 1 0.9 1
+		sphereCollider False  (UnityEngine.PhysicMaterial) 0 0 0 0.25
+		material 0 0.6 0.6 Average Average
+		boxCollider False  (UnityEngine.PhysicMaterial) 0 -0.15625 0 0.5729167 0.6770833 0
+		material 0 0.6 0.6 Average Average
+		sprite b237d7ac-1bd4-4703-bcb3-f2889cb11dab 0.4 0.4 0 18 True
+	TopLeftAttachment (UnityEngine.GameObject)
+		transform -748.1663 -5.736973 -0.21102 0 0 135.0001 1 0.9 1
+		sphereCollider False  (UnityEngine.PhysicMaterial) 0 0 0 0.25
+		material 0 0.6 0.6 Average Average
+		boxCollider False  (UnityEngine.PhysicMaterial) 0 -0.15625 0 0.5729167 0.6770833 0
+		material 0 0.6 0.6 Average Average
+		sprite b237d7ac-1bd4-4703-bcb3-f2889cb11dab 0.4 0.4 0 18 True
+	BottomRightAttachment (UnityEngine.GameObject)
+		transform -748.1663 -5.736973 -0.21102 0 0 315.0001 1 0.9 1
+		sphereCollider False  (UnityEngine.PhysicMaterial) 0 0 0 0.25
+		material 0 0.6 0.6 Average Average
+		boxCollider False  (UnityEngine.PhysicMaterial) 0 -0.15625 0 0.5729167 0.6770833 0
+		material 0 0.6 0.6 Average Average
+		sprite b237d7ac-1bd4-4703-bcb3-f2889cb11dab 0.4 0.4 0 18 True
+	TopRightAttachment (UnityEngine.GameObject)
+		transform -748.1663 -5.736973 -0.21102 0 0 44.99994 1 0.9 1
+		sphereCollider False  (UnityEngine.PhysicMaterial) 0 0 0 0.25
+		material 0 0.6 0.6 Average Average
+		boxCollider False  (UnityEngine.PhysicMaterial) 0 -0.15625 0 0.5729167 0.6770833 0
+		material 0 0.6 0.6 Average Average
+		sprite b237d7ac-1bd4-4703-bcb3-f2889cb11dab 0.4 0.4 0 18 True
+	BottomAttachment (UnityEngine.GameObject)
+		transform -748.1663 -5.736973 -0.21102 0 0 0 1 0.9 1
+		sphereCollider False  (UnityEngine.PhysicMaterial) 0 0 0 0.25
+		material 0 0.6 0.6 Average Average
+		boxCollider False  (UnityEngine.PhysicMaterial) 0 -0.15625 0 0.5729167 0.6770833 0
+		material 0 0.6 0.6 Average Average
+		sprite b237d7ac-1bd4-4703-bcb3-f2889cb11dab 0.4 0.4 0 18 True
+	INLight (UnityEngine.GameObject)
+		transform -748.1663 -5.236973 -0.61102 0 0 90 1 1 1

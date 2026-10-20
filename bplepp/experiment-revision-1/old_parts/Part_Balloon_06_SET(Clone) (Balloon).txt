@@ -1,0 +1,5 @@
+Part_Balloon_06_SET(Clone) (UnityEngine.GameObject)
+	transform -784.1663 -1.736973 -0.10074 0 0 0 1 1 1
+	BalloonVisualization (UnityEngine.GameObject)
+		transform -784.1663 -1.736973 -0.10074 0 0 0 1 1 1
+		sprite 03d423f4-0353-4a92-a2c1-030812b70d3e 0.4 0.4 10 0 False

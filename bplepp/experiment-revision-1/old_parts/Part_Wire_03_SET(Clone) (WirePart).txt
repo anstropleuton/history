@@ -1,0 +1,7 @@
+Part_Wire_03_SET(Clone) (UnityEngine.GameObject)
+	transform -744.1663 -7.736973 -0.09102 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	WireSprite (UnityEngine.GameObject)
+		transform -744.1663 -7.736973 -0.09102 0 0 0 1 1 1
+		serializedSprite Wire3_Sprite_4

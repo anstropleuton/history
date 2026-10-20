@@ -1,0 +1,7 @@
+Part_PlanePropeller_06_SET(Clone) (UnityEngine.GameObject)
+	transform -812.1663 -1.736973 -0.10046 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) -0.3124264 0 0 0.2800004 1 1
+	material 0 0.7 0.5 Average Average
+	FanVisualization (UnityEngine.GameObject)
+		transform -812.4863 -1.703973 -0.10046 0 0 0 1 1 1
+		sprite 3d1349ec-4462-4a9e-b343-9ca26dd41aa4 0.5 0.5 0 0 False

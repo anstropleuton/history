@@ -1,0 +1,310 @@
+name: "Part_MetalFrame_11_SET" (prefab to string: "Part_MetalFrame_11_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Frame" (name: "Part_MetalFrame_11_SET");
+
+  transform: {
+    position: V3 (14.0f, -30.0f, 0.0f)
+    local position: V3 (14.0f, -30.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_MetalFrame_11_SET"): {
+    center: V3 (0.0f, 0.0f, 0.0f);
+    size: V3 (1.0f, 1.0f, 1.0f);
+  };
+
+  sprite (name: "Part_MetalFrame_11_SET"): {
+    id: "b9506cf9-fbbd-4f3e-b638-922da6c7ebdf";
+    scale: VI2 (0.42f, 0.42f);
+    pivot: VI2 (0.0f, -5.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Bone;
+    joint type: FixedJoint (0);
+    part tier: Rare (2);
+    part type: MetalFrame (18);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: Source (1);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: true;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "Light" (prefab to string: "Light (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light");
+
+        transform: {
+          position: V3 (13.782f, -29.442f, 0.0f)
+          local position: V3 (-0.218f, 0.558f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Light (1)" (prefab to string: "Light (1) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light (1)");
+
+        transform: {
+          position: V3 (13.693f, -29.666f, 0.0f)
+          local position: V3 (-0.307f, 0.334f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light (1)"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Light (2)" (prefab to string: "Light (2) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light (2)");
+
+        transform: {
+          position: V3 (13.435f, -29.874f, 0.0f)
+          local position: V3 (-0.565f, 0.126f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light (2)"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Light (3)" (prefab to string: "Light (3) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light (3)");
+
+        transform: {
+          position: V3 (13.44f, -30.46f, 0.0f)
+          local position: V3 (-0.56f, -0.46f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light (3)"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Light (4)" (prefab to string: "Light (4) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light (4)");
+
+        transform: {
+          position: V3 (13.756f, -30.405f, 0.0f)
+          local position: V3 (-0.244f, -0.405f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light (4)"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Light (5)" (prefab to string: "Light (5) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light (5)");
+
+        transform: {
+          position: V3 (14.34f, -30.458f, 0.0f)
+          local position: V3 (0.34f, -0.458f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light (5)"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Light (6)" (prefab to string: "Light (6) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light (6)");
+
+        transform: {
+          position: V3 (14.524f, -30.248f, 0.0f)
+          local position: V3 (0.524f, -0.248f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light (6)"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Light (7)" (prefab to string: "Light (7) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light (7)");
+
+        transform: {
+          position: V3 (14.569f, -29.943f, 0.0f)
+          local position: V3 (0.569f, 0.057f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light (7)"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Light (8)" (prefab to string: "Light (8) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light (8)");
+
+        transform: {
+          position: V3 (14.345f, -29.738f, 0.0f)
+          local position: V3 (0.345f, 0.262f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light (8)"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Light (9)" (prefab to string: "Light (9) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Light (9)");
+
+        transform: {
+          position: V3 (14.387f, -29.412f, 0.0f)
+          local position: V3 (0.387f, 0.588f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Light (9)"): {
+          id: "03eb7565-7b54-44f1-8334-30218b9034d8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

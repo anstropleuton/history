@@ -1,0 +1,166 @@
+name: "Part_MetalFrame_09_SET" (prefab to string: "Part_MetalFrame_09_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Frame" (name: "Part_MetalFrame_09_SET");
+
+  transform: {
+    position: V3 (12.0f, -30.0f, 0.0f)
+    local position: V3 (12.0f, -30.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_MetalFrame_09_SET"): {
+    center: V3 (0.0f, 0.0f, 0.0f);
+    size: V3 (1.0f, 1.0f, 1.0f);
+  };
+
+  sprite (name: "Part_MetalFrame_09_SET"): {
+    id: "153e1944-158e-44fd-a2d6-f6845c9fdb8f";
+    scale: VI2 (0.42f, 0.42f);
+    pivot: VI2 (0.0f, 0.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: -0.45f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Bone;
+    joint type: FixedJoint (0);
+    part tier: Rare (2);
+    part type: MetalFrame (18);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: Source (1);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: true;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "web" (prefab to string: "web (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "web");
+
+        transform: {
+          position: V3 (11.98f, -29.94f, 0.01f)
+          local position: V3 (-0.02f, 0.06f, 0.01f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "web"): {
+          id: "9ee9d694-8681-41ed-8c49-17f8315f093e";
+          scale: VI2 (0.42f, 0.42f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "web (1)" (prefab to string: "web (1) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "web (1)");
+
+        transform: {
+          position: V3 (12.0f, -30.0f, 0.01f)
+          local position: V3 (0.0f, 0.0f, 0.01f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "web (1)"): {
+          id: "b4e87132-8e63-46cd-9d9a-0eb78531be0b";
+          scale: VI2 (0.42f, 0.42f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "web (2)" (prefab to string: "web (2) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "web (2)");
+
+        transform: {
+          position: V3 (11.76f, -30.23f, 0.01f)
+          local position: V3 (-0.24f, -0.23f, 0.01f)
+          rotation: Q (0.0f, 0.0f, -0.3826835f, 0.9238795f)
+          local rotation: Q (0.0f, 0.0f, -0.3826835f, 0.9238795f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "web (2)"): {
+          id: "b59f592b-e2ed-4419-954d-b9f0de1dad0d";
+          scale: VI2 (0.42f, 0.42f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "web (3)" (prefab to string: "web (3) (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "web (3)");
+
+        transform: {
+          position: V3 (11.88f, -29.88f, 0.01f)
+          local position: V3 (-0.12f, 0.12f, 0.01f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "web (3)"): {
+          id: "e81948c6-398e-45ed-8bbb-c835dffc7530";
+          scale: VI2 (0.42f, 0.42f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

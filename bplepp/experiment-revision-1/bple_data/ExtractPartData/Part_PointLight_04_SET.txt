@@ -1,0 +1,108 @@
+name: "Part_PointLight_04_SET" (prefab to string: "Part_PointLight_04_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "MetallicObject" (name: "Part_PointLight_04_SET");
+
+  transform: {
+    position: V3 (6.0f, -82.0f, 0.0f)
+    local position: V3 (6.0f, -82.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_PointLight_04_SET"): {
+    center: V3 (0.0f, 0.0f, 0.0f);
+    size: V3 (0.67f, 0.84f, 1.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: -0.01f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Black;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: PointLight (46);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: None (0);
+    joint connction direction: None (7);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "InactivePointLightSprite" (prefab to string: "InactivePointLightSprite (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "InactivePointLightSprite");
+
+        transform: {
+          position: V3 (6.0f, -82.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.3038f, 1.3038f, 1.3038f)
+          lossy scale: V3 (1.3038f, 1.3038f, 1.3038f)
+        };
+
+        sprite (name: "InactivePointLightSprite"): {
+          id: "2332f215-373e-4771-bb98-36fe9c2e63f7";
+          scale: VI2 (0.3f, 0.3f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "ActivePointLightSprite" (prefab to string: "ActivePointLightSprite (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "ActivePointLightSprite");
+
+        transform: {
+          position: V3 (6.0f, -82.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.3038f, 1.3038f, 1.3038f)
+          lossy scale: V3 (1.3038f, 1.3038f, 1.3038f)
+        };
+
+        sprite (name: "ActivePointLightSprite"): {
+          id: "6b0989e6-7b5d-4226-893c-8cd18614159c";
+          scale: VI2 (0.3f, 0.3f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

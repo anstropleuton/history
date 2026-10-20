@@ -1,0 +1,302 @@
+name: "Part_GrapplingHook_09_SET" (prefab to string: "Part_GrapplingHook_09_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "GrapplingHook" (name: "Part_GrapplingHook_09_SET");
+
+  transform: {
+    position: V3 (0.0f, -73.0f, 0.0f)
+    local position: V3 (0.0f, -73.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_GrapplingHook_09_SET"): {
+    center: V3 (0.0f, 0.0f, 0.0f);
+    size: V3 (0.7f, 0.48f, 1.0f);
+  };
+
+  serialized sprite (name: "Part_GrapplingHook_09_SET"): sprite name: "MultiPartGenerator1_Sprite";
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.5f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Regular (0);
+    part type: GrapplingHook (41);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: Target (2);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "BottomAttachment" (prefab to string: "BottomAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottomAttachment");
+
+        transform: {
+          position: V3 (0.0f, -73.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9f, 1.0f)
+        };
+
+        sprite (name: "BottomAttachment"): {
+          id: "bb31e774-41ec-468e-a8c6-559c8c0b2d76";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "TopRightAttachment" (prefab to string: "TopRightAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "TopRightAttachment");
+
+        transform: {
+          position: V3 (0.0f, -73.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.3826835f, 0.9238796f)
+          local rotation: Q (0.0f, 0.0f, 0.3826835f, 0.9238796f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9000001f, 1.0f)
+        };
+
+        sprite (name: "TopRightAttachment"): {
+          id: "bb31e774-41ec-468e-a8c6-559c8c0b2d76";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "BottomRightAttachment" (prefab to string: "BottomRightAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottomRightAttachment");
+
+        transform: {
+          position: V3 (0.0f, -73.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, -0.3826835f, 0.9238796f)
+          local rotation: Q (0.0f, 0.0f, -0.3826835f, 0.9238796f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9000001f, 1.0f)
+        };
+
+        sprite (name: "BottomRightAttachment"): {
+          id: "bb31e774-41ec-468e-a8c6-559c8c0b2d76";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "TopLeftAttachment" (prefab to string: "TopLeftAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "TopLeftAttachment");
+
+        transform: {
+          position: V3 (0.0f, -73.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.9238796f, 0.3826835f)
+          local rotation: Q (0.0f, 0.0f, 0.9238796f, 0.3826835f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.000001f, 0.9000006f, 1.0f)
+        };
+
+        sprite (name: "TopLeftAttachment"): {
+          id: "bb31e774-41ec-468e-a8c6-559c8c0b2d76";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "TopAttachment" (prefab to string: "TopAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "TopAttachment");
+
+        transform: {
+          position: V3 (0.0f, -73.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, -1.0f, -0.00000004371139f)
+          local rotation: Q (0.0f, 0.0f, -1.0f, -0.00000004371139f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9f, 1.0f)
+        };
+
+        sprite (name: "TopAttachment"): {
+          id: "bb31e774-41ec-468e-a8c6-559c8c0b2d76";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "LeftAttachment" (prefab to string: "LeftAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "LeftAttachment");
+
+        transform: {
+          position: V3 (0.0f, -73.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, -0.7071068f, 0.7071068f)
+          local rotation: Q (0.0f, 0.0f, -0.7071068f, 0.7071068f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9000002f, 1.0f)
+        };
+
+        sprite (name: "LeftAttachment"): {
+          id: "bb31e774-41ec-468e-a8c6-559c8c0b2d76";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "RightAttachment" (prefab to string: "RightAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "RightAttachment");
+
+        transform: {
+          position: V3 (0.0f, -73.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.7071068f, 0.7071068f)
+          local rotation: Q (0.0f, 0.0f, 0.7071068f, 0.7071068f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9000002f, 1.0f)
+        };
+
+        sprite (name: "RightAttachment"): {
+          id: "bb31e774-41ec-468e-a8c6-559c8c0b2d76";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "SpringVisualization" (prefab to string: "SpringVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "SpringVisualization");
+
+        transform: {
+          position: V3 (0.0f, -73.0f, 0.2f)
+          local position: V3 (0.0f, 0.0f, 0.2f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "SpringVisualization"): {
+          id: "6366b1f0-56e2-4da9-8d2d-e65ebb0ca595";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "BottomLeftAttachment" (prefab to string: "BottomLeftAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottomLeftAttachment");
+
+        transform: {
+          position: V3 (0.0f, -73.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.9238796f, -0.3826834f)
+          local rotation: Q (0.0f, 0.0f, 0.9238796f, -0.3826834f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9000003f, 1.0f)
+        };
+
+        sprite (name: "BottomLeftAttachment"): {
+          id: "bb31e774-41ec-468e-a8c6-559c8c0b2d76";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Visualization" (prefab to string: "Visualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Visualization");
+
+        transform: {
+          position: V3 (0.05f, -72.97f, 0.1f)
+          local position: V3 (0.05f, 0.03f, 0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Visualization"): {
+          id: "2714fa5c-0783-427f-87de-d2718538e105";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (-12.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

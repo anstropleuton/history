@@ -1,0 +1,10 @@
+Part_SpringBoxingGlove_02_SET(Clone) (UnityEngine.GameObject)
+	transform -764.1663 -9.736973 -0.10078 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	Visualization (UnityEngine.GameObject)
+		transform -764.1663 -9.736973 -0.0007800013 0 0 0 1 1 1
+		sprite d3c6420b-d3ad-48fb-a82e-68fbba8ac666 0.4 0.4 0 0 False
+	SpringVisualization (UnityEngine.GameObject)
+		transform -764.1413 -9.598972 0.09922 0 0 0 1 1 1
+		sprite 66fc9ed4-de07-4e0f-9b95-95817d7ab1a1 0.4 0.4 0 -16 True

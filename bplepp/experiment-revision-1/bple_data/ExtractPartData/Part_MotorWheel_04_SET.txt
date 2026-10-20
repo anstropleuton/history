@@ -1,0 +1,164 @@
+name: "Part_MotorWheel_04_SET" (prefab to string: "Part_MotorWheel_04_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "MotorWheel" (name: "Part_MotorWheel_04_SET");
+
+  transform: {
+    position: V3 (8.0f, -40.0f, 0.0f)
+    local position: V3 (8.0f, -40.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  sphere collider (name: "Part_MotorWheel_04_SET"): {
+    center: V3 (0.0f, -0.075f, 0.0f);
+    radius: 0.45f;
+  };
+
+  sprite (name: "Part_MotorWheel_04_SET"): {
+    id: "e388c6ed-f35c-488d-a65e-e6b6441ae997";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (0.0f, -14.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 100.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Bone;
+    joint type: HingeJoint (1);
+    part tier: Rare (2);
+    part type: MotorWheel (23);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Extreme (3);
+    joint connction type: Target (2);
+    joint connction direction: Up (2);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "WheelPivot" (prefab to string: "WheelPivot (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (8.01f, -40.08f, 0.0f)
+          local position: V3 (0.01f, -0.08f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "SpokeSprite" (prefab to string: "SpokeSprite (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "SpokeSprite");
+
+              transform: {
+                position: V3 (8.01f, -40.08f, 0.2f)
+                local position: V3 (0.0f, 0.0f, 0.2f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "SpokeSprite"): {
+                id: "67774210-22a7-4c0b-8211-f8b06634d933";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+      name: "SupportCollider" (prefab to string: "SupportCollider (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (8.043262f, -40.06546f, 0.0f)
+          local position: V3 (0.04326272f, -0.06546092f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "SupportCollider"): {
+          center: V3 (-0.05f, 0.4f, 0.0f);
+          size: V3 (0.6f, 0.2f, 1.0f);
+        };
+
+
+      name: "FakeWheelPivot" (prefab to string: "FakeWheelPivot (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (8.0f, -40.075f, 0.0f)
+          local position: V3 (0.0f, -0.07500052f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "WheelSprite" (prefab to string: "WheelSprite (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "WheelSprite");
+
+              transform: {
+                position: V3 (8.0f, -40.075f, 0.6f)
+                local position: V3 (0.0f, 0.0f, 0.6f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "WheelSprite"): {
+                id: "dbcb9000-c0a8-4276-ae21-4eb12e6be746";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+

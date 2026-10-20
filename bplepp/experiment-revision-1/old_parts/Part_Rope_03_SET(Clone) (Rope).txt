@@ -1,0 +1,5 @@
+Part_Rope_03_SET(Clone) (UnityEngine.GameObject)
+	transform -786.1663 -7.736973 -0.1006 0 0 0 1 1 1
+	Visualization (UnityEngine.GameObject)
+		transform -786.1663 -7.736973 -0.1006 0 0 29.65161 1 1 1
+		sprite 422f0247-a4f3-4a2e-9a8e-464d41b0b751 0.4 0.4 0 0 False

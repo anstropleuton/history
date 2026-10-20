@@ -1,0 +1,9 @@
+Part_MetalFrame_69_SET(Clone) (UnityEngine.GameObject)
+	transform -826.1663 124.263 -0.10284 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat_Alien (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0 0 Minimum Average
+	serializedSprite ColoredFrame_IconSprite
+	Background (UnityEngine.GameObject)
+		transform -826.1663 124.263 0.39716 0 0 0 1 1 1
+	Foreground (UnityEngine.GameObject)
+		transform -826.1663 124.263 -0.60284 0 0 0 1 1 1

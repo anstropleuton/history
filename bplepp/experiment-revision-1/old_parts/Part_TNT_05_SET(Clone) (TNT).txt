@@ -1,0 +1,7 @@
+Part_TNT_05_SET(Clone) (UnityEngine.GameObject)
+	transform -788.1663 -3.736973 -0.10066 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.95 0.95 0.95
+	material 0 0.7 0.5 Average Average
+	Visualization (UnityEngine.GameObject)
+		transform -788.1453 -3.668973 -0.60066 0 0 0 1.0404 1.0404 1.0404
+		sprite b5cfde37-12ce-43d1-9499-8bf60e1a8cb7 0.4 0.4 0 0 False

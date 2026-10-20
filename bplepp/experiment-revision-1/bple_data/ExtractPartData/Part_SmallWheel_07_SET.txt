@@ -1,0 +1,126 @@
+name: "Part_SmallWheel_07_SET" (prefab to string: "Part_SmallWheel_07_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "MetallicObject" (name: "Part_SmallWheel_07_SET");
+
+  transform: {
+    position: V3 (12.0f, -32.0f, 0.0f)
+    local position: V3 (12.0f, -32.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  sprite (name: "Part_SmallWheel_07_SET"): {
+    id: "71a227b3-89cd-4808-ac4a-4dd494c42e16";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (0.0f, -33.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.25f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: HingeJoint (1);
+    part tier: Epic (3);
+    part type: SmallWheel (19);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Extreme (3);
+    joint connction type: Target (2);
+    joint connction direction: Up (2);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "SupportCollider" (prefab to string: "SupportCollider (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (12.0f, -32.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "SupportCollider"): {
+          center: V3 (0.0f, 0.31f, 0.0f);
+          size: V3 (0.2f, 0.36f, 1.0f);
+        };
+
+
+      name: "WheelPivot" (prefab to string: "WheelPivot (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (12.00514f, -31.85763f, 0.0f)
+          local position: V3 (0.005138397f, 0.1423709f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sphere collider (name: "WheelPivot"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          radius: 0.18f;
+        };
+
+        children:
+            name: "WheelSprite" (prefab to string: "WheelSprite (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "WheelSprite");
+
+              transform: {
+                position: V3 (12.00062f, -31.85363f, -0.2f)
+                local position: V3 (-0.004518253f, 0.004f, -0.2f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "WheelSprite"): {
+                id: "538ab22c-b727-4c4e-b336-9e3032194a66";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+

@@ -1,0 +1,180 @@
+name: "Part_TNT_03_SET" (prefab to string: "Part_TNT_03_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "TNT" (name: "Part_TNT_03_SET");
+
+  transform: {
+    position: V3 (4.0f, -42.0f, 0.0f)
+    local position: V3 (4.0f, -42.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_TNT_03_SET"): {
+    center: V3 (0.0f, 0.0f, 0.0f);
+    size: V3 (0.95f, 0.95f, 0.95f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Black;
+    joint type: FixedJoint (0);
+    part tier: Rare (2);
+    part type: TNT (24);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Weak (0);
+    joint connction type: Target (2);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "Visualization" (prefab to string: "Visualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Visualization");
+
+        transform: {
+          position: V3 (3.961f, -41.879f, -0.4f)
+          local position: V3 (-0.039f, 0.121f, -0.4f)
+          rotation: Q (0.0f, 0.0f, 0.1910711f, 0.9815763f)
+          local rotation: Q (0.0f, 0.0f, 0.1910711f, 0.9815763f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Visualization"): {
+          id: "43c4c600-faf4-4b5a-9c35-19b90da6bd0d";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "BottomAttachment" (prefab to string: "BottomAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottomAttachment");
+
+        transform: {
+          position: V3 (3.845f, -42.252f, 0.2f)
+          local position: V3 (-0.155f, -0.252f, 0.2f)
+          rotation: Q (0.0f, 0.0f, -0.7071068f, 0.7071067f)
+          local rotation: Q (0.0f, 0.0f, -0.7071068f, 0.7071067f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (0.9999999f, 0.9999999f, 1.0f)
+        };
+
+        sprite (name: "BottomAttachment"): {
+          id: "03f34118-8459-4914-a9b1-4a6887ad5684";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, -17.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "RightAttachment" (prefab to string: "RightAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "RightAttachment");
+
+        transform: {
+          position: V3 (4.264f, -42.157f, 0.2f)
+          local position: V3 (0.264f, -0.157f, 0.2f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "RightAttachment"): {
+          id: "03f34118-8459-4914-a9b1-4a6887ad5684";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, -17.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "TopAttachment" (prefab to string: "TopAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "TopAttachment");
+
+        transform: {
+          position: V3 (4.161f, -41.739f, 0.2f)
+          local position: V3 (0.161f, 0.261f, 0.2f)
+          rotation: Q (0.0f, 0.0f, 0.7071068f, 0.7071067f)
+          local rotation: Q (0.0f, 0.0f, 0.7071068f, 0.7071067f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (0.9999999f, 0.9999999f, 1.0f)
+        };
+
+        sprite (name: "TopAttachment"): {
+          id: "03f34118-8459-4914-a9b1-4a6887ad5684";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, -17.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "LeftAttachment" (prefab to string: "LeftAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "LeftAttachment");
+
+        transform: {
+          position: V3 (3.738f, -41.821f, 0.2f)
+          local position: V3 (-0.262f, 0.179f, 0.2f)
+          rotation: Q (0.0f, 0.0f, 1.0f, -0.0000001629207f)
+          local rotation: Q (0.0f, 0.0f, 1.0f, -0.0000001629207f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "LeftAttachment"): {
+          id: "03f34118-8459-4914-a9b1-4a6887ad5684";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, -17.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

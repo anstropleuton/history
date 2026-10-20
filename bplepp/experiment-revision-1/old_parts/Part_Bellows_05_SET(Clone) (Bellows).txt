@@ -1,0 +1,12 @@
+Part_Bellows_05_SET(Clone) (UnityEngine.GameObject)
+	transform -816.1663 -3.736973 -0.10038 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.8 0.7 1
+	material 0 0.7 0.5 Average Average
+	Particle System (UnityEngine.GameObject)
+		transform -816.9043 -3.79508 -0.10038 270 0 0 1 1 1
+	Part_CartWheel_05_SET (UnityEngine.GameObject)
+		transform -815.9113 -3.886973 -0.20038 0 0 0 1 1 1
+		sprite 03f34118-8459-4914-a9b1-4a6887ad5684 0.4 0.4 0 -17 False
+	Visualization (UnityEngine.GameObject)
+		transform -816.1663 -3.736973 -0.10038 0 0 0 1 1 1
+		sprite 8e6d616c-310a-4806-ad83-b74482bc5e3c 0.4 0.4 7 0 False

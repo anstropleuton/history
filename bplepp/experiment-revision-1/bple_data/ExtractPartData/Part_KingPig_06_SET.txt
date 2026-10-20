@@ -1,0 +1,351 @@
+name: "Part_KingPig_06_SET" (prefab to string: "Part_KingPig_06_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "KingPig" (name: "Part_KingPig_06_SET");
+
+  transform: {
+    position: V3 (18.0f, -59.0f, 0.0f)
+    local position: V3 (18.0f, -59.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  capsule collider (name: "Part_KingPig_06_SET"): {
+    center: V3 (0.0f, 0.4f, 0.0f);
+    radius: 0.9f;
+    height: 2.1f;
+    direction: 0.0f;
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 4.0f;
+    interactive radius: 1.0f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.01f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: KingPig (32);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (-1, 0);
+    grid max: (1, 1);
+    static: false;
+    joint connction strength: Weak (0);
+    joint connction type: None (0);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "KingPig" (prefab to string: "KingPig (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (18.0f, -58.65f, 0.0f)
+          local position: V3 (0.0f, 0.35f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "Body" (prefab to string: "Body (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "Body");
+
+              transform: {
+                position: V3 (18.0f, -58.65f, 0.0f)
+                local position: V3 (0.0f, 0.0f, 0.0f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "Body"): {
+                id: "95d18bf0-7c98-4e53-9fd8-6b7c9432ec19";
+                scale: VI2 (0.3984375f, 0.3958333f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: true;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+            name: "Beard" (prefab to string: "Beard (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "Beard");
+
+              transform: {
+                position: V3 (18.036f, -59.564f, -0.1f)
+                local position: V3 (0.0359993f, -0.9139992f, -0.1f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "Beard"): {
+                id: "efc22f4a-f7b7-4ae9-8a15-1ba5cf44ed84";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: true;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+            name: "Face" (prefab to string: "Face (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "FaceRotation" (name: "Face");
+
+              transform: {
+                position: V3 (18.0f, -58.65f, -0.15f)
+                local position: V3 (0.0f, 0.0f, -0.15f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              children:
+                  name: "Face" (prefab to string: "Face (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+                    script: "Sprite" (name: "Face");
+
+                    transform: {
+                      position: V3 (18.0f, -58.65f, -0.35f)
+                      local position: V3 (0.0f, 0.0f, -0.2f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    sprite (name: "Face"): {
+                      id: "77394c19-b9df-4742-b41d-42ff48e251ee";
+                      scale: VI2 (0.4f, 0.4f);
+                      pivot: VI2 (0.0f, 0.0f);
+                      update collider: true;
+                      size: V2 (0.0f, 0.0f);
+                      pixel size: V2 (0.0f, 0.0f);
+                      UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                    };
+
+                    children:
+                        name: "MouthPos" (prefab to string: "MouthPos (UnityEngine.GameObject)"):
+                          tag: "KingPigMouth";
+                          script: "KingPigMouth" (name: "MouthPos");
+
+                          transform: {
+                            position: V3 (18.0f, -59.10781f, -0.45f)
+                            local position: V3 (0.0f, -0.4578124f, -0.1f)
+                            rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local scale: V3 (1.0f, 1.0f, 1.0f)
+                            lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                          };
+
+                          capsule collider (name: "MouthPos"): {
+                            center: V3 (0.0f, 0.0f, 0.0f);
+                            radius: 0.3f;
+                            height: 1.2f;
+                            direction: 0.0f;
+                          };
+
+
+
+                  name: "Crown" (prefab to string: "Crown (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+                    script: "Sprite" (name: "Crown");
+
+                    transform: {
+                      position: V3 (18.429f, -57.7f, -0.25f)
+                      local position: V3 (0.4290009f, 0.9499992f, -0.1f)
+                      rotation: Q (0.0f, 0.0f, 0.6225147f, 0.7826081f)
+                      local rotation: Q (0.0f, 0.0f, 0.6225147f, 0.7826081f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    sprite (name: "Crown"): {
+                      id: "988aa512-5fa2-4d1d-a6de-e742104ab586";
+                      scale: VI2 (0.4f, 0.4f);
+                      pivot: VI2 (0.0f, 0.0f);
+                      update collider: true;
+                      size: V2 (0.0f, 0.0f);
+                      pixel size: V2 (0.0f, 0.0f);
+                      UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                    };
+
+
+                  name: "Ears" (prefab to string: "Ears (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+                    script: "Sprite" (name: "Ears");
+
+                    transform: {
+                      position: V3 (17.414f, -57.784f, -0.16f)
+                      local position: V3 (-0.5860004f, 0.8659996f, -0.01f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    sprite (name: "Ears"): {
+                      id: "338c8f46-073e-42fe-8fcd-2a3c5c084aa2";
+                      scale: VI2 (0.3984375f, 0.390625f);
+                      pivot: VI2 (0.0f, 0.0f);
+                      update collider: true;
+                      size: V2 (0.0f, 0.0f);
+                      pixel size: V2 (0.0f, 0.0f);
+                      UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                    };
+
+
+                  name: "PupilMover" (prefab to string: "PupilMover (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+
+                    transform: {
+                      position: V3 (18.0f, -58.65f, -0.15f)
+                      local position: V3 (0.0f, 0.0f, 0.0f)
+                      rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                    };
+
+                    children:
+                        name: "Eyes" (prefab to string: "Eyes (UnityEngine.GameObject)"):
+                          tag: "Untagged";
+                          script: "Sprite" (name: "Eyes");
+
+                          transform: {
+                            position: V3 (17.99318f, -58.64034f, -0.45f)
+                            local position: V3 (-0.006823719f, 0.0096654f, -0.3f)
+                            rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                            local scale: V3 (1.0f, 1.0f, 1.0f)
+                            lossy scale: V3 (1.0f, 1.0f, 1.0f)
+                          };
+
+                          sprite (name: "Eyes"): {
+                            id: "faee4361-1873-4314-b0d1-d1b9211a4248";
+                            scale: VI2 (0.4f, 0.4f);
+                            pivot: VI2 (0.0f, 0.0f);
+                            update collider: true;
+                            size: V2 (0.0f, 0.0f);
+                            pixel size: V2 (0.0f, 0.0f);
+                            UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                          };
+
+
+
+
+
+      name: "PigParticleSystems" (prefab to string: "PigParticleSystems (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (18.0f, -57.79018f, 0.0f)
+          local position: V3 (0.0f, 1.209815f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (17.68546f, -57.60832f, 0.0f)
+                local position: V3 (-0.314537f, 0.1818657f, 0.0f)
+                rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+
+            name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (19.42589f, -57.79018f, 0.0f)
+                local position: V3 (1.425888f, 0.0f, 0.0f)
+                rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+
+            name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (18.0f, -57.61235f, -3.85f)
+                local position: V3 (0.0f, 0.1778364f, -3.85f)
+                rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+
+            name: "Sweatparticles" (prefab to string: "Sweatparticles (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (18.0f, -57.79018f, 0.0f)
+                local position: V3 (0.0f, 0.0f, 0.0f)
+                rotation: Q (-0.6264408f, -0.3279818f, 0.3279817f, 0.6264408f)
+                local rotation: Q (-0.6264408f, -0.3279818f, 0.3279817f, 0.6264408f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.000001f)
+              };
+
+              children:
+                  name: "SweatParticles" (prefab to string: "SweatParticles (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+
+                    transform: {
+                      position: V3 (18.0f, -57.79018f, 0.0f)
+                      local position: V3 (0.0f, 0.0f, 0.0f)
+                      rotation: Q (-0.6066806f, 0.363234f, -0.3632339f, 0.6066806f)
+                      local rotation: Q (-0.00000003352623f, 0.8530492f, 0.00000009099134f, 0.5218306f)
+                      local scale: V3 (1.0f, 1.0f, 1.0f)
+                      lossy scale: V3 (1.000001f, 1.000001f, 1.000001f)
+                    };
+
+
+
+
+

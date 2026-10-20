@@ -1,0 +1,40 @@
+Part_SodaBottle_03_SET(Clone) (UnityEngine.GameObject)
+	transform -806.1663 -7.736973 -0.1004 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0.03 -0.015 0 0.75 0.4 1
+	material 0 0.7 0.5 Average Average
+	BottomAttachment (UnityEngine.GameObject)
+		transform -806.1663 -7.736973 -0.1504 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite df7486d4-fd6d-42d5-8ad5-4edcd5af0180 0.4 0.4 0 20 False
+	TopAttachment (UnityEngine.GameObject)
+		transform -806.1663 -7.736973 -0.1504 0 0 180 1 1 1
+		boxCollider True Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite df7486d4-fd6d-42d5-8ad5-4edcd5af0180 0.4 0.4 0 20 False
+	RightAttachment (UnityEngine.GameObject)
+		transform -806.1663 -7.736973 -0.1504 0 0 90 1 1 1
+		boxCollider True Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite df7486d4-fd6d-42d5-8ad5-4edcd5af0180 0.4 0.4 0 20 False
+	LeftAttachment (UnityEngine.GameObject)
+		transform -806.1663 -7.736973 -0.1504 0 0 270 1 1 1
+		boxCollider True Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite df7486d4-fd6d-42d5-8ad5-4edcd5af0180 0.4 0.4 0 20 False
+	BottleVisualization (UnityEngine.GameObject)
+		transform -806.1753 -7.713973 -0.1004 0 0 0 1 1 1
+		sprite 6437cc68-1165-4166-b03d-ca9c18a9becd 0.4 0.4 0 0 False
+		BottleContent (UnityEngine.GameObject)
+			transform -806.2283 -7.740973 -0.0003996044 0 0 0 1 1 1
+			sprite c308a8b1-a2a7-4b07-a746-66e484fb3972 0.4 0.4 0 0 False
+		BottleContent (UnityEngine.GameObject)
+			transform -806.1983 -7.728973 -0.0003999025 0 0 0 1 1 1
+			sprite 96bea685-d0f8-4ef8-a502-8a8369987f5f 0.4 0.4 0 0 False
+		Cork (UnityEngine.GameObject)
+			transform -806.6243 -7.713973 -0.1504 0 0 0 1 1 1
+			sprite bc2035c6-8599-4a99-99a6-6c966eb421bb 0.4 0.4 0 0 False
+	Particles_SodaBurst_01_SET (UnityEngine.GameObject)
+		transform -806.6663 -7.736973 -0.1004 0 0 0 1 1 1
+	Particles_SodaLeak_01_SET (UnityEngine.GameObject)
+		transform -806.6663 -7.736973 -0.1004 0 270 0 1 1 1

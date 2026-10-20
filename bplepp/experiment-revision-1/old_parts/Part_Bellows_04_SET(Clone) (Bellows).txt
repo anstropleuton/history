@@ -1,0 +1,7 @@
+Part_Bellows_04_SET(Clone) (UnityEngine.GameObject)
+	transform -816.1663 -5.736973 -0.10034 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.8 0.7 1
+	material 0 0.7 0.5 Average Average
+	sprite c2359138-c201-414b-add0-dd10514ef1ef 0.4 0.4 -5 0 False
+	Particle System (UnityEngine.GameObject)
+		transform -816.6075 -5.79508 -0.10034 270 0 0 1 1 1

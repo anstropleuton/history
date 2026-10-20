@@ -1,0 +1,2 @@
+CompileFlags:
+    Add: [-std=c++23, -D NDEBUG, -Ideps/PhysX/include, -Ldeps/PhysX/lib]

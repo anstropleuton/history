@@ -1,0 +1,65 @@
+# Build directories
+/build/
+/out/
+/bin/
+/cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Generated binaries/libraries
+*.exe
+*.out
+*.dll
+*.so
+*.a
+*.lib
+
+# Object files
+*.o
+*.obj
+
+# Debug symbols
+*.pdb
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs (CLion, etc.)
+.idea/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.docstates
+
+# Vim
+*.swp
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/

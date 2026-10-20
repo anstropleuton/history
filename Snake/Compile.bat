@@ -1,0 +1,1 @@
+g++ Source.cpp Snake.res -o Snake.exe -I . -L . -lraylib -lgdi32 -l opengl32 -lwinmm -mwindows -static -Wall -Ofast

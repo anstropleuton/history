@@ -1,0 +1,40 @@
+Part_CokeBottle_03_SET(Clone) (UnityEngine.GameObject)
+	transform -808.1663 -7.736973 -0.10038 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0.03 -0.015 0 0.75 0.4 1
+	material 0 0.7 0.5 Average Average
+	BottomAttachment (UnityEngine.GameObject)
+		transform -808.1663 -7.736973 -0.15038 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite d1e4c7b3-e24d-438d-b41c-2cafef1ed35d 0.4 0.4 0 20 False
+	Particles_SodaBurst_01_SET (UnityEngine.GameObject)
+		transform -808.6663 -7.736973 -0.10038 0 0 0 1 1 1
+	Particles_SodaLeak_01_SET (UnityEngine.GameObject)
+		transform -808.6663 -7.736973 -0.10038 0 270 0 1 1 1
+	TopAttachment (UnityEngine.GameObject)
+		transform -808.1663 -7.736973 -0.15038 0 0 180 1 1 1
+		boxCollider True Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite d1e4c7b3-e24d-438d-b41c-2cafef1ed35d 0.4 0.4 0 20 False
+	RightAttachment (UnityEngine.GameObject)
+		transform -808.1663 -7.736973 -0.15038 0 0 90 1 1 1
+		boxCollider True Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite d1e4c7b3-e24d-438d-b41c-2cafef1ed35d 0.4 0.4 0 20 False
+	LeftAttachment (UnityEngine.GameObject)
+		transform -808.1663 -7.736973 -0.15038 0 0 270 1 1 1
+		boxCollider True Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.37 0.05 0.5 0.28 1
+		material 0 0.7 0.5 Average Average
+		sprite d1e4c7b3-e24d-438d-b41c-2cafef1ed35d 0.4 0.4 0 20 False
+	BottleVisualization (UnityEngine.GameObject)
+		transform -808.2383 -7.691973 -0.10038 0 0 0 1 1 1
+		sprite c308a8b1-a2a7-4b07-a746-66e484fb3972 0.4 0.4 0 0 False
+		BottleContent (UnityEngine.GameObject)
+			transform -808.2443 -7.691973 -0.0003796071 0 0 0 1 1 1
+			sprite 954e2551-5cf8-48d2-b6e8-dbe7962e96fe 0.4 0.4 0 0 False
+		Cork (UnityEngine.GameObject)
+			transform -808.6193 -7.662973 -0.15038 0 0 0 1 1 1
+			sprite bc2035c6-8599-4a99-99a6-6c966eb421bb 0.4 0.4 0 0 False
+		BottleContent (UnityEngine.GameObject)
+			transform -808.2153 -7.700973 0.11962 0 0 0 1 1 1
+			sprite 96bea685-d0f8-4ef8-a502-8a8369987f5f 0.4 0.4 0 0 False

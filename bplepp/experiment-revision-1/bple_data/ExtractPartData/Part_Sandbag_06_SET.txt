@@ -1,0 +1,113 @@
+name: "Part_Sandbag_06_SET" (prefab to string: "Part_Sandbag_06_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Sandbag" (name: "Part_Sandbag_06_SET");
+
+  transform: {
+    position: V3 (6.0f, -14.0f, 0.0f)
+    local position: V3 (6.0f, -14.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  sprite (name: "Part_Sandbag_06_SET"): {
+    id: "2eb448ae-c177-4190-86f7-1f20df4d24bc";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (0.0f, -16.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.1f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Black;
+    joint type: FixedJoint (0);
+    part tier: Rare (2);
+    part type: Sandbag (9);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Weak (0);
+    joint connction type: None (0);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "AlternativeVisualisation01" (prefab to string: "AlternativeVisualisation01 (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "AlternativeVisualisation01");
+
+        transform: {
+          position: V3 (6.007f, -13.858f, 0.0f)
+          local position: V3 (0.007f, 0.142f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "AlternativeVisualisation01"): {
+          id: "db9821b7-47a3-409c-a867-915d112da2c8";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "AlternativeVisualisation02" (prefab to string: "AlternativeVisualisation02 (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "AlternativeVisualisation02");
+
+        transform: {
+          position: V3 (6.0f, -13.845f, 0.0f)
+          local position: V3 (0.0f, 0.155f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "AlternativeVisualisation02"): {
+          id: "7155a075-53be-445c-9a5c-4b1a86bcc4b9";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

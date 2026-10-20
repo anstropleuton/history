@@ -1,0 +1,121 @@
+name: "Part_Bellows_05_SET" (prefab to string: "Part_Bellows_05_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Bellows" (name: "Part_Bellows_05_SET");
+
+  transform: {
+    position: V3 (8.0f, -10.0f, 0.0f)
+    local position: V3 (8.0f, -10.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_Bellows_05_SET"): {
+    center: V3 (0.0f, 0.0f, 0.0f);
+    size: V3 (0.8f, 0.7f, 1.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.5f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Fart;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: Bellows (6);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Normal (1);
+    joint connction type: Target (2);
+    joint connction direction: Right (1);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (7.262f, -10.05811f, 0.0f)
+          local position: V3 (-0.738f, -0.0581069f, 0.0f)
+          rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+          local rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+
+      name: "Part_CartWheel_05_SET" (prefab to string: "Part_CartWheel_05_SET (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "MetallicObject" (name: "Part_CartWheel_05_SET");
+
+        transform: {
+          position: V3 (8.255f, -10.15f, -0.1f)
+          local position: V3 (0.255f, -0.15f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Part_CartWheel_05_SET"): {
+          id: "03f34118-8459-4914-a9b1-4a6887ad5684";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, -17.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Visualization" (prefab to string: "Visualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Visualization");
+
+        transform: {
+          position: V3 (8.0f, -10.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Visualization"): {
+          id: "8e6d616c-310a-4806-ad83-b74482bc5e3c";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (7.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

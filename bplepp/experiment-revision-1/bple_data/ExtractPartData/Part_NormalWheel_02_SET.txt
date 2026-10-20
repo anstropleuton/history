@@ -1,0 +1,126 @@
+name: "Part_NormalWheel_02_SET" (prefab to string: "Part_NormalWheel_02_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "CartWheel" (name: "Part_NormalWheel_02_SET");
+
+  transform: {
+    position: V3 (1.997f, -48.026f, 0.0f)
+    local position: V3 (1.997f, -48.026f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  sprite (name: "Part_NormalWheel_02_SET"): {
+    id: "b0f0b995-88ea-4c2e-a88e-7ab56168df4f";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (0.0f, -15.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.75f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: HingeJoint (1);
+    part tier: Common (1);
+    part type: NormalWheel (27);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Extreme (3);
+    joint connction type: Target (2);
+    joint connction direction: Up (2);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "SupportCollider" (prefab to string: "SupportCollider (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (1.997f, -47.665f, 0.0f)
+          local position: V3 (0.0f, 0.361f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "SupportCollider"): {
+          center: V3 (0.0f, -0.17f, 0.0f);
+          size: V3 (0.4f, 0.64f, 1.0f);
+        };
+
+
+      name: "FakeWheelPivot" (prefab to string: "FakeWheelPivot (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (2.007559f, -48.206f, 0.0f)
+          local position: V3 (0.01055908f, -0.18f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sphere collider (name: "FakeWheelPivot"): {
+          center: V3 (0.0f, 0.005f, 0.0f);
+          radius: 0.33f;
+        };
+
+        children:
+            name: "WheelSprite" (prefab to string: "WheelSprite (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "WheelSprite");
+
+              transform: {
+                position: V3 (1.999914f, -48.192f, 0.09999847f)
+                local position: V3 (-0.007644653f, 0.014f, 0.09999847f)
+                rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "WheelSprite"): {
+                id: "21fedfe0-5b42-4ed1-89c8-e58594ea3979";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, -15.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+

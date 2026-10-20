@@ -1,0 +1,5 @@
+Part_MetalFrame_06_SET(Clone) (UnityEngine.GameObject)
+	transform -826.1663 -1.736973 -0.55032 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	sprite ed8d0642-4399-493f-9bf0-4042cdd6c5a5 0.4 0.4 0 0 False

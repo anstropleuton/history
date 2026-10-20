@@ -1,0 +1,14 @@
+Part_PoweredUmbrella_04_SET(Clone) (UnityEngine.GameObject)
+	transform -792.1663 -5.736973 -0.10058 0 0 0 1 1 1
+	boxCollider False  (UnityEngine.PhysicMaterial) 0 -0.15 0 0.2 0.7 1
+	material 0 0.6 0.6 Average Average
+	ShaftVisualization (UnityEngine.GameObject)
+		transform -792.1973 -5.736973 -0.20058 0 0 0 1 1 1
+		sprite edd0a9cb-8566-454d-b06d-c490eac11be2 0.4 0.4 0 0 False
+	UmbrellaVisualization (UnityEngine.GameObject)
+		transform -792.1663 -5.736973 -0.30058 0 0 0 1 1 1
+		OpenSprite (UnityEngine.GameObject)
+			transform -792.1663 -5.736973 -0.30058 0 0 0 1 1 1
+			boxCollider False  (UnityEngine.PhysicMaterial) 0 0.25 0.2 1 0.4 1
+			material 0 0.6 0.6 Average Average
+			sprite 8f08ded3-e3c4-4bc0-a9bb-9b6fc478bd68 0.4 0.4 0 -22 False

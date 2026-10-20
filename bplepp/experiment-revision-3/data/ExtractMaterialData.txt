@@ -1,0 +1,72 @@
+material data values (name: "Contraption_LowFriction_PhysMat"): {
+  bounciness: 0.0f;
+  static friction: 0.0f;
+  dynamic friction: 0.0f;
+  friction combine: Average (0);
+  bounce combine: Average (0);
+}; # material data values (name: "Contraption_LowFriction_PhysMat")
+
+material data values (name: "Contraption_WheelFriction_PhysMat"): {
+  bounciness: 0.0f;
+  static friction: 0.0f;
+  dynamic friction: 0.025f;
+  friction combine: Multiply (1);
+  bounce combine: Multiply (1);
+}; # material data values (name: "Contraption_WheelFriction_PhysMat")
+
+material data values (name: "Contraption_PhysMat_Alien"): {
+  bounciness: 0.0f;
+  static friction: 0.0f;
+  dynamic friction: 0.0f;
+  friction combine: Minimum (2);
+  bounce combine: Average (0);
+}; # material data values (name: "Contraption_PhysMat_Alien")
+
+material data values (name: "Contraption_PhysMat"): {
+  bounciness: 0.0f;
+  static friction: 0.5f;
+  dynamic friction: 0.7f;
+  friction combine: Average (0);
+  bounce combine: Average (0);
+}; # material data values (name: "Contraption_PhysMat")
+
+material data values (name: "Contraption_WoodenWheelFriction_PhysMat 1"): {
+  bounciness: 0.0f;
+  static friction: 0.0f;
+  dynamic friction: 0.05f;
+  friction combine: Multiply (1);
+  bounce combine: Multiply (1);
+}; # material data values (name: "Contraption_WoodenWheelFriction_PhysMat 1")
+
+material data values (name: "Ground_PhysMat"): {
+  bounciness: 0.0f;
+  static friction: 1.0f;
+  dynamic friction: 1.0f;
+  friction combine: Average (0);
+  bounce combine: Average (0);
+}; # material data values (name: "Ground_PhysMat")
+
+material data values (name: "JunkPrize_PhysMat"): {
+  bounciness: 0.75f;
+  static friction: 0.0f;
+  dynamic friction: 0.0f;
+  friction combine: Average (0);
+  bounce combine: Maximum (3);
+}; # material data values (name: "JunkPrize_PhysMat")
+
+material data values (name: "Pig_PhysMat"): {
+  bounciness: 0.5f;
+  static friction: 0.1f;
+  dynamic friction: 0.3f;
+  friction combine: Average (0);
+  bounce combine: Maximum (3);
+}; # material data values (name: "Pig_PhysMat")
+
+material data values (name: "ground_physmat_ice"): {
+  bounciness: 0.0f;
+  static friction: 0.01f;
+  dynamic friction: 0.01f;
+  friction combine: Multiply (1);
+  bounce combine: Multiply (1);
+}; # material data values (name: "ground_physmat_ice")
+

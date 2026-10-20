@@ -1,0 +1,14 @@
+Part_NormalWheel_01_SET(Clone)(Clone) (UnityEngine.GameObject)
+	transform -854.1663 -10.73697 -0.09986001 0 0 0 1 1 1
+	sprite 279c80fa-56d5-4a2d-9e48-0b2296566f42 0.4 0.4 0 0 False
+	SupportCollider (UnityEngine.GameObject)
+		transform -854.1663 -10.39674 -0.09986001 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 -0.17 0 0.4 0.64 1
+		material 0 0.7 0.5 Average Average
+	FakeWheelPivot (UnityEngine.GameObject)
+		transform -854.1558 -10.94763 -0.09986001 0 0 0 1 1 1
+		sphereCollider False Contraption_WheelFriction_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0.005 0 0.33
+		material 0 0.025 0 Multiply Multiply
+		WheelSprite (UnityEngine.GameObject)
+			transform -854.1634 -10.76868 0.0001384616 0 0 0 1 1 1
+			sprite 21fedfe0-5b42-4ed1-89c8-e58594ea3979 0.4 0.4 0 0 False

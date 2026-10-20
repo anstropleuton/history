@@ -1,0 +1,5 @@
+Part_Resistor_03_SET(Clone) (UnityEngine.GameObject)
+	transform -744.1663 4.263027 -0.09126 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	serializedSprite Resistor3_Sprite

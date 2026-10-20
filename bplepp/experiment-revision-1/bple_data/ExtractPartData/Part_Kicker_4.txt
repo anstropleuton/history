@@ -1,0 +1,184 @@
+name: "Part_Kicker_4" (prefab to string: "Part_Kicker_4 (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Sprite" (name: "Part_Kicker_4");
+
+  transform: {
+    position: V3 (6.0f, -75.0f, 0.0f)
+    local position: V3 (6.0f, -75.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_Kicker_4"): {
+    center: V3 (0.0f, -0.008453846f, 0.0f);
+    size: V3 (1.061103f, 0.4918759f, 0.0f);
+  };
+
+  sprite (name: "Part_Kicker_4"): {
+    id: "ad14b2f5-4275-479c-a8a2-8eb206c03b92";
+    scale: VI2 (0.4f, 0.4f);
+    pivot: VI2 (0.0f, 0.0f);
+    update collider: false;
+    size: V2 (0.0f, 0.0f);
+    pixel size: V2 (0.0f, 0.0f);
+    UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Gold;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: Kicker (43);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: Source (1);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "Deg0" (prefab to string: "Deg0 (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Deg0");
+
+        transform: {
+          position: V3 (5.983f, -75.0f, -0.1f)
+          local position: V3 (-0.017f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Deg0"): {
+          id: "c1aa4cd7-2b6a-4c3f-b159-54b0b430c87e";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Deg90" (prefab to string: "Deg90 (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Deg90");
+
+        transform: {
+          position: V3 (5.979f, -75.0f, -0.1f)
+          local position: V3 (-0.021f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Deg90"): {
+          id: "ed15fde5-cbde-4e33-ade3-d16e0bc2ee4c";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Deg180" (prefab to string: "Deg180 (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Deg180");
+
+        transform: {
+          position: V3 (5.981f, -75.0f, -0.1f)
+          local position: V3 (-0.019f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Deg180"): {
+          id: "53506a80-23e2-4d1f-b105-a2614103e069";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Deg270" (prefab to string: "Deg270 (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Deg270");
+
+        transform: {
+          position: V3 (5.983f, -75.0f, -0.1f)
+          local position: V3 (-0.017f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "Deg270"): {
+          id: "3202f10e-ee92-4759-8c8a-c8bcaaf9f545";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "VerticalCollider" (prefab to string: "VerticalCollider (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (6.0f, -75.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        box collider (name: "VerticalCollider"): {
+          center: V3 (-0.002809003f, 0.0f, 0.0f);
+          size: V3 (0.4984221f, 1.059353f, 1.0f);
+        };
+
+
+

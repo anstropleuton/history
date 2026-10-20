@@ -1,0 +1,14 @@
+Part_CartWheel_02_SET(Clone) (UnityEngine.GameObject)
+	transform -824.1663 -9.736973 -0.10018 0 0 0 1 1 1
+	sprite 59bd09bf-06de-4c6d-9d83-2ec0cb76c110 0.4 0.4 0 -17 False
+	SupportCollider (UnityEngine.GameObject)
+		transform -824.1663 -9.396735 -0.10018 0 0 0 1 1 1
+		boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.85 0.25 1
+		material 0 0.7 0.5 Average Average
+	WheelPivot (UnityEngine.GameObject)
+		transform -824.1776 -9.867834 -0.10018 0 0 0 1 1 1
+		sphereCollider False Contraption_WoodenWheelFriction_PhysMat 1 (Instance) (UnityEngine.PhysicMaterial) 0 0.005 0 0.36
+		material 0 0.05 0 Multiply Multiply
+		WheelSprite (UnityEngine.GameObject)
+			transform -824.1776 -9.867834 -0.2001785 0 0 0 1 1 1
+			sprite 5bc1761a-c6f5-4c9b-b034-b5295187bf80 0.4 0.4 0 0 False

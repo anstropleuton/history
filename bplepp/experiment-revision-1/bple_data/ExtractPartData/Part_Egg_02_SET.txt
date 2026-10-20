@@ -1,0 +1,99 @@
+name: "Part_Egg_02_SET" (prefab to string: "Part_Egg_02_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Egg" (name: "Part_Egg_02_SET");
+
+  transform: {
+    position: V3 (2.0f, -67.0f, 0.0f)
+    local position: V3 (2.0f, -67.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 0.5f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.02f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Bone;
+    joint type: FixedJoint (0);
+    part tier: Common (1);
+    part type: Egg (36);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Weak (0);
+    joint connction type: None (0);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "EggCollider" (prefab to string: "EggCollider (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (2.0f, -67.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, -0.7100125f, 0.7041891f)
+          local rotation: Q (0.0f, 0.0f, -0.7100125f, 0.7041891f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        capsule collider (name: "EggCollider"): {
+          center: V3 (0.1f, 0.02f, 0.0f);
+          radius: 0.3f;
+          height: 0.85f;
+          direction: 1.0f;
+        };
+
+
+      name: "Visualization" (prefab to string: "Visualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "Visualization");
+
+        transform: {
+          position: V3 (2.018f, -67.002f, -0.4f)
+          local position: V3 (0.01799989f, -0.002f, -0.4f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (0.7789959f, 0.7789958f, 0.7789958f)
+          lossy scale: V3 (0.7789959f, 0.7789958f, 0.7789958f)
+        };
+
+        sprite (name: "Visualization"): {
+          id: "78b61b18-0625-4107-ab54-403ca504b4b4";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 16.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

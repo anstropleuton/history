@@ -1,0 +1,165 @@
+name: "Part_Sandbags3_02_SET" (prefab to string: "Part_Sandbags3_02_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Sandbag" (name: "Part_Sandbags3_02_SET");
+
+  transform: {
+    position: V3 (2.0f, -18.0f, 0.0f)
+    local position: V3 (2.0f, -18.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.5f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 0.0f;
+    engine power: 0.0f;
+    z offset: 0.0f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Common (1);
+    part type: Sandbag3 (12);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: Weak (0);
+    joint connction type: None (0);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Wood (1);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "SandbagVisualization" (prefab to string: "SandbagVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "SandbagVisualization");
+
+        transform: {
+          position: V3 (2.0f, -18.0f, 0.1f)
+          local position: V3 (0.0f, 0.0f, 0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "SandbagVisualization"): {
+          id: "0bfeceab-7277-49d7-bdbf-db9eac6af5e6";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, -16.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "Sandbag3Visualization" (prefab to string: "Sandbag3Visualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (2.0f, -18.0f, 0.09999847f)
+          local position: V3 (0.0f, 0.0f, 0.09999847f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "SandbagVisualization (1)" (prefab to string: "SandbagVisualization (1) (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "SandbagVisualization (1)");
+
+              transform: {
+                position: V3 (2.082f, -17.967f, 0.09999847f)
+                local position: V3 (0.082f, 0.033f, 0.0f)
+                rotation: Q (0.0f, 0.0f, -0.1114763f, 0.9937671f)
+                local rotation: Q (0.0f, 0.0f, -0.1114763f, 0.9937671f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "SandbagVisualization (1)"): {
+                id: "0bfeceab-7277-49d7-bdbf-db9eac6af5e6";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+            name: "SandbagVisualization (2)" (prefab to string: "SandbagVisualization (2) (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "SandbagVisualization (2)");
+
+              transform: {
+                position: V3 (2.14f, -18.149f, -0.1000015f)
+                local position: V3 (0.14f, -0.149f, -0.2f)
+                rotation: Q (0.0f, 0.0f, 0.05463998f, 0.9985061f)
+                local rotation: Q (0.0f, 0.0f, 0.05463998f, 0.9985061f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (0.9999999f, 0.9999999f, 1.0f)
+              };
+
+              sprite (name: "SandbagVisualization (2)"): {
+                id: "0bfeceab-7277-49d7-bdbf-db9eac6af5e6";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+            name: "SandbagVisualization (3)" (prefab to string: "SandbagVisualization (3) (UnityEngine.GameObject)"):
+              tag: "Untagged";
+              script: "Sprite" (name: "SandbagVisualization (3)");
+
+              transform: {
+                position: V3 (1.938f, -18.062f, -0.00000153482f)
+                local position: V3 (-0.062f, -0.062f, -0.1f)
+                rotation: Q (0.0f, 0.0f, -0.1065517f, 0.9943072f)
+                local rotation: Q (0.0f, 0.0f, -0.1065517f, 0.9943072f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              sprite (name: "SandbagVisualization (3)"): {
+                id: "0bfeceab-7277-49d7-bdbf-db9eac6af5e6";
+                scale: VI2 (0.4f, 0.4f);
+                pivot: VI2 (0.0f, 0.0f);
+                update collider: false;
+                size: V2 (0.0f, 0.0f);
+                pixel size: V2 (0.0f, 0.0f);
+                UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+              };
+
+
+
+

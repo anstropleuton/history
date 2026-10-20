@@ -1,0 +1,5 @@
+Part_Ground_01_SET(Clone) (UnityEngine.GameObject)
+	transform -744.1663 28.26303 -0.09174 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	serializedSprite Ground_Sprite

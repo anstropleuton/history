@@ -1,0 +1,5 @@
+Part_MetalFrame_131_SET(Clone) (UnityEngine.GameObject)
+	transform -857.1663 -10.73697 0.00017 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	serializedSprite MetalBox_Sprite

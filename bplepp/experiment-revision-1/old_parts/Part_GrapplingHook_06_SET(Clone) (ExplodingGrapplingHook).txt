@@ -1,0 +1,36 @@
+Part_GrapplingHook_06_SET(Clone) (UnityEngine.GameObject)
+	transform -760.1663 -1.736973 -0.10098 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.7 0.48 1
+	material 0 0.7 0.5 Average Average
+	sprite 67f3057a-99ec-4cbd-919d-1770764b719e 0.4 0.4 0 0 False
+	BottomAttachment (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.20098 0 0 0 1 0.9 1
+		sprite 22bdbbd8-157b-4019-8ff7-9811cdbef4d9 0.4 0.4 0 20 True
+	TopRightAttachment (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.20098 0 0 45 1 0.9 1
+		sprite 22bdbbd8-157b-4019-8ff7-9811cdbef4d9 0.4 0.4 0 20 True
+	BottomRightAttachment (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.20098 0 0 315 1 0.9 1
+		sprite 22bdbbd8-157b-4019-8ff7-9811cdbef4d9 0.4 0.4 0 20 True
+	TopLeftAttachment (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.20098 0 0 135 1 0.9 1
+		sprite 22bdbbd8-157b-4019-8ff7-9811cdbef4d9 0.4 0.4 0 20 True
+	TopAttachment (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.20098 0 0 180 1 0.9 1
+		sprite 22bdbbd8-157b-4019-8ff7-9811cdbef4d9 0.4 0.4 0 20 True
+	LeftAttachment (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.20098 0 0 270 1 0.9 1
+		sprite 22bdbbd8-157b-4019-8ff7-9811cdbef4d9 0.4 0.4 0 20 True
+	RightAttachment (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.20098 0 0 90 1 0.9 1
+		sprite 22bdbbd8-157b-4019-8ff7-9811cdbef4d9 0.4 0.4 0 20 True
+	BottomLeftAttachment (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.20098 0 0 225 1 0.9 1
+		sprite 22bdbbd8-157b-4019-8ff7-9811cdbef4d9 0.4 0.4 0 20 True
+	Visualization (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.0009799972 0 0 0 1 1 1
+		sprite cd343dc1-4b26-4ebf-b74e-9fd36ef0ea1d 0.4 0.4 -12 0 True
+	Particles_AlienRayGun (UnityEngine.GameObject)
+		transform -759.6133 -1.736973 -0.10098 0 89.99995 0 1 1 1
+	Particles_AlienPart(Clone) (UnityEngine.GameObject)
+		transform -760.1663 -1.736973 -0.20098 0 0 0 1 1 1

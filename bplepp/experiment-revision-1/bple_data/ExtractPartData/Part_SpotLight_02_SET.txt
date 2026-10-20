@@ -1,0 +1,390 @@
+name: "Part_SpotLight_02_SET" (prefab to string: "Part_SpotLight_02_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "MetallicObject" (name: "Part_SpotLight_02_SET");
+
+  transform: {
+    position: V3 (2.0f, -84.0f, 0.0f)
+    local position: V3 (2.0f, -84.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  base part: {
+    eight way: true;
+    coord: VI2 (0, 0);
+    mass: 1.0f;
+    interactive radius: 0.5f;
+    break velocity: 0.0f;
+    power consumption: 50.0f;
+    engine power: 0.0f;
+    z offset: -0.01f;
+    craftable: true;
+    loot crate reward: true;
+    tags: ;
+    joint type: FixedJoint (0);
+    part tier: Common (1);
+    part type: SpotLight (47);
+    auto align type: Rotate (1);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: Target (2);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "LightSprite" (prefab to string: "LightSprite (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "LightSprite");
+
+        transform: {
+          position: V3 (2.0f, -84.0f, 0.0f)
+          local position: V3 (0.0f, 0.0f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.707106f, 0.7071076f)
+          local rotation: Q (0.0f, 0.0f, 0.707106f, 0.7071076f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "LightSprite"): {
+          id: "14713011-9940-4e41-94fa-079af2f16d46";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (-5.0f, 0.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+        children:
+            name: "Container" (prefab to string: "Container (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (2.000001f, -83.605f, 0.0f)
+                local position: V3 (0.395f, 0.0f, 0.0f)
+                rotation: Q (0.0f, 0.0f, 0.707106f, 0.7071076f)
+                local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+              children:
+                  name: "LightCone" (prefab to string: "LightCone (UnityEngine.GameObject)"):
+                    tag: "Untagged";
+                    script: "Sprite" (name: "LightCone");
+
+                    transform: {
+                      position: V3 (2.000002f, -83.031f, 0.0f)
+                      local position: V3 (0.574f, 0.0f, 0.0f)
+                      rotation: Q (0.0f, 0.0f, -0.000001698732f, 1.0f)
+                      local rotation: Q (0.0f, 0.0f, -0.7071072f, 0.7071064f)
+                      local scale: V3 (0.675f, 0.9609355f, 1.0f)
+                      lossy scale: V3 (0.675f, 0.9609355f, 1.0f)
+                    };
+
+                    sprite (name: "LightCone"): {
+                      id: "a74c85bc-a717-452c-b3f5-16f7ceb47fe7";
+                      scale: VI2 (0.6f, 0.6f);
+                      pivot: VI2 (0.0f, 0.0f);
+                      update collider: true;
+                      size: V2 (0.0f, 0.0f);
+                      pixel size: V2 (0.0f, 0.0f);
+                      UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+                    };
+
+
+
+
+      name: "BottomLeftAttachment" (prefab to string: "BottomLeftAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottomLeftAttachment");
+
+        transform: {
+          position: V3 (2.0f, -84.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.9238797f, -0.3826829f)
+          local rotation: Q (0.0f, 0.0f, 0.9238797f, -0.3826829f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (0.9999994f, 0.8999995f, 1.0f)
+        };
+
+        box collider (name: "BottomLeftAttachment"): {
+          center: V3 (0.0f, -0.1822917f, 0.0f);
+          size: V3 (0.625f, 0.703125f, 0.0f);
+        };
+
+        sphere collider (name: "BottomLeftAttachment"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          radius: 0.25f;
+        };
+
+        sprite (name: "BottomLeftAttachment"): {
+          id: "6e66e27d-5b7a-44b3-a82e-634e0f304377";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 18.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "RightAttachment" (prefab to string: "RightAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "RightAttachment");
+
+        transform: {
+          position: V3 (2.0f, -84.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.7071068f, 0.7071068f)
+          local rotation: Q (0.0f, 0.0f, 0.7071068f, 0.7071068f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9000002f, 1.0f)
+        };
+
+        box collider (name: "RightAttachment"): {
+          center: V3 (0.0f, -0.1822917f, 0.0f);
+          size: V3 (0.625f, 0.703125f, 0.0f);
+        };
+
+        sphere collider (name: "RightAttachment"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          radius: 0.25f;
+        };
+
+        sprite (name: "RightAttachment"): {
+          id: "6e66e27d-5b7a-44b3-a82e-634e0f304377";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 18.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "LeftAttachment" (prefab to string: "LeftAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "LeftAttachment");
+
+        transform: {
+          position: V3 (2.0f, -84.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, -0.7071068f, 0.7071068f)
+          local rotation: Q (0.0f, 0.0f, -0.7071068f, 0.7071068f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9000002f, 1.0f)
+        };
+
+        box collider (name: "LeftAttachment"): {
+          center: V3 (0.0f, -0.1822917f, 0.0f);
+          size: V3 (0.625f, 0.703125f, 0.0f);
+        };
+
+        sphere collider (name: "LeftAttachment"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          radius: 0.25f;
+        };
+
+        sprite (name: "LeftAttachment"): {
+          id: "6e66e27d-5b7a-44b3-a82e-634e0f304377";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 18.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "TopAttachment" (prefab to string: "TopAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "TopAttachment");
+
+        transform: {
+          position: V3 (2.0f, -84.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, -1.0f, 0.0f)
+          local rotation: Q (0.0f, 0.0f, -1.0f, 0.0f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9f, 1.0f)
+        };
+
+        box collider (name: "TopAttachment"): {
+          center: V3 (0.0f, -0.1822917f, 0.0f);
+          size: V3 (0.625f, 0.703125f, 0.0f);
+        };
+
+        sphere collider (name: "TopAttachment"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          radius: 0.25f;
+        };
+
+        sprite (name: "TopAttachment"): {
+          id: "6e66e27d-5b7a-44b3-a82e-634e0f304377";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 18.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "TopLeftAttachment" (prefab to string: "TopLeftAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "TopLeftAttachment");
+
+        transform: {
+          position: V3 (2.0f, -84.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.9238797f, 0.3826829f)
+          local rotation: Q (0.0f, 0.0f, 0.9238797f, 0.3826829f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (0.9999994f, 0.8999995f, 1.0f)
+        };
+
+        box collider (name: "TopLeftAttachment"): {
+          center: V3 (0.0f, -0.1822917f, 0.0f);
+          size: V3 (0.625f, 0.703125f, 0.0f);
+        };
+
+        sphere collider (name: "TopLeftAttachment"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          radius: 0.25f;
+        };
+
+        sprite (name: "TopLeftAttachment"): {
+          id: "6e66e27d-5b7a-44b3-a82e-634e0f304377";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 18.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "BottomRightAttachment" (prefab to string: "BottomRightAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottomRightAttachment");
+
+        transform: {
+          position: V3 (2.0f, -84.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, -0.3826829f, 0.9238797f)
+          local rotation: Q (0.0f, 0.0f, -0.3826829f, 0.9238797f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (0.9999999f, 0.8999999f, 1.0f)
+        };
+
+        box collider (name: "BottomRightAttachment"): {
+          center: V3 (0.0f, -0.1822917f, 0.0f);
+          size: V3 (0.625f, 0.703125f, 0.0f);
+        };
+
+        sphere collider (name: "BottomRightAttachment"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          radius: 0.25f;
+        };
+
+        sprite (name: "BottomRightAttachment"): {
+          id: "6e66e27d-5b7a-44b3-a82e-634e0f304377";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 18.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "TopRightAttachment" (prefab to string: "TopRightAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "TopRightAttachment");
+
+        transform: {
+          position: V3 (2.0f, -84.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.3826829f, 0.9238797f)
+          local rotation: Q (0.0f, 0.0f, 0.3826829f, 0.9238797f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (0.9999999f, 0.8999999f, 1.0f)
+        };
+
+        box collider (name: "TopRightAttachment"): {
+          center: V3 (0.0f, -0.1822917f, 0.0f);
+          size: V3 (0.625f, 0.703125f, 0.0f);
+        };
+
+        sphere collider (name: "TopRightAttachment"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          radius: 0.25f;
+        };
+
+        sprite (name: "TopRightAttachment"): {
+          id: "6e66e27d-5b7a-44b3-a82e-634e0f304377";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 18.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "BottomAttachment" (prefab to string: "BottomAttachment (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "BottomAttachment");
+
+        transform: {
+          position: V3 (2.0f, -84.0f, -0.1f)
+          local position: V3 (0.0f, 0.0f, -0.1f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 0.9f, 1.0f)
+          lossy scale: V3 (1.0f, 0.9f, 1.0f)
+        };
+
+        box collider (name: "BottomAttachment"): {
+          center: V3 (0.0f, -0.1822917f, 0.0f);
+          size: V3 (0.625f, 0.703125f, 0.0f);
+        };
+
+        sphere collider (name: "BottomAttachment"): {
+          center: V3 (0.0f, 0.0f, 0.0f);
+          radius: 0.25f;
+        };
+
+        sprite (name: "BottomAttachment"): {
+          id: "6e66e27d-5b7a-44b3-a82e-634e0f304377";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 18.0f);
+          update collider: true;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+

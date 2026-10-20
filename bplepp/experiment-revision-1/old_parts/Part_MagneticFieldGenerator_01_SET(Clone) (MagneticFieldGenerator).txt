@@ -1,0 +1,5 @@
+Part_MagneticFieldGenerator_01_SET(Clone) (UnityEngine.GameObject)
+	transform -744.1663 76.26303 -0.0927 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	serializedSprite MagneticFieldGenerator_Sprite

@@ -1,0 +1,17 @@
+Part_MetalFrame_09_SET(Clone) (UnityEngine.GameObject)
+	transform -826.1663 4.263027 -0.55044 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 1 1
+	material 0 0.7 0.5 Average Average
+	sprite 153e1944-158e-44fd-a2d6-f6845c9fdb8f 0.42 0.42 0 0 False
+	web (UnityEngine.GameObject)
+		transform -826.1863 4.323027 -0.54044 0 0 0 1 1 1
+		sprite 9ee9d694-8681-41ed-8c49-17f8315f093e 0.42 0.42 0 0 False
+	web (1) (UnityEngine.GameObject)
+		transform -826.1663 4.263027 -0.54044 0 0 0 1 1 1
+		sprite b4e87132-8e63-46cd-9d9a-0eb78531be0b 0.42 0.42 0 0 False
+	web (2) (UnityEngine.GameObject)
+		transform -826.4063 4.033028 -0.54044 0 0 315 1 1 1
+		sprite b59f592b-e2ed-4419-954d-b9f0de1dad0d 0.42 0.42 0 0 False
+	web (3) (UnityEngine.GameObject)
+		transform -826.2863 4.383028 -0.54044 0 0 0 1 1 1
+		sprite e81948c6-398e-45ed-8bbb-c835dffc7530 0.42 0.42 0 0 False

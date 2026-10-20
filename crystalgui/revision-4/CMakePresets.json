@@ -1,0 +1,130 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    },
+    {
+      "name": "linux-exp",
+      "inherits": "base",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CGUI_BUILD_EXAMPLES": "ON",
+        "CGUI_BUILD_TESTS": "ON",
+        "CGUI_BUILD_EXPERIMENTS": "ON"
+      }
+    },
+    {
+      "name": "linux-dev",
+      "inherits": "base",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CGUI_BUILD_EXAMPLES": "ON",
+        "CGUI_BUILD_TESTS": "ON"
+      }
+    },
+    {
+      "name": "linux-prod",
+      "inherits": "base",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CGUI_BUILD_EXAMPLES": "OFF",
+        "CGUI_BUILD_TESTS": "OFF"
+      }
+    },
+    {
+      "name": "windows-exp",
+      "inherits": "base",
+      "generator": "Visual Studio 17 2022",
+      "cacheVariables": {
+        "CGUI_BUILD_EXAMPLES": "ON",
+        "CGUI_BUILD_TESTS": "ON",
+        "CGUI_BUILD_EXPERIMENTS": "ON"
+      }
+    },
+    {
+      "name": "windows-dev",
+      "inherits": "base",
+      "generator": "Visual Studio 17 2022",
+      "cacheVariables": {
+        "CGUI_BUILD_EXAMPLES": "ON",
+        "CGUI_BUILD_TESTS": "ON"
+      }
+    },
+    {
+      "name": "windows-prod",
+      "inherits": "base",
+      "generator": "Visual Studio 17 2022",
+      "cacheVariables": {
+        "CGUI_BUILD_EXAMPLES": "OFF",
+        "CGUI_BUILD_TESTS": "OFF"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "linux-exp",
+      "configurePreset": "linux-exp"
+    },
+    {
+      "name": "linux-dev",
+      "configurePreset": "linux-dev"
+    },
+    {
+      "name": "linux-prod",
+      "configurePreset": "linux-prod"
+    },
+    {
+      "name": "windows-exp",
+      "configurePreset": "windows-exp",
+      "configuration": "Debug"
+    },
+    {
+      "name": "windows-dev",
+      "configurePreset": "windows-dev",
+      "configuration": "Debug"
+    },
+    {
+      "name": "windows-prod",
+      "configurePreset": "windows-prod",
+      "configuration": "Release"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "linux-exp",
+      "configurePreset": "linux-exp"
+    },
+    {
+      "name": "linux-dev",
+      "configurePreset": "linux-dev"
+    },
+    {
+      "name": "linux-prod",
+      "configurePreset": "linux-prod"
+    },
+    {
+      "name": "windows-exp",
+      "configurePreset": "windows-exp",
+      "configuration": "Debug"
+    },
+    {
+      "name": "windows-dev",
+      "configurePreset": "windows-dev",
+      "configuration": "Debug"
+    },
+    {
+      "name": "windows-prod",
+      "configurePreset": "windows-prod",
+      "configuration": "Release"
+    }
+  ]
+}

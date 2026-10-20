@@ -1,0 +1,9 @@
+Part_Engine_07_SET(Clone) (UnityEngine.GameObject)
+	transform -36.00922 -1.626616 -0.11011 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 0.9 0.9 1
+	material 0 0.7 0.5 Average Average
+	EngineVisualization (UnityEngine.GameObject)
+		transform -35.97522 -1.626616 -0.11011 0 0 0 1 1 1
+		sprite ec6e9981-73e8-49a5-a27e-7655a33f096f 0.4 0.4 0 0 False
+	Particle System (UnityEngine.GameObject)
+		transform -36.37132 -1.443829 -1.11011 270 0 0 1 1 1

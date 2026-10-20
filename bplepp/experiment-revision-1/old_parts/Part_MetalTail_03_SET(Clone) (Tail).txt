@@ -1,0 +1,5 @@
+Part_MetalTail_03_SET(Clone) (UnityEngine.GameObject)
+	transform -766.1663 -7.736973 -0.1008 0 0 0 1 1 1
+	boxCollider False Contraption_PhysMat (Instance) (UnityEngine.PhysicMaterial) 0 0 0 1 0.85 1
+	material 0 0.7 0.5 Average Average
+	sprite fdf83e37-6f64-4c99-8ccc-17f77b814e42 0.4 0.4 0 0 False

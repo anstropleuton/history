@@ -1,0 +1,150 @@
+name: "Part_EngineBig_04_SET" (prefab to string: "Part_EngineBig_04_SET (UnityEngine.GameObject)"):
+  tag: "Untagged";
+  script: "Engine" (name: "Part_EngineBig_04_SET");
+
+  transform: {
+    position: V3 (10.0f, -46.0f, 0.0f)
+    local position: V3 (10.0f, -46.0f, 0.0f)
+    rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+    local scale: V3 (1.0f, 1.0f, 1.0f)
+    lossy scale: V3 (1.0f, 1.0f, 1.0f)
+  };
+
+  box collider (name: "Part_EngineBig_04_SET"): {
+    center: V3 (0.0f, -0.03f, 0.0f);
+    size: V3 (1.0f, 0.8f, 1.0f);
+  };
+
+  base part: {
+    eight way: false;
+    coord: VI2 (0, 0);
+    mass: 1.5f;
+    interactive radius: 0.5f;
+    break velocity: 2.0f;
+    power consumption: 0.0f;
+    engine power: 250.0f;
+    z offset: -0.01f;
+    craftable: true;
+    loot crate reward: true;
+    tags: Gold;
+    joint type: FixedJoint (0);
+    part tier: Epic (3);
+    part type: EngineBig (26);
+    auto align type: None (0);
+    flipped: false;
+    grid rotation: Deg_0 (0);
+    grid min: (0, 0);
+    grid max: (0, 0);
+    static: false;
+    joint connction strength: High (2);
+    joint connction type: None (0);
+    joint connction direction: Any (0);
+    custom joint connction direction: None (7);
+    visible on part list before unlocking: true;
+    joint preprocessing: false;
+    audio material: Metal (2);
+    connected component: -1;
+    wind velocity: V3 (0.0f, 0.0f, 0.0f);
+    valid: false;
+    strict connected component: 0;
+    general connected component: 0;
+    generator ref count: 0;
+    generation level: 0;
+    generation index: 0;
+    temperature: 0.0f;
+    has generator reference: false;
+  };
+
+  children:
+      name: "EngineVisualization" (prefab to string: "EngineVisualization (UnityEngine.GameObject)"):
+        tag: "Untagged";
+        script: "Sprite" (name: "EngineVisualization");
+
+        transform: {
+          position: V3 (9.986f, -45.981f, 0.0f)
+          local position: V3 (-0.014f, 0.019f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local rotation: Q (0.0f, 0.0f, 0.0f, 1.0f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        sprite (name: "EngineVisualization"): {
+          id: "1679075e-12c8-43d1-ad24-5de313b380b9";
+          scale: VI2 (0.4f, 0.4f);
+          pivot: VI2 (0.0f, 0.0f);
+          update collider: false;
+          size: V2 (0.0f, 0.0f);
+          pixel size: V2 (0.0f, 0.0f);
+          UV rectangle: R (0.0f, 0.0f, 0.0f, 0.0f);
+        };
+
+
+      name: "GameObject" (prefab to string: "GameObject (UnityEngine.GameObject)"):
+        tag: "Untagged";
+
+        transform: {
+          position: V3 (9.986f, -45.981f, 0.0f)
+          local position: V3 (-0.014f, 0.019f, 0.0f)
+          rotation: Q (0.0f, 0.0f, 0.004649111f, 0.9999892f)
+          local rotation: Q (0.0f, 0.0f, 0.004649111f, 0.9999892f)
+          local scale: V3 (1.0f, 1.0f, 1.0f)
+          lossy scale: V3 (1.0f, 1.0f, 1.0f)
+        };
+
+        children:
+            name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (9.336181f, -46.32606f, -1.0f)
+                local position: V3 (-0.653f, -0.339f, -1.0f)
+                rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local rotation: Q (-0.7070992f, 0.003287418f, -0.003287418f, 0.7070992f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+
+            name: "Particle System" (prefab to string: "Particle System (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (9.519549f, -46.25735f, -1.0f)
+                local position: V3 (-0.469f, -0.272f, -1.0f)
+                rotation: Q (-0.7071068f, 0.0f, 0.0f, 0.7071068f)
+                local rotation: Q (-0.7070992f, 0.003287418f, -0.003287418f, 0.7070992f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+
+            name: "Particle System (1)" (prefab to string: "Particle System (1) (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (9.311893f, -46.08027f, -1.0f)
+                local position: V3 (-0.675f, -0.093f, -1.0f)
+                rotation: Q (-0.7071068f, 0.0000000009313226f, -0.0000000009313226f, 0.7071068f)
+                local rotation: Q (-0.7070992f, 0.003287419f, -0.003287419f, 0.7070992f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+
+            name: "Particle System (2)" (prefab to string: "Particle System (2) (UnityEngine.GameObject)"):
+              tag: "Untagged";
+
+              transform: {
+                position: V3 (9.431777f, -46.06716f, -1.0f)
+                local position: V3 (-0.555f, -0.081f, -1.0f)
+                rotation: Q (-0.7071068f, 0.0000000009313226f, -0.0000000009313226f, 0.7071068f)
+                local rotation: Q (-0.7070992f, 0.003287419f, -0.003287419f, 0.7070992f)
+                local scale: V3 (1.0f, 1.0f, 1.0f)
+                lossy scale: V3 (1.0f, 1.0f, 1.0f)
+              };
+
+
+
+
