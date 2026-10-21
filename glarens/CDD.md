@@ -1,0 +1,59 @@
+## Checkpoints
+
+- [ ] Fundamentals
+  - [x] CMake setup
+  - [x] Clang LSP setup
+  - [x] Dummy files
+  - [x] Math framework (yoinked from my other project)
+    - [x] Vector classes
+    - [x] Basic vector operators
+    - [x] Element-wise vector functions
+    - [x] Advanced vector functions
+    - [x] Vector Swizzling
+    - [x] Matrix classes
+    - [x] Basic matrix operators
+    - [x] Element-wise matrix functions
+    - [x] Advanced matrix functions
+    - [x] Rectangle class
+    - [ ] Rectangle operators (if any)
+    - [ ] Advanced rectangle manipulation functions (if any)
+    - [x] Color class
+    - [x] Color space conversion
+    - [x] Basic color operators
+    - [x] Element-wise color functions
+    - [x] Advanced gamma-correct color operations
+  - [x] SDL window setup
+  - [x] Debugging SDL setup
+  - [x] Render lines
+  - [x] Get input
+  - [ ] Load image
+  - [ ] Render image
+  - [ ] Generate image
+- [ ] Get node graph working
+  - [x] Layout system
+  - [x] Visualization (just color-coded lines)
+  - [x] Test core nodes
+  - [ ] Test layout nodes
+  - [x] Min/max clamping
+  - [ ] Dynamic editing for testing purposes
+  - [x] Prototyping and syncing
+  - [x] Prototype parameter
+  - [x] Context system for unrelated data storage
+- [ ] Create shape shader (CPU-shader)
+  - [ ] Point-based
+  - [ ] Rounded corner
+  - [ ] Distance from pixel to nearest edge
+  - [ ] Units traveled from point to point
+  - [ ] Customizability, perhaps using formatted shaders
+- [ ] Render modern looking layouts
+  - [ ] Hook shape system to node graph with component system
+- [ ] Event handling nodes
+  - [ ] Do they have to be nodes?
+  - [ ] Keyboard & Mouse support
+- [ ] TODO: write more todo
+
+## Micro-checkpoints
+
+- [x] Add getter/setter for fields in layout class
+- [x] Document fields in layout class
+- [x] Move enabled/disabled to private+getter/setter for consistency

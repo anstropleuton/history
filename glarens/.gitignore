@@ -1,0 +1,8 @@
+# Build files
+build
+
+# Editor files
+.cache
+.vscode
+.zed
+__cmake_systeminformation # whatever this is

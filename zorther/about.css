@@ -1,0 +1,61 @@
+:root {
+    --color: white;
+    --color-dim: lightgray;
+    --chatgpt-pfp-background: #000000ff;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color: black;
+        --color-dim: rgba(112, 112, 112, 1);
+        --chatgpt-pfp-background: #efefefff;
+    }
+}
+
+.authors {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.author {
+    padding: 20px;
+    display: flex;
+}
+
+.author-pfp-container {
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.author-pfp {
+    border-radius: 100%;
+}
+
+.author-description {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.authors h1,
+.authors h2,
+.authors h3,
+.authors h4,
+.authors h5,
+.authors h6,
+.authors p {
+    margin: 0;
+}
+
+.authors p {
+    font-size: small;
+    color: var(--color-dim);
+}
+
+.chatgpt-pfp {
+    padding: 15px;
+    background-color: var(--chatgpt-pfp-background);
+    color: var(--color);
+}

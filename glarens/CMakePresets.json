@@ -1,0 +1,100 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    },
+
+    {
+      "name": "dev",
+      "displayName": "Dev (library only)",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+
+    {
+      "name": "dev-tests",
+      "displayName": "Dev (tests)",
+      "inherits": "dev",
+      "cacheVariables": {
+        "GLARENS_BUILD_TESTS": "ON"
+      }
+    },
+
+    {
+      "name": "dev-full",
+      "displayName": "Dev (full)",
+      "inherits": "dev",
+      "cacheVariables": {
+        "GLARENS_BUILD_TESTS": "ON",
+        "GLARENS_BUILD_EXAMPLES": "ON"
+      }
+    },
+
+    {
+      "name": "release",
+      "displayName": "Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+
+    {
+      "name": "release-examples",
+      "displayName": "Release (with examples)",
+      "inherits": "release",
+      "cacheVariables": {
+        "GLARENS_BUILD_EXAMPLES": "ON"
+      }
+    }
+  ],
+
+  "buildPresets": [
+    {
+      "name": "dev",
+      "configurePreset": "dev"
+    },
+    {
+      "name": "dev-tests",
+      "configurePreset": "dev-tests"
+    },
+    {
+      "name": "dev-full",
+      "configurePreset": "dev-full"
+    },
+    {
+      "name": "release",
+      "configurePreset": "release"
+    },
+    {
+      "name": "release-examples",
+      "configurePreset": "release-examples"
+    }
+  ],
+
+  "testPresets": [
+    {
+      "name": "tests",
+      "displayName": "Run all tests",
+      "configurePreset": "dev-tests",
+      "output": {
+        "outputOnFailure": true
+      }
+    }
+  ]
+}
